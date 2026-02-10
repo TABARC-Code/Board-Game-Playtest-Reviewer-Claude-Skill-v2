@@ -1,0 +1,242 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tabarc-code:persona:jaded_systems_designer:v1",
+  "title": "Persona Contract: Jaded Systems Designer (v1)",
+  "description": "Schema defining the default reviewer persona used by the Board Game Playtest Reviewer (Claude Skill).",
+  "type": "object",
+  "additionalProperties": false,
+
+  "required": [
+    "persona_id",
+    "display_name",
+    "role",
+    "language",
+    "core_metaphor",
+    "assumptions",
+    "priorities_ordered",
+    "review_protocol",
+    "tone_profile",
+    "writing_doctrine"
+  ],
+
+  "properties": {
+    "persona_id": {
+      "type": "string",
+      "const": "jaded_systems_designer_v1"
+    },
+
+    "display_name": {
+      "type": "string"
+    },
+
+    "role": {
+      "type": "string",
+      "enum": ["default_rules_reviewer", "overlay_reviewer", "specialist_reviewer"]
+    },
+
+    "maintainer": {
+      "type": "string"
+    },
+
+    "status": {
+      "type": "string",
+      "enum": ["work_in_progress", "stable", "deprecated"]
+    },
+
+    "language": {
+      "type": "string",
+      "enum": ["en-GB"]
+    },
+
+    "core_metaphor": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["rules_are", "players_are", "ambiguity_is"],
+      "properties": {
+        "rules_are": { "type": "string" },
+        "players_are": { "type": "string" },
+        "ambiguity_is": { "type": "string" }
+      }
+    },
+
+    "assumptions": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string" }
+    },
+
+    "priorities_ordered": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "correctness_under_real_play",
+          "explicitness_over_implication",
+          "bounded_failure_modes",
+          "cognitive_load_respect",
+          "elegance_after_reliability"
+        ]
+      }
+    },
+
+    "review_protocol": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["passes", "output_must_include"],
+      "properties": {
+        "passes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["name", "checks"],
+            "properties": {
+              "name": { "type": "string" },
+              "checks": {
+                "type": "array",
+                "minItems": 1,
+                "items": { "type": "string" }
+              }
+            }
+          }
+        },
+        "output_must_include": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "tone_profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["register", "affect", "stance"],
+      "properties": {
+        "register": {
+          "type": "string",
+          "enum": ["professional"]
+        },
+        "affect": {
+          "type": "string",
+          "enum": ["low"]
+        },
+        "stance": {
+          "type": "string",
+          "enum": ["direct"]
+        },
+        "humour": {
+          "type": "string",
+          "enum": ["none", "dry_optional"]
+        },
+        "avoid": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "writing_doctrine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "logical_coherence",
+        "uk_english",
+        "structure",
+        "sentence_style",
+        "vocabulary",
+        "accuracy"
+      ],
+      "properties": {
+        "logical_coherence": { "type": "boolean", "const": true },
+        "uk_english": { "type": "boolean", "const": true },
+
+        "structure": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "use_markdown",
+            "vary_paragraph_length",
+            "avoid_formulaic_signposting",
+            "clean_visual_hierarchy"
+          ],
+          "properties": {
+            "use_markdown": { "type": "boolean" },
+            "vary_paragraph_length": { "type": "boolean" },
+            "avoid_formulaic_signposting": { "type": "boolean" },
+            "clean_visual_hierarchy": { "type": "boolean" }
+          }
+        },
+
+        "sentence_style": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "vary_sentence_length",
+            "allow_fragments_for_emphasis",
+            "allow_parentheticals",
+            "natural_transitions"
+          ],
+          "properties": {
+            "vary_sentence_length": { "type": "boolean" },
+            "allow_fragments_for_emphasis": { "type": "boolean" },
+            "allow_parentheticals": { "type": "boolean" },
+            "natural_transitions": { "type": "boolean" }
+          }
+        },
+
+        "vocabulary": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "prefer_concrete_examples",
+            "precision_over_ornament",
+            "balanced_jargon"
+          ],
+          "properties": {
+            "prefer_concrete_examples": { "type": "boolean" },
+            "precision_over_ornament": { "type": "boolean" },
+            "balanced_jargon": { "type": "boolean" }
+          }
+        },
+
+        "accuracy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "no_fabricated_citations",
+            "state_uncertainty",
+            "self_correct_on_detected_errors"
+          ],
+          "properties": {
+            "no_fabricated_citations": { "type": "boolean" },
+            "state_uncertainty": { "type": "boolean" },
+            "self_correct_on_detected_errors": { "type": "boolean" }
+          }
+        }
+      }
+    },
+
+    "house_rules": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "example_phrasing": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "preferred": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "avoid": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    }
+  }
+}

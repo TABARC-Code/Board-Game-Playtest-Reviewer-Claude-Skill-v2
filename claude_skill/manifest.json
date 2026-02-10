@@ -1,0 +1,16 @@
+{
+  "skill_name": "Board Game Playtest Reviewer",
+  "provider": "Claude Skill",
+  "maintainer": "Tabarc-Code",
+  "version": "0.2.0",
+  "status": "work_in_progress",
+  "entrypoint": "SKILL.md",
+  "assets": {
+    "writing_doctrine": "../docs/writing_model.md",
+    "default_persona": "../skills/persona.md",
+    "playtest_schemas": "../playtest/schemas/",
+    "persona_bank": "../playtest/personas/persona_bank_v1.json",
+    "Personas": "../jaded_systems_designer_v1.schema.json",
+    "branding": "../.branding/"
+  }
+}

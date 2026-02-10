@@ -1,0 +1,199 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tabarc-code:playtest_event_log:v1",
+  "title": "TABARC-CODE Playtest Event Log (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "session_id",
+    "events"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "v1"
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 4
+    },
+    "game_name": {
+      "type": "string"
+    },
+    "rules_version": {
+      "type": "string"
+    },
+    "date_utc": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "location": {
+      "type": "string",
+      "description": "Table location or online."
+    },
+    "players": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "player_id"
+        ],
+        "properties": {
+          "player_id": {
+            "type": "string"
+          },
+          "handle": {
+            "type": "string"
+          },
+          "experience_level": {
+            "type": "string",
+            "enum": [
+              "new",
+              "casual",
+              "regular",
+              "expert",
+              "unknown"
+            ]
+          },
+          "faction_or_role": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "t",
+          "event_type"
+        ],
+        "properties": {
+          "t": {
+            "type": "string",
+            "description": "Timestamp. Use ISO8601 or relative like T+00:17:22."
+          },
+          "turn": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "round": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "player_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "event_type": {
+            "type": "string",
+            "enum": [
+              "rule_misread",
+              "rule_lookup",
+              "state_error",
+              "attention_drift",
+              "emotion_spike",
+              "social_pressure",
+              "kingmaking_signal",
+              "analysis_paralysis",
+              "dominant_line_emerges",
+              "degenerate_loop",
+              "pacing_issue",
+              "component_confusion",
+              "house_rule_invented",
+              "clarification_requested",
+              "other"
+            ]
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 3
+          },
+          "rule_ref": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Section/page/anchor. Whatever you actually have."
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high",
+              "critical"
+            ],
+            "default": "medium"
+          },
+          "confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1,
+            "default": 0.7
+          },
+          "observed_effect": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "hypothesis": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "description": "Why you think it happened."
+          },
+          "evidence": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "quote": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "description": "Short quote from table, if useful."
+              },
+              "photo_ref": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "audio_ref": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              }
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  }
+}

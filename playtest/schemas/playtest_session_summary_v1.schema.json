@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tabarc-code:playtest_session_summary:v1",
+  "title": "TABARC-CODE Playtest Session Summary (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "session_id",
+    "headline_findings",
+    "recommended_changes"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "v1"
+    },
+    "session_id": {
+      "type": "string"
+    },
+    "game_name": {
+      "type": "string"
+    },
+    "rules_version": {
+      "type": "string"
+    },
+    "headline_findings": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "systems_health": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "pacing": {
+          "type": "string",
+          "enum": [
+            "too_fast",
+            "healthy",
+            "too_slow",
+            "swingy",
+            "unclear"
+          ]
+        },
+        "clarity": {
+          "type": "string",
+          "enum": [
+            "high",
+            "medium",
+            "low"
+          ]
+        },
+        "snowball_risk": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "downtime": {
+          "type": "string",
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        }
+      }
+    },
+    "human_factors": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "common_misreads": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "social_dynamics": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "emotional_arc": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "attention_breakpoints": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "recommended_changes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "change",
+          "reason"
+        ],
+        "properties": {
+          "change": {
+            "type": "string"
+          },
+          "reason": {
+            "type": "string"
+          },
+          "risk": {
+            "type": "string",
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "blast_radius_guess": {
+            "type": "string"
+          },
+          "priority": {
+            "type": "string",
+            "enum": [
+              "p0",
+              "p1",
+              "p2",
+              "p3"
+            ],
+            "default": "p1"
+          }
+        }
+      }
+    },
+    "appendix": {
+      "type": "string"
+    }
+  }
+}

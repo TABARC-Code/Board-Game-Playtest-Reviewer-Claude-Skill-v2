@@ -1,0 +1,65 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "tabarc-code:misread_catalog:v1",
+  "title": "TABARC-CODE Misread Catalogue (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "entries"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string",
+      "const": "v1"
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "rule_ref",
+          "misread",
+          "actual_rule"
+        ],
+        "properties": {
+          "rule_ref": {
+            "type": "string"
+          },
+          "misread": {
+            "type": "string"
+          },
+          "actual_rule": {
+            "type": "string"
+          },
+          "trigger_words": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "frequency": {
+            "type": "integer",
+            "minimum": 1,
+            "default": 1
+          },
+          "impact": {
+            "type": "string",
+            "enum": [
+              "minor",
+              "moderate",
+              "major"
+            ]
+          },
+          "fix_suggestions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

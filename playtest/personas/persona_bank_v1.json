@@ -1,0 +1,2329 @@
+{
+  "schema_version": "v1",
+  "count": 72,
+  "maintainer": "Tabarc-Code",
+  "notes": "WIP persona bank. Keep adding personas that match your actual players, not your imaginary audience.",
+  "personas": [
+    {
+      "persona_id": "P001",
+      "label": "Never Played Anything",
+      "archetype": "board gamer (complete novice)",
+      "experience_band": "never played",
+      "likes": [
+        "pretty components",
+        "clear win condition",
+        "being told what to do next"
+      ],
+      "hates_or_struggles": [
+        "jargon",
+        "stacked exceptions",
+        "hidden scoring"
+      ],
+      "table_behaviours": [
+        "asks 'what do I do now?' often",
+        "forgets turn order",
+        "copies what others do"
+      ],
+      "play_goals": [
+        "wants to feel competent fast"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "avoidant",
+      "analysis_style": "naive",
+      "attention_profile": "fragile",
+      "feedback_style": "honest",
+      "likely_failure_modes": [
+        "drops core rules mid-game",
+        "plays by vibe"
+      ],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P002",
+      "label": "Basic Board Gamer",
+      "archetype": "board gamer (casual)",
+      "experience_band": "casual",
+      "likes": [
+        "short turns",
+        "obvious choices",
+        "clear scoring"
+      ],
+      "hates_or_struggles": [
+        "downtime",
+        "mathy optimisation",
+        "rulebook hunting"
+      ],
+      "table_behaviours": [
+        "doesn't read cards fully",
+        "forgets upkeep",
+        "asks for reminders"
+      ],
+      "play_goals": [
+        "wants a smooth evening"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "neutral",
+      "analysis_style": "mixed",
+      "attention_profile": "spiky",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P003",
+      "label": "Party Game Regular",
+      "archetype": "board gamer (party)",
+      "experience_band": "casual",
+      "likes": [
+        "social moments",
+        "simple scoring",
+        "fast laughs"
+      ],
+      "hates_or_struggles": [
+        "silent calculation phases",
+        "rulebook reading aloud",
+        "long setup"
+      ],
+      "table_behaviours": [
+        "tests boundaries",
+        "house-rules quickly",
+        "changes topic mid-turn"
+      ],
+      "play_goals": [
+        "wants energy to stay high"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "social",
+      "analysis_style": "naive",
+      "attention_profile": "spiky",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P004",
+      "label": "Gateway Euro Convert",
+      "archetype": "board gamer (euro)",
+      "experience_band": "regular",
+      "likes": [
+        "engine building",
+        "clean iconography",
+        "low chaos"
+      ],
+      "hates_or_struggles": [
+        "take-that without warning",
+        "random kingmaking",
+        "unclear end triggers"
+      ],
+      "table_behaviours": [
+        "optimises gently",
+        "reads rules carefully",
+        "asks for examples"
+      ],
+      "play_goals": [
+        "wants meaningful choices"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "systematic",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P005",
+      "label": "Heavy Euro Planner",
+      "archetype": "board gamer (heavy euro)",
+      "experience_band": "expert",
+      "likes": [
+        "long arcs",
+        "tight efficiency",
+        "meaningful scarcity"
+      ],
+      "hates_or_struggles": [
+        "swingy dice",
+        "ambiguous timing",
+        "hidden exceptions"
+      ],
+      "table_behaviours": [
+        "counts actions",
+        "risks analysis paralysis",
+        "tracks turn order precisely"
+      ],
+      "play_goals": [
+        "wants skill to matter"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "analytical",
+      "attention_profile": "sticky",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": [
+        "timing windows unclear",
+        "action economy leaks"
+      ]
+    },
+    {
+      "persona_id": "P006",
+      "label": "18xx Shark",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "timing precision",
+        "money clarity",
+        "punishing mistakes"
+      ],
+      "hates_or_struggles": [
+        "fuzzy payouts",
+        "missing edge cases",
+        "soft negotiation rules"
+      ],
+      "table_behaviours": [
+        "tracks cash precisely",
+        "pressures auctions",
+        "tests rule seams"
+      ],
+      "play_goals": [
+        "wants brutal clarity"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "analytical",
+      "attention_profile": "steady",
+      "feedback_style": "legalistic",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": [
+        "ambiguous payout timing",
+        "unclear share limits"
+      ]
+    },
+    {
+      "persona_id": "P007",
+      "label": "18xx Learner With Teeth",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "clear examples",
+        "route planning",
+        "learning depth"
+      ],
+      "hates_or_struggles": [
+        "silent assumptions",
+        "unclear privates",
+        "odd bank timing"
+      ],
+      "table_behaviours": [
+        "asks about timing",
+        "double-checks payouts",
+        "takes notes"
+      ],
+      "play_goals": [
+        "wants training wheels without shame"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "systematic",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P008",
+      "label": "4X Diplomat",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "alliances",
+        "negotiation",
+        "map pressure"
+      ],
+      "hates_or_struggles": [
+        "multiplayer solitaire",
+        "dry bookkeeping",
+        "opaque scoring"
+      ],
+      "table_behaviours": [
+        "brokers deals",
+        "nudges targeting",
+        "avoids early wars"
+      ],
+      "play_goals": [
+        "wants politics to matter"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "social",
+      "analysis_style": "narrative",
+      "attention_profile": "variable",
+      "feedback_style": "comparative",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": [
+        "unbounded table talk advantage"
+      ]
+    },
+    {
+      "persona_id": "P009",
+      "label": "4X Spreadsheet Admiral",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "economic optimisation",
+        "long arcs",
+        "planning payoffs"
+      ],
+      "hates_or_struggles": [
+        "random events",
+        "unclear upkeep",
+	"unclear phrasing",
+        "loose tech timing"
+      ],
+      "table_behaviours": [
+        "tracks resources precisely",
+        "builds compounding advantages",
+        "spots snowball risk"
+      ],
+      "play_goals": [
+        "wants strategic planning to be rewarded"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "analytical",
+      "attention_profile": "steady",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": [
+        "runaway leader loops",
+        "unbounded compounding"
+      ]
+    },
+    {
+      "persona_id": "P010",
+      "label": "Card Game Grinder",
+      "archetype": "board gamer (card-driven / CCG-trained)",
+      "experience_band": "expert",
+      "likes": [
+        "tempo play",
+        "combo lines",
+        "clean priority rules"
+      ],
+      "hates_or_struggles": [
+        "unclear timing",
+        "infinite loops",
+        "random discard"
+      ],
+      "table_behaviours": [
+        "counts outs",
+        "tests for exploits",
+        "plays fast once solved"
+      ],
+      "play_goals": [
+        "wants interactable combos"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "probabilistic",
+      "attention_profile": "steady",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": [
+        "priority windows unclear",
+        "loop escape clause missing"
+      ]
+    },
+    {
+      "persona_id": "P011",
+      "label": "Wargame Grognard",
+      "archetype": "wargamer (historical)",
+      "experience_band": "expert",
+      "likes": [
+        "scenario detail",
+        "measured tactics",
+        "consistent LoS"
+      ],
+      "hates_or_struggles": [
+        "handwavey abstractions",
+        "gotcha wording",
+        "undefined measurement conventions"
+      ],
+      "table_behaviours": [
+        "argues line-of-sight",
+	"rules lawyer",
+        "quotes precedent",
+        "tests corner cases"
+      ],
+      "play_goals": [
+        "wants fairness with credible simulation tone"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "argumentative",
+      "analysis_style": "systems",
+      "attention_profile": "steady",
+      "feedback_style": "precise",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P012",
+      "label": "Pro Tournament Wargamer",
+      "archetype": "wargamer (competitive)",
+      "experience_band": "expert",
+      "likes": [
+        "tight missions",
+        "clock play",
+        "clear rulings"
+      ],
+      "hates_or_struggles": [
+        "vague intent rules",
+        "soft sportsmanship clauses",
+        "terrain packet ambiguity"
+      ],
+      "table_behaviours": [
+        "plays to win",
+        "spots exploits",
+        "pushes pace"
+      ],
+      "play_goals": [
+        "wants reproducible outcomes"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "adversarial",
+      "attention_profile": "impatient",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": [
+        "first-turn advantage",
+        "dominant list paths"
+      ]
+    },
+    {
+      "persona_id": "P013",
+      "label": "Chess Club Mind",
+      "archetype": "board gamer (abstract / chess-trained)",
+      "experience_band": "expert",
+      "likes": [
+        "perfect information",
+        "deep tactics",
+        "clean rules"
+      ],
+      "hates_or_struggles": [
+        "hidden roles",
+        "swingy luck",
+        "catch-up that feels like charity"
+      ],
+      "table_behaviours": [
+        "calculates lines",
+        "gets annoyed at randomness",
+        "prefers deterministic outcomes"
+      ],
+      "play_goals": [
+        "wants skill to decide results"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "competitive",
+      "analysis_style": "analytical",
+      "attention_profile": "steady",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": [
+        "variance masquerading as depth"
+      ]
+    },
+    {
+      "persona_id": "P014",
+      "label": "Never Reads Rulebooks",
+      "archetype": "board gamer (casual)",
+      "experience_band": "casual",
+      "likes": [
+        "video teach",
+        "player aids",
+        "learning by doing"
+      ],
+      "hates_or_struggles": [
+        "rulebooks",
+        "dense text",
+        "too many terms up front"
+      ],
+      "table_behaviours": [
+        "asks constantly",
+        "forgets triggers",
+        "guesses mechanics"
+      ],
+      "play_goals": [
+        "wants to be carried (quietly)"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "avoidant",
+      "analysis_style": "naive",
+      "attention_profile": "fragile",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": [
+        "rulebook dependency",
+        "no quick reference"
+      ]
+    },
+    {
+      "persona_id": "P015",
+      "label": "Accessibility Advocate",
+      "archetype": "board gamer (UX-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "clear typography",
+        "redundant encoding",
+        "good player aids"
+      ],
+      "hates_or_struggles": [
+        "colour-only icons",
+        "tiny print",
+        "busy boards"
+      ],
+      "table_behaviours": [
+        "flags UX issues early",
+        "asks for clearer references",
+        "points out cognitive load spikes"
+      ],
+      "play_goals": [
+        "wants inclusive design"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "ux",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": [
+        "colour dependency",
+        "hidden state in art"
+      ]
+    },
+    {
+      "persona_id": "P016",
+      "label": "Co-op Quarterback",
+      "archetype": "board gamer (co-op)",
+      "experience_band": "regular",
+      "likes": [
+        "solving puzzles",
+        "optimising group play",
+        "clear shared info"
+      ],
+      "hates_or_struggles": [
+        "hidden info co-ops",
+        "simultaneous chaos",
+        "loose procedures"
+      ],
+      "table_behaviours": [
+        "takes over decisions",
+        "talks through optimal lines",
+        "means well"
+      ],
+      "play_goals": [
+        "wants the team to win"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "dominating",
+      "analysis_style": "procedural",
+      "attention_profile": "sticky",
+      "feedback_style": "confident",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": [
+        "quarterbacking incentives"
+      ]
+    },
+    {
+      "persona_id": "P017",
+      "label": "AP Maximalist P017",
+      "archetype": "board gamer (economic)",
+      "experience_band": "expert",
+      "likes": [
+        "economic planning",
+        "low downtime",
+        "clean teaches"
+      ],
+      "hates_or_struggles": [
+        "alpha strikes",
+        "fiddly upkeep",
+        "mathy upkeep"
+      ],
+      "table_behaviours": [
+        "helpfully sabotages without noticing",
+        "forgets triggers",
+        "tunnels on one plan"
+      ],
+      "play_goals": [
+        "wants speed",
+        "wants fairness"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "argumentative",
+      "analysis_style": "probabilistic",
+      "attention_profile": "steady",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P018",
+      "label": "Abstract Purist P018",
+      "archetype": "board gamer (heavy euro)",
+      "experience_band": "expert",
+      "likes": [
+        "fair missions",
+        "economic planning",
+        "meaningful choices"
+      ],
+      "hates_or_struggles": [
+        "alpha strikes",
+        "keyword soup",
+        "fiddly upkeep"
+      ],
+      "table_behaviours": [
+        "talks a lot at the table",
+        "doesn't like being targeted",
+        "checks rules mid-turn"
+      ],
+      "play_goals": [
+        "wants depth",
+        "wants big moments"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "dominating",
+      "analysis_style": "adversarial",
+      "attention_profile": "spiky",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P019",
+      "label": "Meta-Chaser P019",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "clear icons",
+        "clean teaches",
+        "player aids"
+      ],
+      "hates_or_struggles": [
+        "alpha strikes",
+        "gotcha rules",
+        "unclear victory"
+      ],
+      "table_behaviours": [
+        "checks rules mid-turn",
+        "keeps score secretly",
+        "doesn't like being targeted"
+      ],
+      "play_goals": [
+        "wants depth",
+        "wants fairness"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "social",
+      "analysis_style": "narrative",
+      "attention_profile": "impatient",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P020",
+      "label": "Speedrunner P020",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "combo lines",
+        "fair missions",
+        "meaningful choices"
+      ],
+      "hates_or_struggles": [
+        "mathy upkeep",
+        "soft exceptions",
+        "keyword soup"
+      ],
+      "table_behaviours": [
+        "talks a lot at the table",
+        "pushes tempo",
+        "helpfully sabotages without noticing"
+      ],
+      "play_goals": [
+        "wants clarity",
+        "wants speed"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "competitive",
+      "analysis_style": "adversarial",
+      "attention_profile": "impatient",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P021",
+      "label": "Salty Loser P021",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "deep tactics",
+        "fair missions",
+        "clean teaches"
+      ],
+      "hates_or_struggles": [
+        "soft exceptions",
+        "unclear victory",
+        "mathy upkeep"
+      ],
+      "table_behaviours": [
+        "tests edge cases",
+        "forgets triggers",
+        "tunnels on one plan"
+      ],
+      "play_goals": [
+        "wants speed",
+        "wants a good story"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "avoidant",
+      "analysis_style": "probabilistic",
+      "attention_profile": "variable",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P022",
+      "label": "Euro Collector P022",
+      "archetype": "wargamer (skirmish)",
+      "experience_band": "expert",
+      "likes": [
+        "spectacle",
+        "interaction with consent",
+        "economic planning"
+      ],
+      "hates_or_struggles": [
+        "gotcha rules",
+        "component clutter",
+        "unclear victory"
+      ],
+      "table_behaviours": [
+        "helpfully sabotages without noticing",
+        "leans into diplomacy",
+        "asks for clarifications"
+      ],
+      "play_goals": [
+        "wants a good story",
+        "wants clarity"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "competitive",
+      "analysis_style": "ux",
+      "attention_profile": "sticky",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P023",
+      "label": "Narrative Campaign GM P023",
+      "archetype": "board gamer (deckbuilder)",
+      "experience_band": "regular",
+      "likes": [
+        "meaningful choices",
+        "deep tactics",
+        "strong theme"
+      ],
+      "hates_or_struggles": [
+        "gotcha rules",
+        "soft exceptions",
+        "tiny print"
+      ],
+      "table_behaviours": [
+        "tunnels on one plan",
+        "checks rules mid-turn",
+        "doesn't like being targeted"
+      ],
+      "play_goals": [
+        "wants clarity",
+        "wants depth"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "ux",
+      "attention_profile": "variable",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P024",
+      "label": "Salty Loser P024",
+      "archetype": "board gamer (family/gateway)",
+      "experience_band": "new",
+      "likes": [
+        "player aids",
+        "meaningful choices",
+        "interaction with consent"
+      ],
+      "hates_or_struggles": [
+        "component clutter",
+        "soft exceptions",
+        "gotcha rules"
+      ],
+      "table_behaviours": [
+        "asks for clarifications",
+        "leans into diplomacy",
+        "doesn't like being targeted"
+      ],
+      "play_goals": [
+        "wants depth",
+        "wants speed"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "avoidant",
+      "analysis_style": "naive",
+      "attention_profile": "impatient",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P025",
+      "label": "Narrative Campaign GM P025",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "strong theme",
+        "player aids",
+        "low downtime"
+      ],
+      "hates_or_struggles": [
+        "component clutter",
+        "unclear victory",
+        "mathy upkeep"
+      ],
+      "table_behaviours": [
+        "counts resources",
+        "tunnels on one plan",
+        "talks a lot at the table"
+      ],
+      "play_goals": [
+        "wants a good story",
+        "wants big moments"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "dominating",
+      "analysis_style": "narrative",
+      "attention_profile": "sticky",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P026",
+      "label": "Euro Collector P026",
+      "archetype": "board gamer (modern euro)",
+      "experience_band": "regular",
+      "likes": [
+        "interaction with consent",
+        "fair missions",
+        "strong theme"
+      ],
+      "hates_or_struggles": [
+        "keyword soup",
+        "unclear victory",
+        "fiddly upkeep"
+      ],
+      "table_behaviours": [
+        "talks a lot at the table",
+        "plays fast and loose",
+        "tests edge cases"
+      ],
+      "play_goals": [
+        "wants a good story",
+        "wants depth"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "analytical",
+      "attention_profile": "steady",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P027",
+      "label": "Euro Collector P027",
+      "archetype": "wargamer (historical)",
+      "experience_band": "regular",
+      "likes": [
+        "tight pacing",
+        "clean teaches",
+        "interaction with consent"
+      ],
+      "hates_or_struggles": [
+        "hidden scoring",
+        "component clutter",
+        "downtime",
+	"Rules densty causing delays between rounds", 
+      ],
+      "table_behaviours": [
+        "checks rules mid-turn",
+        "doesn't like being targeted",
+        "tunnels on one plan"
+      ],
+      "play_goals": [
+        "wants speed",
+        "wants clarity"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "social",
+      "analysis_style": "ux",
+      "attention_profile": "variable",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P028",
+      "label": "Meta-Chaser P028",
+      "archetype": "board gamer (family/gateway)",
+      "experience_band": "new",
+      "likes": [
+        "player aids",
+        "interaction with consent",
+        "strong theme"
+      ],
+      "hates_or_struggles": [
+        "ambiguous timing",
+        "component clutter",
+        "downtime"
+      ],
+      "table_behaviours": [
+        "counts resources",
+        "plays fast and loose",
+        "tests edge cases"
+      ],
+      "play_goals": [
+        "wants a good story",
+        "wants fairness"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "argumentative",
+      "analysis_style": "analytical",
+      "attention_profile": "variable",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P029",
+      "label": "Solo Rules Auditor P029",
+      "archetype": "board gamer (social deduction)",
+      "experience_band": "regular",
+      "likes": [
+        "tight pacing",
+        "interaction with consent",
+        "clean teaches"
+      ],
+      "hates_or_struggles": [
+        "soft exceptions",
+        "downtime",
+        "unclear victory"
+      ],
+      "table_behaviours": [
+        "pushes tempo",
+        "forgets triggers",
+        "leans into diplomacy"
+      ],
+      "play_goals": [
+        "wants depth",
+        "wants to win"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "dominating",
+      "analysis_style": "systematic",
+      "attention_profile": "sticky",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P030",
+      "label": "Theme-First Immersion P030",
+      "archetype": "board gamer (strategy/abstract)",
+      "experience_band": "regular",
+      "likes": [
+        "interaction with consent",
+        "strong theme",
+        "tight pacing"
+      ],
+      "hates_or_struggles": [
+        "alpha strikes",
+        "tiny print",
+        "unclear victory"
+      ],
+      "table_behaviours": [
+        "helpfully sabotages without noticing",
+        "forgets triggers",
+        "leans into diplomacy"
+      ],
+      "play_goals": [
+        "wants big moments",
+        "wants depth"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "competitive",
+      "analysis_style": "narrative",
+      "attention_profile": "sticky",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P031",
+      "label": "Streamer Brain P031",
+      "archetype": "board gamer (family/gateway)",
+      "experience_band": "new",
+      "likes": [
+        "economic planning",
+        "spectacle",
+        "visible state"
+      ],
+      "hates_or_struggles": [
+        "alpha strikes",
+        "ambiguous timing",
+        "hidden scoring"
+      ],
+      "table_behaviours": [
+        "counts resources",
+        "helpfully sabotages without noticing",
+        "checks rules mid-turn"
+      ],
+      "play_goals": [
+        "wants clarity",
+        "wants to win"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "avoidant",
+      "analysis_style": "narrative",
+      "attention_profile": "spiky",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P032",
+      "label": "Negotiation Monster P032",
+      "archetype": "wargamer (skirmish)",
+      "experience_band": "expert",
+      "likes": [
+        "strong theme",
+        "economic planning",
+        "clean teaches"
+      ],
+      "hates_or_struggles": [
+        "ambiguous timing",
+        "keyword soup",
+        "alpha strikes"
+      ],
+      "table_behaviours": [
+        "doesn't like being targeted",
+        "pushes tempo",
+        "forgets triggers"
+      ],
+      "play_goals": [
+        "wants fairness",
+        "wants to win"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "analytical",
+      "attention_profile": "steady",
+      "feedback_style": "comparative",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P033",
+      "label": "Speedrunner P033",
+      "archetype": "board gamer (economic)",
+      "experience_band": "regular",
+      "likes": [
+        "combo lines",
+        "spectacle",
+        "visible state"
+      ],
+      "hates_or_struggles": [
+        "downtime",
+        "mathy upkeep",
+        "ambiguous timing"
+      ],
+      "table_behaviours": [
+        "leans into diplomacy",
+        "keeps score secretly",
+        "checks rules mid-turn"
+      ],
+      "play_goals": [
+        "wants depth",
+        "wants to win"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "narrative",
+      "attention_profile": "variable",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P034",
+      "label": "Rulebook Skimmer P034",
+      "archetype": "wargamer (competitive)",
+      "experience_band": "expert",
+      "likes": [
+        "spectacle",
+        "economic planning",
+        "interaction with consent"
+      ],
+      "hates_or_struggles": [
+        "unclear victory",
+        "component clutter",
+        "alpha strikes"
+      ],
+      "table_behaviours": [
+        "asks for clarifications",
+        "tunnels on one plan",
+        "plays fast and loose"
+      ],
+      "play_goals": [
+        "wants big moments",
+        "wants a good story"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "competitive",
+      "analysis_style": "systematic",
+      "attention_profile": "impatient",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P035",
+      "label": "Rulebook Skimmer P035",
+      "archetype": "board gamer (economic)",
+      "experience_band": "expert",
+      "likes": [
+        "low downtime",
+        "fair missions",
+        "economic planning"
+      ],
+      "hates_or_struggles": [
+        "alpha strikes",
+        "mathy upkeep",
+        "hidden scoring"
+      ],
+      "table_behaviours": [
+        "doesn't like being targeted",
+        "pushes tempo",
+        "forgets triggers"
+      ],
+      "play_goals": [
+        "wants speed",
+        "wants a good story"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "competitive",
+      "analysis_style": "tactical",
+      "attention_profile": "variable",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P036",
+      "label": "TTRPG Convert P036",
+      "archetype": "board gamer (card-driven / CCG-trained)",
+      "experience_band": "regular",
+      "likes": [
+        "meaningful choices",
+        "spectacle",
+        "player aids"
+      ],
+      "hates_or_struggles": [
+        "soft exceptions",
+        "tiny print",
+        "unclear victory"
+      ],
+      "table_behaviours": [
+        "leans into diplomacy",
+        "plays fast and loose",
+        "checks rules mid-turn"
+      ],
+      "play_goals": [
+        "wants a good story",
+        "wants to win"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "dominating",
+      "analysis_style": "systematic",
+      "attention_profile": "impatient",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P037",
+      "label": "Solo Rules Auditor P037",
+      "archetype": "board gamer (deckbuilder)",
+      "experience_band": "regular",
+      "likes": [
+        "tight pacing",
+        "low downtime",
+        "deep tactics"
+      ],
+      "hates_or_struggles": [
+        "tiny print",
+        "alpha strikes",
+        "mathy upkeep"
+      ],
+      "table_behaviours": [
+        "tests edge cases",
+        "pushes tempo",
+        "checks rules mid-turn"
+      ],
+      "play_goals": [
+        "wants a good story",
+        "wants fairness"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "avoidant",
+      "analysis_style": "ux",
+      "attention_profile": "steady",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P038",
+      "label": "TTRPG Convert P038",
+      "archetype": "board gamer (family/gateway)",
+      "experience_band": "casual",
+      "likes": [
+        "spectacle",
+        "visible state",
+        "meaningful choices"
+      ],
+      "hates_or_struggles": [
+        "component clutter",
+        "keyword soup",
+        "tiny print"
+      ],
+      "table_behaviours": [
+        "helpfully sabotages without noticing",
+        "talks a lot at the table",
+        "asks for clarifications"
+      ],
+      "play_goals": [
+        "wants depth",
+        "wants to win"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "social",
+      "analysis_style": "tactical",
+      "attention_profile": "spiky",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P039",
+      "label": "Old Hand, Low Patience P039",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "interaction with consent",
+        "strong theme",
+        "meaningful choices"
+      ],
+      "hates_or_struggles": [
+        "tiny print",
+        "downtime",
+        "unclear victory"
+      ],
+      "table_behaviours": [
+        "checks rules mid-turn",
+        "keeps score secretly",
+        "pushes tempo"
+      ],
+      "play_goals": [
+        "wants big moments",
+        "wants depth"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "argumentative",
+      "analysis_style": "narrative",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P040",
+      "label": "Speedrunner P040",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "clean teaches",
+        "player aids",
+        "interaction with consent"
+      ],
+      "hates_or_struggles": [
+        "tiny print",
+        "unclear victory",
+        "hidden scoring"
+      ],
+      "table_behaviours": [
+        "plays fast and loose",
+        "forgets triggers",
+        "tunnels on one plan"
+      ],
+      "play_goals": [
+        "wants clarity",
+        "wants a good story"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "argumentative",
+      "analysis_style": "probabilistic",
+      "attention_profile": "sticky",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P041",
+      "label": "Speedrunner P041",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "meaningful choices",
+        "deep tactics",
+        "interaction with consent"
+      ],
+      "hates_or_struggles": [
+        "gotcha rules",
+        "tiny print",
+        "downtime"
+      ],
+      "table_behaviours": [
+        "forgets triggers",
+        "plays fast and loose",
+        "talks a lot at the table"
+      ],
+      "play_goals": [
+        "wants fairness",
+        "wants depth"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "dominating",
+      "analysis_style": "ux",
+      "attention_profile": "variable",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P042",
+      "label": "Component Confuser P042",
+      "archetype": "board gamer (deckbuilder)",
+      "experience_band": "regular",
+      "likes": [
+        "fair missions",
+        "combo lines",
+        "tight pacing"
+      ],
+      "hates_or_struggles": [
+        "soft exceptions",
+        "tiny print",
+        "ambiguous timing"
+      ],
+      "table_behaviours": [
+        "pushes tempo",
+        "counts resources",
+        "doesn't like being targeted"
+      ],
+      "play_goals": [
+        "wants big moments",
+        "wants to win"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "social",
+      "analysis_style": "tactical",
+      "attention_profile": "sticky",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P043",
+      "label": "Dice Goblin P043",
+      "archetype": "wargamer (skirmish)",
+      "experience_band": "expert",
+      "likes": [
+        "economic planning",
+        "player aids",
+        "deep tactics"
+      ],
+      "hates_or_struggles": [
+        "unclear victory",
+        "gotcha rules",
+        "component clutter"
+      ],
+      "table_behaviours": [
+        "talks a lot at the table",
+        "doesn't like being targeted",
+        "leans into diplomacy"
+      ],
+      "play_goals": [
+        "wants to win",
+        "wants a good story"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "social",
+      "analysis_style": "ux",
+      "attention_profile": "steady",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P044",
+      "label": "Narrative Campaign GM P044",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "clean teaches",
+        "economic planning",
+        "visible state"
+      ],
+      "hates_or_struggles": [
+        "unclear victory",
+        "tiny print",
+        "component clutter"
+      ],
+      "table_behaviours": [
+        "checks rules mid-turn",
+        "doesn't like being targeted",
+        "keeps score secretly"
+      ],
+      "play_goals": [
+        "wants clarity",
+        "wants a good story"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "naive",
+      "attention_profile": "steady",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P045",
+      "label": "Scenario Designer P045",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "interaction with consent",
+        "spectacle",
+        "clean teaches"
+      ],
+      "hates_or_struggles": [
+        "unclear victory",
+        "mathy upkeep",
+        "hidden scoring"
+      ],
+      "table_behaviours": [
+        "forgets triggers",
+        "plays fast and loose",
+        "checks rules mid-turn"
+      ],
+      "play_goals": [
+        "wants big moments",
+        "wants a good story"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "avoidant",
+      "analysis_style": "narrative",
+      "attention_profile": "spiky",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P046",
+      "label": "Spreadsheet Enjoyer P046",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "player aids",
+        "visible state",
+        "spectacle"
+      ],
+      "hates_or_struggles": [
+        "hidden scoring",
+        "fiddly upkeep",
+        "gotcha rules"
+      ],
+      "table_behaviours": [
+        "checks rules mid-turn",
+        "pushes tempo",
+        "doesn't like being targeted"
+      ],
+      "play_goals": [
+        "wants big moments",
+        "wants depth"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "dominating",
+      "analysis_style": "naive",
+      "attention_profile": "fragile",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P047",
+      "label": "Old Hand, Low Patience P047",
+      "archetype": "wargamer (competitive)",
+      "experience_band": "expert",
+      "likes": [
+        "fair missions",
+        "combo lines",
+        "interaction with consent"
+      ],
+      "hates_or_struggles": [
+        "keyword soup",
+        "fiddly upkeep",
+        "ambiguous timing"
+      ],
+      "table_behaviours": [
+        "asks for clarifications",
+        "leans into diplomacy",
+        "tunnels on one plan"
+      ],
+      "play_goals": [
+        "wants speed",
+        "wants depth"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "social",
+      "analysis_style": "analytical",
+      "attention_profile": "impatient",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P048",
+      "label": "Narrative Campaign GM P048",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "player aids",
+        "spectacle",
+        "clean teaches"
+      ],
+      "hates_or_struggles": [
+        "keyword soup",
+        "soft exceptions",
+        "component clutter"
+      ],
+      "table_behaviours": [
+        "counts resources",
+        "pushes tempo",
+        "asks for clarifications"
+      ],
+      "play_goals": [
+        "wants depth",
+        "wants speed"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "competitive",
+      "analysis_style": "tactical",
+      "attention_profile": "sticky",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P049",
+      "label": "Edge-Case Hunter P049",
+      "archetype": "wargamer (competitive)",
+      "experience_band": "expert",
+      "likes": [
+        "clear icons",
+        "player aids",
+        "tight pacing"
+      ],
+      "hates_or_struggles": [
+        "ambiguous timing",
+        "unclear victory",
+        "component clutter"
+      ],
+      "table_behaviours": [
+        "plays fast and loose",
+        "tunnels on one plan",
+        "asks for clarifications"
+      ],
+      "play_goals": [
+        "wants clarity",
+        "wants big moments"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "argumentative",
+      "analysis_style": "analytical",
+      "attention_profile": "variable",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P050",
+      "label": "Newbie With Confidence P050",
+      "archetype": "board gamer (strategy/abstract)",
+      "experience_band": "regular",
+      "likes": [
+        "tight pacing",
+        "clear icons",
+        "economic planning"
+      ],
+      "hates_or_struggles": [
+        "ambiguous timing",
+        "fiddly upkeep",
+        "hidden scoring"
+      ],
+      "table_behaviours": [
+        "plays fast and loose",
+        "checks rules mid-turn",
+        "pushes tempo"
+      ],
+      "play_goals": [
+        "wants fairness",
+        "wants speed"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "tactical",
+      "attention_profile": "sticky",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P051",
+      "label": "Chaos Gremlin P051",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "tight pacing",
+        "visible state",
+        "spectacle"
+      ],
+      "hates_or_struggles": [
+        "unclear victory",
+        "component clutter",
+        "gotcha rules"
+      ],
+      "table_behaviours": [
+        "tests edge cases",
+        "tunnels on one plan",
+        "plays fast and loose"
+      ],
+      "play_goals": [
+        "wants clarity",
+        "wants depth"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "naive",
+      "attention_profile": "fragile",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P052",
+      "label": "Edge-Case Hunter P052",
+      "archetype": "wargamer (competitive)",
+      "experience_band": "expert",
+      "likes": [
+        "economic planning",
+        "tight pacing",
+        "player aids"
+      ],
+      "hates_or_struggles": [
+        "tiny print",
+        "hidden scoring",
+        "unclear victory"
+      ],
+      "table_behaviours": [
+        "counts resources",
+        "helpfully sabotages without noticing",
+        "tests edge cases"
+      ],
+      "play_goals": [
+        "wants fairness",
+        "wants clarity"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "dominating",
+      "analysis_style": "naive",
+      "attention_profile": "steady",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P053",
+      "label": "Quiet Optimiser P053",
+      "archetype": "board gamer (family/gateway)",
+      "experience_band": "casual",
+      "likes": [
+        "deep tactics",
+        "spectacle",
+        "player aids"
+      ],
+      "hates_or_struggles": [
+        "keyword soup",
+        "alpha strikes",
+        "fiddly upkeep"
+      ],
+      "table_behaviours": [
+        "doesn't like being targeted",
+        "forgets triggers",
+        "pushes tempo"
+      ],
+      "play_goals": [
+        "wants depth",
+        "wants big moments"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "dominating",
+      "analysis_style": "naive",
+      "attention_profile": "spiky",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P054",
+      "label": "Euro Collector P054",
+      "archetype": "board gamer (strategy/abstract)",
+      "experience_band": "expert",
+      "likes": [
+        "deep tactics",
+        "strong theme",
+        "fair missions"
+      ],
+      "hates_or_struggles": [
+        "keyword soup",
+        "component clutter",
+        "gotcha rules"
+      ],
+      "table_behaviours": [
+        "forgets triggers",
+        "leans into diplomacy",
+        "talks a lot at the table"
+      ],
+      "play_goals": [
+        "wants fairness",
+        "wants a good story"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "argumentative",
+      "analysis_style": "adversarial",
+      "attention_profile": "variable",
+      "feedback_style": "comparative",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P055",
+      "label": "Speedrunner P055",
+      "archetype": "board gamer (strategy/abstract)",
+      "experience_band": "expert",
+      "likes": [
+        "visible state",
+        "spectacle",
+        "player aids"
+      ],
+      "hates_or_struggles": [
+        "unclear victory",
+        "gotcha rules",
+        "keyword soup"
+      ],
+      "table_behaviours": [
+        "forgets triggers",
+        "asks for clarifications",
+        "checks rules mid-turn"
+      ],
+      "play_goals": [
+        "wants a good story",
+        "wants depth"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "adversarial",
+      "attention_profile": "sticky",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P056",
+      "label": "Boardgame Caf\u00e9 Staff P056",
+      "archetype": "board gamer (card-driven / CCG-trained)",
+      "experience_band": "regular",
+      "likes": [
+        "tight pacing",
+        "interaction with consent",
+        "deep tactics"
+      ],
+      "hates_or_struggles": [
+        "fiddly upkeep",
+        "ambiguous timing",
+        "soft exceptions"
+      ],
+      "table_behaviours": [
+        "pushes tempo",
+        "doesn't like being targeted",
+        "tests edge cases"
+      ],
+      "play_goals": [
+        "wants speed",
+        "wants a good story"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "systematic",
+      "attention_profile": "variable",
+      "feedback_style": "comparative",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P057",
+      "label": "Euro Collector P057",
+      "archetype": "wargamer (skirmish)",
+      "experience_band": "regular",
+      "likes": [
+        "clear icons",
+        "fair missions",
+        "strong theme"
+      ],
+      "hates_or_struggles": [
+        "downtime",
+        "ambiguous timing",
+        "tiny print"
+      ],
+      "table_behaviours": [
+        "tunnels on one plan",
+        "checks rules mid-turn",
+        "talks a lot at the table"
+      ],
+      "play_goals": [
+        "wants depth",
+        "wants to win"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "analytical",
+      "attention_profile": "spiky",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P058",
+      "label": "Component Confuser P058",
+      "archetype": "board gamer (strategy/abstract)",
+      "experience_band": "regular",
+      "likes": [
+        "visible state",
+        "player aids",
+        "combo lines"
+      ],
+      "hates_or_struggles": [
+        "downtime",
+        "gotcha rules",
+        "keyword soup"
+      ],
+      "table_behaviours": [
+        "forgets triggers",
+        "talks a lot at the table",
+        "helpfully sabotages without noticing"
+      ],
+      "play_goals": [
+        "wants fairness",
+        "wants a good story"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "avoidant",
+      "analysis_style": "narrative",
+      "attention_profile": "sticky",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P059",
+      "label": "Kingmaker By Accident P059",
+      "archetype": "board gamer (economic)",
+      "experience_band": "expert",
+      "likes": [
+        "clean teaches",
+        "deep tactics",
+        "combo lines"
+      ],
+      "hates_or_struggles": [
+        "gotcha rules",
+        "soft exceptions",
+        "component clutter"
+      ],
+      "table_behaviours": [
+        "asks for clarifications",
+        "talks a lot at the table",
+        "tests edge cases"
+      ],
+      "play_goals": [
+        "wants fairness",
+        "wants clarity"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "social",
+      "analysis_style": "narrative",
+      "attention_profile": "sticky",
+      "feedback_style": "comparative",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P060",
+      "label": "Edge-Case Hunter P060",
+      "archetype": "wargamer (historical)",
+      "experience_band": "regular",
+      "likes": [
+        "player aids",
+        "low downtime",
+        "meaningful choices"
+      ],
+      "hates_or_struggles": [
+        "soft exceptions",
+        "mathy upkeep",
+        "unclear victory"
+      ],
+      "table_behaviours": [
+        "helpfully sabotages without noticing",
+        "forgets triggers",
+        "leans into diplomacy"
+      ],
+      "play_goals": [
+        "wants fairness",
+        "wants depth"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "neutral",
+      "analysis_style": "analytical",
+      "attention_profile": "variable",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P061",
+      "label": "Spreadsheet Enjoyer P061",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "fair missions",
+        "clear icons",
+        "low downtime"
+      ],
+      "hates_or_struggles": [
+        "fiddly upkeep",
+        "alpha strikes",
+        "keyword soup"
+      ],
+      "table_behaviours": [
+        "asks for clarifications",
+        "tunnels on one plan",
+        "talks a lot at the table"
+      ],
+      "play_goals": [
+        "wants clarity",
+        "wants to win"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "systematic",
+      "attention_profile": "fragile",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P062",
+      "label": "Old Hand, Low Patience P062",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "visible state",
+        "combo lines",
+        "low downtime"
+      ],
+      "hates_or_struggles": [
+        "alpha strikes",
+        "mathy upkeep",
+        "ambiguous timing"
+      ],
+      "table_behaviours": [
+        "tunnels on one plan",
+        "pushes tempo",
+        "plays fast and loose"
+      ],
+      "play_goals": [
+        "wants big moments",
+        "wants speed"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "avoidant",
+      "analysis_style": "naive",
+      "attention_profile": "sticky",
+      "feedback_style": "comparative",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P063",
+      "label": "Dice Goblin P063",
+      "archetype": "board gamer (family/gateway)",
+      "experience_band": "casual",
+      "likes": [
+        "visible state",
+        "clean teaches",
+        "economic planning"
+      ],
+      "hates_or_struggles": [
+        "component clutter",
+        "unclear victory",
+        "soft exceptions"
+      ],
+      "table_behaviours": [
+        "pushes tempo",
+        "keeps score secretly",
+        "plays fast and loose"
+      ],
+      "play_goals": [
+        "wants speed",
+        "wants to win"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "social",
+      "analysis_style": "narrative",
+      "attention_profile": "steady",
+      "feedback_style": "comparative",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P064",
+      "label": "Meta-Chaser P064",
+      "archetype": "board gamer (card-driven / CCG-trained)",
+      "experience_band": "regular",
+      "likes": [
+        "interaction with consent",
+        "deep tactics",
+        "clean teaches"
+      ],
+      "hates_or_struggles": [
+        "hidden scoring",
+        "soft exceptions",
+        "ambiguous timing"
+      ],
+      "table_behaviours": [
+        "tests edge cases",
+        "asks for clarifications",
+        "leans into diplomacy"
+      ],
+      "play_goals": [
+        "wants clarity",
+        "wants speed"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "social",
+      "analysis_style": "analytical",
+      "attention_profile": "steady",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P065",
+      "label": "AP Maximalist P065",
+      "archetype": "board gamer (heavy euro)",
+      "experience_band": "expert",
+      "likes": [
+        "strong theme",
+        "economic planning",
+        "visible state"
+      ],
+      "hates_or_struggles": [
+        "hidden scoring",
+        "ambiguous timing",
+        "soft exceptions"
+      ],
+      "table_behaviours": [
+        "pushes tempo",
+        "keeps score secretly",
+        "plays fast and loose"
+      ],
+      "play_goals": [
+        "wants speed",
+        "wants big moments"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "avoidant",
+      "analysis_style": "analytical",
+      "attention_profile": "sticky",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P066",
+      "label": "Narrative Campaign GM P066",
+      "archetype": "wargamer (competitive)",
+      "experience_band": "expert",
+      "likes": [
+        "clean teaches",
+        "player aids",
+        "spectacle"
+      ],
+      "hates_or_struggles": [
+        "unclear victory",
+        "keyword soup",
+        "gotcha rules"
+      ],
+      "table_behaviours": [
+        "keeps score secretly",
+        "helpfully sabotages without noticing",
+        "doesn't like being targeted"
+      ],
+      "play_goals": [
+        "wants big moments",
+        "wants speed"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "probabilistic",
+      "attention_profile": "impatient",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P067",
+      "label": "Rulebook Skimmer P067",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "meaningful choices",
+        "interaction with consent",
+        "fair missions"
+      ],
+      "hates_or_struggles": [
+        "unclear victory",
+        "component clutter",
+        "tiny print"
+      ],
+      "table_behaviours": [
+        "talks a lot at the table",
+        "forgets triggers",
+        "helpfully sabotages without noticing"
+      ],
+      "play_goals": [
+        "wants speed",
+        "wants depth"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "dominating",
+      "analysis_style": "adversarial",
+      "attention_profile": "variable",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P068",
+      "label": "Component Confuser P068",
+      "archetype": "board gamer (18xx-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "strong theme",
+        "fair missions",
+        "clear icons"
+      ],
+      "hates_or_struggles": [
+        "unclear victory",
+        "tiny print",
+        "downtime"
+      ],
+      "table_behaviours": [
+        "forgets triggers",
+        "tests edge cases",
+        "counts resources"
+      ],
+      "play_goals": [
+        "wants a good story",
+        "wants depth"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "avoidant",
+      "analysis_style": "naive",
+      "attention_profile": "fragile",
+      "feedback_style": "practical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P069",
+      "label": "Rulebook Skimmer P069",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "expert",
+      "likes": [
+        "strong theme",
+        "tight pacing",
+        "player aids"
+      ],
+      "hates_or_struggles": [
+        "hidden scoring",
+        "soft exceptions",
+        "component clutter"
+      ],
+      "table_behaviours": [
+        "pushes tempo",
+        "forgets triggers",
+        "doesn't like being targeted"
+      ],
+      "play_goals": [
+        "wants to win",
+        "wants clarity"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "avoidant",
+      "analysis_style": "probabilistic",
+      "attention_profile": "variable",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P070",
+      "label": "Rulebook Skimmer P070",
+      "archetype": "board gamer (deckbuilder)",
+      "experience_band": "regular",
+      "likes": [
+        "visible state",
+        "fair missions",
+        "tight pacing"
+      ],
+      "hates_or_struggles": [
+        "keyword soup",
+        "hidden scoring",
+        "mathy upkeep"
+      ],
+      "table_behaviours": [
+        "checks rules mid-turn",
+        "pushes tempo",
+        "tunnels on one plan"
+      ],
+      "play_goals": [
+        "wants speed",
+        "wants depth"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "social",
+      "analysis_style": "ux",
+      "attention_profile": "variable",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P071",
+      "label": "Solo Rules Auditor P071",
+      "archetype": "wargamer (historical)",
+      "experience_band": "regular",
+      "likes": [
+        "low downtime",
+        "player aids",
+        "meaningful choices"
+      ],
+      "hates_or_struggles": [
+        "soft exceptions",
+        "tiny print",
+        "unclear victory"
+      ],
+      "table_behaviours": [
+        "leans into diplomacy",
+        "counts resources",
+        "tests edge cases"
+      ],
+      "play_goals": [
+        "wants depth",
+        "wants a good story"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "neutral",
+      "analysis_style": "naive",
+      "attention_profile": "fragile",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    },
+    {
+      "persona_id": "P072",
+      "label": "Narrative Campaign GM P072",
+      "archetype": "board gamer (4X-focused)",
+      "experience_band": "regular",
+      "likes": [
+        "clear icons",
+        "low downtime",
+        "deep tactics"
+      ],
+      "hates_or_struggles": [
+        "tiny print",
+        "ambiguous timing",
+        "hidden scoring"
+      ],
+      "table_behaviours": [
+        "talks a lot at the table",
+        "asks for clarifications",
+        "forgets triggers"
+      ],
+      "play_goals": [
+        "wants a good story",
+        "wants depth"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "dominating",
+      "analysis_style": "naive",
+      "attention_profile": "steady",
+      "feedback_style": "honest",
+      "likely_failure_modes": [],
+      "red_flags_to_watch": []
+    }
+  ]
+}
