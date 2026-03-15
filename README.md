@@ -2,7 +2,7 @@
 A modular skill and behaviour framework for reviewing tabletop rules and playtests with the mindset of a tired-but-precise systems engineer:
 
 <p align="center">
-  <img src=".branding/tabarc-icon.svg" width="180" alt="TABARC-Code Icon">
+  <img src=".branding/tabarc-icon.png" width="180" alt="TABARC-Code Icon">
 </p>
 
 # Board Game Playtest Reviewer (Claude Skill)
