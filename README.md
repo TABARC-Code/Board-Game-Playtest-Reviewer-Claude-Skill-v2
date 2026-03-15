@@ -9,23 +9,23 @@ A modular skill and behaviour framework for reviewing tabletop rules and playtes
 
 Built and maintained by **Tabarc-Code**
 
-This repo is a **work in progress**. Bits will move. Labels will change. Some pages are blunt because they’re meant to be useful, not polite.
+This repo is a **work in progress**. Bits will move. Labels will change. Some pages are blunt because they’re meant to be useful, not polite. Its what it is.
 
 ## What it does
 
-A modular skill and behaviour framework for reviewing tabletop rules and playtests with the mindset of a tired-but-precise systems engineer:
+A modular skill and behaviour framework for reviewing tabletop rules and playtests with the mindset of a tired-but-precise systems engineer: Its basicaly crankky and fair.
 
-- Treat rules like executable logic
+- Treat rules and rule writing like executable logic, so its looking for logic flaw
 - Treat players like chaotic users
-- Treats ambiguity like a bug 
+- Should treat ambiguity like a bug. 
 
-It covers:
+It currently covers:
 
-- Boardgame & wargame rules analysis
+- Boardgames & wargame rules analysis
 - Playtest behaviour modelling (human, messy, real-table focused)
 - Negative feedback loop design for small-format games
-- A UK educated-human writing model for docs, reports, and notes - Im English
-- A large playtester persona bank (because one “average player” is a myth)
+- A UK orientted educated-human writing model for docs, reports, and notes - In UK English
+- A large playtester persona bank (because one “average player” is a myth. Its based around player types and averages.)
 
 ## Where to start
 
