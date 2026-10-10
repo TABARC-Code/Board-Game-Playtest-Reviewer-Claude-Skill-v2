@@ -2,7 +2,7 @@
   "skill_name": "Board Game Playtest Reviewer",
   "provider": "Claude Skill",
   "maintainer": "Tabarc-Code",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "status": "work_in_progress",
   "entrypoint": "SKILL.md",
   "assets": {

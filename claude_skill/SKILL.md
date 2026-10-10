@@ -77,16 +77,23 @@ Give the original wording, the replacement, and why. Keep the fix as small as th
 
 Use the persona bank at **playtest/personas/persona_bank_v1.json**.
 
-Pick a handful and explicitly sanity-check the rules through their eyes. Different brains break different sentences. Name each persona by ID and label, and say what that persona specifically breaks; don’t just list them.
+Pick four to seven personas that match the game’s audience, plus at least one accessibility persona (P015, P035, P048, P050 or P072). Use each persona’s `use_when` to choose, and the suggested sets in **playtest/personas/README.md** as a starting point.
+
+For each persona you pick:
+1. Check the rules against its `breaks_on` list.
+2. Answer its `review_questions` about these specific rules.
+3. Report what it breaks: the persona ID and label, the exact phrase, and the patch.
+
+If a persona breaks nothing, say so in one line and move on. Different brains break different sentences; a list of names isn’t a review.
 
 Example selection for a first rules draft:
 - P001 Never Played Anything
-- P004 Gateway Euro Convert
-- P006 18xx Shark (if the game is economic / timing heavy)
-- P010 Card Game Grinder (if timing/priority matters)
+- P014 Never Reads Rulebooks
+- P028 Overconfident Newbie
+- P041 The Group’s Teacher
+- P049 Edge-Case Hunter
 - P015 Accessibility Advocate
-- P012 Pro Tournament Wargamer (if competitive pressure matters)
-- P014 Never Reads Rulebooks (always worth one look)
+- Add P006 18xx Shark for economic games, P010 Card Game Grinder for timing-heavy card play, P012 Pro Tournament Wargamer for competitive play
 
 ## WIP note
 
