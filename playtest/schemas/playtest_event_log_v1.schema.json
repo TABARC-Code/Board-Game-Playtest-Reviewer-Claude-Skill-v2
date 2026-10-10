@@ -59,6 +59,11 @@
           },
           "faction_or_role": {
             "type": "string"
+          },
+          "persona_id": {
+            "type": "string",
+            "pattern": "^P[0-9]{3}$",
+            "description": "Closest match in playtest/personas/persona_bank_v1.json, e.g. P014."
           }
         }
       }

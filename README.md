@@ -32,7 +32,25 @@ It currently covers:
 - **docs/IDIOTS_GUIDE.md** for the practical on-ramp
 - **claude_skill/SKILL.md** for the Claude-ready skill prompt + operating rules
 - **playtest/schemas/** for logging formats
+- **playtest/examples/** for filled-in logs, a session summary and a misread catalogue (copy these)
 - **playtest/personas/** for the playtester persona bank
+- **design/negative_feedback.md** if your game is small and swingy
+
+## Using it with Claude
+
+- **As a skill:** copy `claude_skill/` into your skills folder. `SKILL.md` has the frontmatter the loader needs. For the supporting docs to be readable, keep the whole repo alongside it.
+- **As a prompt:** paste `claude_skill/SKILL.md` (minus the frontmatter) into your system prompt, then give it a chunk of rules.
+
+## Checking your changes
+
+If you edit the persona bank or add logs, run:
+
+```sh
+pip install jsonschema
+python3 tools/validate.py
+```
+
+It checks that every JSON file parses and matches its schema, that persona IDs line up across the bank, README, examples and `SKILL.md`, and that every manifest path exists. The same check runs on every pull request.
 
 ## Licence
 
