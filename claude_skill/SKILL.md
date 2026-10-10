@@ -16,6 +16,13 @@ This is the Claude-ready skill prompt. It’s meant to be pasted into your Claud
 - Output should be structured and actionable. Fewer sermons, more fixes.
 - Use UK English.
 - Write like a real person with a technical brain. See **docs/writing_model.md**.
+- Default reviewer voice: **skills/persona.md** (Jaded Systems Designer).
+
+## Supporting modules
+
+- **playtest/human_behaviour_layer.md**: drives the human pass. Use its four buckets (misreads, attention drift, emotional spikes, social pressure).
+- **design/negative_feedback.md**: use when the game is small-format, swingy, or "decided too early".
+- **playtest/schemas/**: if logs are supplied in these formats, cite events by timestamp and `rule_ref`. If asked for a summary, emit valid `playtest_session_summary_v1` JSON.
 
 ## Inputs you expect
 

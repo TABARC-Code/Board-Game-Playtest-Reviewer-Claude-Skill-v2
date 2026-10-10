@@ -276,7 +276,7 @@
       "hates_or_struggles": [
         "random events",
         "unclear upkeep",
-	"unclear phrasing",
+        "unclear phrasing",
         "loose tech timing"
       ],
       "table_behaviours": [
@@ -349,7 +349,7 @@
       ],
       "table_behaviours": [
         "argues line-of-sight",
-	"rules lawyer",
+        "rules lawyer",
         "quotes precedent",
         "tests corner cases"
       ],
@@ -534,7 +534,7 @@
     },
     {
       "persona_id": "P017",
-      "label": "AP Maximalist P017",
+      "label": "AP Maximalist",
       "archetype": "board gamer (economic)",
       "experience_band": "expert",
       "likes": [
@@ -566,7 +566,7 @@
     },
     {
       "persona_id": "P018",
-      "label": "Abstract Purist P018",
+      "label": "Abstract Purist",
       "archetype": "board gamer (heavy euro)",
       "experience_band": "expert",
       "likes": [
@@ -598,7 +598,7 @@
     },
     {
       "persona_id": "P019",
-      "label": "Meta-Chaser P019",
+      "label": "Meta-Chaser",
       "archetype": "board gamer (4X-focused)",
       "experience_band": "expert",
       "likes": [
@@ -630,7 +630,7 @@
     },
     {
       "persona_id": "P020",
-      "label": "Speedrunner P020",
+      "label": "Speedrunner",
       "archetype": "board gamer (4X-focused)",
       "experience_band": "expert",
       "likes": [
@@ -662,7 +662,7 @@
     },
     {
       "persona_id": "P021",
-      "label": "Salty Loser P021",
+      "label": "Salty Loser",
       "archetype": "board gamer (18xx-focused)",
       "experience_band": "regular",
       "likes": [
@@ -694,7 +694,7 @@
     },
     {
       "persona_id": "P022",
-      "label": "Euro Collector P022",
+      "label": "Euro Collector",
       "archetype": "wargamer (skirmish)",
       "experience_band": "expert",
       "likes": [
@@ -726,7 +726,7 @@
     },
     {
       "persona_id": "P023",
-      "label": "Narrative Campaign GM P023",
+      "label": "Narrative Campaign GM",
       "archetype": "board gamer (deckbuilder)",
       "experience_band": "regular",
       "likes": [
@@ -758,7 +758,7 @@
     },
     {
       "persona_id": "P024",
-      "label": "Salty Loser P024",
+      "label": "Salty Loser",
       "archetype": "board gamer (family/gateway)",
       "experience_band": "new",
       "likes": [
@@ -790,7 +790,7 @@
     },
     {
       "persona_id": "P025",
-      "label": "Narrative Campaign GM P025",
+      "label": "Narrative Campaign GM",
       "archetype": "board gamer (4X-focused)",
       "experience_band": "regular",
       "likes": [
@@ -822,7 +822,7 @@
     },
     {
       "persona_id": "P026",
-      "label": "Euro Collector P026",
+      "label": "Euro Collector",
       "archetype": "board gamer (modern euro)",
       "experience_band": "regular",
       "likes": [
@@ -854,7 +854,7 @@
     },
     {
       "persona_id": "P027",
-      "label": "Euro Collector P027",
+      "label": "Euro Collector",
       "archetype": "wargamer (historical)",
       "experience_band": "regular",
       "likes": [
@@ -866,7 +866,7 @@
         "hidden scoring",
         "component clutter",
         "downtime",
-	"Rules densty causing delays between rounds", 
+        "rules density causing delays between rounds"
       ],
       "table_behaviours": [
         "checks rules mid-turn",
@@ -887,7 +887,7 @@
     },
     {
       "persona_id": "P028",
-      "label": "Meta-Chaser P028",
+      "label": "Meta-Chaser",
       "archetype": "board gamer (family/gateway)",
       "experience_band": "new",
       "likes": [
@@ -919,7 +919,7 @@
     },
     {
       "persona_id": "P029",
-      "label": "Solo Rules Auditor P029",
+      "label": "Solo Rules Auditor",
       "archetype": "board gamer (social deduction)",
       "experience_band": "regular",
       "likes": [
@@ -951,7 +951,7 @@
     },
     {
       "persona_id": "P030",
-      "label": "Theme-First Immersion P030",
+      "label": "Theme-First Immersion",
       "archetype": "board gamer (strategy/abstract)",
       "experience_band": "regular",
       "likes": [
@@ -983,7 +983,7 @@
     },
     {
       "persona_id": "P031",
-      "label": "Streamer Brain P031",
+      "label": "Streamer Brain",
       "archetype": "board gamer (family/gateway)",
       "experience_band": "new",
       "likes": [
@@ -1015,7 +1015,7 @@
     },
     {
       "persona_id": "P032",
-      "label": "Negotiation Monster P032",
+      "label": "Negotiation Monster",
       "archetype": "wargamer (skirmish)",
       "experience_band": "expert",
       "likes": [
@@ -1047,7 +1047,7 @@
     },
     {
       "persona_id": "P033",
-      "label": "Speedrunner P033",
+      "label": "Speedrunner",
       "archetype": "board gamer (economic)",
       "experience_band": "regular",
       "likes": [
@@ -1079,7 +1079,7 @@
     },
     {
       "persona_id": "P034",
-      "label": "Rulebook Skimmer P034",
+      "label": "Rulebook Skimmer",
       "archetype": "wargamer (competitive)",
       "experience_band": "expert",
       "likes": [
@@ -1111,7 +1111,7 @@
     },
     {
       "persona_id": "P035",
-      "label": "Rulebook Skimmer P035",
+      "label": "Rulebook Skimmer",
       "archetype": "board gamer (economic)",
       "experience_band": "expert",
       "likes": [
@@ -1143,7 +1143,7 @@
     },
     {
       "persona_id": "P036",
-      "label": "TTRPG Convert P036",
+      "label": "TTRPG Convert",
       "archetype": "board gamer (card-driven / CCG-trained)",
       "experience_band": "regular",
       "likes": [
@@ -1175,7 +1175,7 @@
     },
     {
       "persona_id": "P037",
-      "label": "Solo Rules Auditor P037",
+      "label": "Solo Rules Auditor",
       "archetype": "board gamer (deckbuilder)",
       "experience_band": "regular",
       "likes": [
@@ -1207,7 +1207,7 @@
     },
     {
       "persona_id": "P038",
-      "label": "TTRPG Convert P038",
+      "label": "TTRPG Convert",
       "archetype": "board gamer (family/gateway)",
       "experience_band": "casual",
       "likes": [
@@ -1239,7 +1239,7 @@
     },
     {
       "persona_id": "P039",
-      "label": "Old Hand, Low Patience P039",
+      "label": "Old Hand, Low Patience",
       "archetype": "board gamer (18xx-focused)",
       "experience_band": "expert",
       "likes": [
@@ -1271,7 +1271,7 @@
     },
     {
       "persona_id": "P040",
-      "label": "Speedrunner P040",
+      "label": "Speedrunner",
       "archetype": "board gamer (18xx-focused)",
       "experience_band": "expert",
       "likes": [
@@ -1303,7 +1303,7 @@
     },
     {
       "persona_id": "P041",
-      "label": "Speedrunner P041",
+      "label": "Speedrunner",
       "archetype": "board gamer (18xx-focused)",
       "experience_band": "regular",
       "likes": [
@@ -1335,7 +1335,7 @@
     },
     {
       "persona_id": "P042",
-      "label": "Component Confuser P042",
+      "label": "Component Confuser",
       "archetype": "board gamer (deckbuilder)",
       "experience_band": "regular",
       "likes": [
@@ -1367,7 +1367,7 @@
     },
     {
       "persona_id": "P043",
-      "label": "Dice Goblin P043",
+      "label": "Dice Goblin",
       "archetype": "wargamer (skirmish)",
       "experience_band": "expert",
       "likes": [
@@ -1399,7 +1399,7 @@
     },
     {
       "persona_id": "P044",
-      "label": "Narrative Campaign GM P044",
+      "label": "Narrative Campaign GM",
       "archetype": "board gamer (4X-focused)",
       "experience_band": "regular",
       "likes": [
@@ -1431,7 +1431,7 @@
     },
     {
       "persona_id": "P045",
-      "label": "Scenario Designer P045",
+      "label": "Scenario Designer",
       "archetype": "board gamer (18xx-focused)",
       "experience_band": "regular",
       "likes": [
@@ -1463,7 +1463,7 @@
     },
     {
       "persona_id": "P046",
-      "label": "Spreadsheet Enjoyer P046",
+      "label": "Spreadsheet Enjoyer",
       "archetype": "board gamer (18xx-focused)",
       "experience_band": "expert",
       "likes": [
@@ -1495,7 +1495,7 @@
     },
     {
       "persona_id": "P047",
-      "label": "Old Hand, Low Patience P047",
+      "label": "Old Hand, Low Patience",
       "archetype": "wargamer (competitive)",
       "experience_band": "expert",
       "likes": [
@@ -1527,7 +1527,7 @@
     },
     {
       "persona_id": "P048",
-      "label": "Narrative Campaign GM P048",
+      "label": "Narrative Campaign GM",
       "archetype": "board gamer (18xx-focused)",
       "experience_band": "regular",
       "likes": [
@@ -1559,7 +1559,7 @@
     },
     {
       "persona_id": "P049",
-      "label": "Edge-Case Hunter P049",
+      "label": "Edge-Case Hunter",
       "archetype": "wargamer (competitive)",
       "experience_band": "expert",
       "likes": [
@@ -1591,7 +1591,7 @@
     },
     {
       "persona_id": "P050",
-      "label": "Newbie With Confidence P050",
+      "label": "Newbie With Confidence",
       "archetype": "board gamer (strategy/abstract)",
       "experience_band": "regular",
       "likes": [
@@ -1623,7 +1623,7 @@
     },
     {
       "persona_id": "P051",
-      "label": "Chaos Gremlin P051",
+      "label": "Chaos Gremlin",
       "archetype": "board gamer (4X-focused)",
       "experience_band": "expert",
       "likes": [
@@ -1655,7 +1655,7 @@
     },
     {
       "persona_id": "P052",
-      "label": "Edge-Case Hunter P052",
+      "label": "Edge-Case Hunter",
       "archetype": "wargamer (competitive)",
       "experience_band": "expert",
       "likes": [
@@ -1687,7 +1687,7 @@
     },
     {
       "persona_id": "P053",
-      "label": "Quiet Optimiser P053",
+      "label": "Quiet Optimiser",
       "archetype": "board gamer (family/gateway)",
       "experience_band": "casual",
       "likes": [
@@ -1719,7 +1719,7 @@
     },
     {
       "persona_id": "P054",
-      "label": "Euro Collector P054",
+      "label": "Euro Collector",
       "archetype": "board gamer (strategy/abstract)",
       "experience_band": "expert",
       "likes": [
@@ -1751,7 +1751,7 @@
     },
     {
       "persona_id": "P055",
-      "label": "Speedrunner P055",
+      "label": "Speedrunner",
       "archetype": "board gamer (strategy/abstract)",
       "experience_band": "expert",
       "likes": [
@@ -1783,7 +1783,7 @@
     },
     {
       "persona_id": "P056",
-      "label": "Boardgame Caf\u00e9 Staff P056",
+      "label": "Boardgame Café Staff",
       "archetype": "board gamer (card-driven / CCG-trained)",
       "experience_band": "regular",
       "likes": [
@@ -1815,7 +1815,7 @@
     },
     {
       "persona_id": "P057",
-      "label": "Euro Collector P057",
+      "label": "Euro Collector",
       "archetype": "wargamer (skirmish)",
       "experience_band": "regular",
       "likes": [
@@ -1847,7 +1847,7 @@
     },
     {
       "persona_id": "P058",
-      "label": "Component Confuser P058",
+      "label": "Component Confuser",
       "archetype": "board gamer (strategy/abstract)",
       "experience_band": "regular",
       "likes": [
@@ -1879,7 +1879,7 @@
     },
     {
       "persona_id": "P059",
-      "label": "Kingmaker By Accident P059",
+      "label": "Kingmaker By Accident",
       "archetype": "board gamer (economic)",
       "experience_band": "expert",
       "likes": [
@@ -1911,7 +1911,7 @@
     },
     {
       "persona_id": "P060",
-      "label": "Edge-Case Hunter P060",
+      "label": "Edge-Case Hunter",
       "archetype": "wargamer (historical)",
       "experience_band": "regular",
       "likes": [
@@ -1943,7 +1943,7 @@
     },
     {
       "persona_id": "P061",
-      "label": "Spreadsheet Enjoyer P061",
+      "label": "Spreadsheet Enjoyer",
       "archetype": "board gamer (4X-focused)",
       "experience_band": "regular",
       "likes": [
@@ -1975,7 +1975,7 @@
     },
     {
       "persona_id": "P062",
-      "label": "Old Hand, Low Patience P062",
+      "label": "Old Hand, Low Patience",
       "archetype": "board gamer (18xx-focused)",
       "experience_band": "expert",
       "likes": [
@@ -2007,7 +2007,7 @@
     },
     {
       "persona_id": "P063",
-      "label": "Dice Goblin P063",
+      "label": "Dice Goblin",
       "archetype": "board gamer (family/gateway)",
       "experience_band": "casual",
       "likes": [
@@ -2039,7 +2039,7 @@
     },
     {
       "persona_id": "P064",
-      "label": "Meta-Chaser P064",
+      "label": "Meta-Chaser",
       "archetype": "board gamer (card-driven / CCG-trained)",
       "experience_band": "regular",
       "likes": [
@@ -2071,7 +2071,7 @@
     },
     {
       "persona_id": "P065",
-      "label": "AP Maximalist P065",
+      "label": "AP Maximalist",
       "archetype": "board gamer (heavy euro)",
       "experience_band": "expert",
       "likes": [
@@ -2103,7 +2103,7 @@
     },
     {
       "persona_id": "P066",
-      "label": "Narrative Campaign GM P066",
+      "label": "Narrative Campaign GM",
       "archetype": "wargamer (competitive)",
       "experience_band": "expert",
       "likes": [
@@ -2135,7 +2135,7 @@
     },
     {
       "persona_id": "P067",
-      "label": "Rulebook Skimmer P067",
+      "label": "Rulebook Skimmer",
       "archetype": "board gamer (4X-focused)",
       "experience_band": "expert",
       "likes": [
@@ -2167,7 +2167,7 @@
     },
     {
       "persona_id": "P068",
-      "label": "Component Confuser P068",
+      "label": "Component Confuser",
       "archetype": "board gamer (18xx-focused)",
       "experience_band": "regular",
       "likes": [
@@ -2199,7 +2199,7 @@
     },
     {
       "persona_id": "P069",
-      "label": "Rulebook Skimmer P069",
+      "label": "Rulebook Skimmer",
       "archetype": "board gamer (4X-focused)",
       "experience_band": "expert",
       "likes": [
@@ -2231,7 +2231,7 @@
     },
     {
       "persona_id": "P070",
-      "label": "Rulebook Skimmer P070",
+      "label": "Rulebook Skimmer",
       "archetype": "board gamer (deckbuilder)",
       "experience_band": "regular",
       "likes": [
@@ -2263,7 +2263,7 @@
     },
     {
       "persona_id": "P071",
-      "label": "Solo Rules Auditor P071",
+      "label": "Solo Rules Auditor",
       "archetype": "wargamer (historical)",
       "experience_band": "regular",
       "likes": [
@@ -2295,7 +2295,7 @@
     },
     {
       "persona_id": "P072",
-      "label": "Narrative Campaign GM P072",
+      "label": "Narrative Campaign GM",
       "archetype": "board gamer (4X-focused)",
       "experience_band": "regular",
       "likes": [
