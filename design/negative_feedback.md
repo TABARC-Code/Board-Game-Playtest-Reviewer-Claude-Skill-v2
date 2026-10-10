@@ -6,7 +6,7 @@ With fewer pieces, fewer turns, and tighter action economies, variance doesn’t
 
 That isn’t drama. It’s fragility.
 
-Why small games amplify volatility
+## Why small games amplify volatility
 
 In small-format systems:
 
@@ -24,7 +24,7 @@ A single spike can decide the outcome outright, rather than nudging it.
 
 This doesn’t mean small games are flawed. It means they need structural compensation.
 
-What negative feedback actually means here
+## What negative feedback actually means here
 
 Negative feedback is not “rubber-banding” in the videogame sense.
 It’s not pity bonuses or overt catch-up mechanics that announce themselves as such.
@@ -39,7 +39,7 @@ Falling behind does not immediately remove meaningful agency.
 
 The goal is not equality of outcome. It’s continued play relevance.
 
-Common failure modes in small games
+## Common failure modes in small games
 
 If a small game feels “swingy” or “decided too early”, it’s usually because one or more of these are present:
 
@@ -57,11 +57,11 @@ States flip from “fine” to “lost” with no intermediate recovery window.
 
 If you see these patterns, negative feedback is missing or too weak.
 
-Structural tools that actually work
+## Structural tools that actually work
 
 Below are structural options—things embedded in the rules, not bolted on.
 
-1. Action pressure on leaders
+### 1. Action pressure on leaders
 
 Being ahead should come with cost.
 
@@ -77,7 +77,7 @@ Not punishment. Friction.
 
 The leader should feel powerful but constrained.
 
-2. Diminishing returns on advantage
+### 2. Diminishing returns on advantage
 
 Early gains should be more valuable than late ones.
 
@@ -91,7 +91,7 @@ Control that requires spreading thin rather than piling on.
 
 If the optimal move is always “more of the same”, you’re inviting snowballs.
 
-3. Recovery windows, not recovery buttons
+### 3. Recovery windows, not recovery buttons
 
 Avoid single “catch-up” effects. They’re obvious and often resented.
 
@@ -105,7 +105,7 @@ Temporary asymmetries that reward clever play, not passive suffering.
 
 The key is choice, not charity.
 
-4. Information pressure
+### 4. Information pressure
 
 Leaders should be more predictable.
 
@@ -119,7 +119,7 @@ Intent is easier to read.
 
 This gives trailing players something to play against, even if raw power is lower.
 
-5. Time as a balancing force
+### 5. Time as a balancing force
 
 In short games especially, time itself can be feedback.
 
@@ -133,7 +133,7 @@ Actions that accelerate the end are easier when ahead—but riskier.
 
 This creates tension without extra rules overhead.
 
-What to watch for in playtests
+## What to watch for in playtests
 
 When testing small games, explicitly log:
 
@@ -147,7 +147,7 @@ Whether leaders start playing defensively rather than creatively.
 
 If players are still taking turns but no longer making decisions, negative feedback has failed.
 
-Design rule of thumb
+## Design rule of thumb
 
 In a small-format game:
 

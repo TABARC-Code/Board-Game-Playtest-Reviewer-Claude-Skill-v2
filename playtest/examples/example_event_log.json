@@ -1,0 +1,72 @@
+{
+  "schema_version": "v1",
+  "session_id": "harbour-2026-10-04-a",
+  "game_name": "Harbour Lights (example game)",
+  "rules_version": "0.3",
+  "date_utc": "2026-10-04T18:30:00Z",
+  "location": "Kitchen table, 4 players",
+  "players": [
+    { "player_id": "A", "handle": "Sam", "experience_level": "expert", "persona_id": "P005" },
+    { "player_id": "B", "handle": "Jo", "experience_level": "casual", "persona_id": "P014" },
+    { "player_id": "C", "handle": "Priya", "experience_level": "regular", "persona_id": "P004" },
+    { "player_id": "D", "handle": "Alex", "experience_level": "new", "persona_id": "P001" }
+  ],
+  "events": [
+    {
+      "t": "T+00:12:40",
+      "turn": 2,
+      "round": 1,
+      "player_id": "B",
+      "event_type": "rule_misread",
+      "summary": "Skipped attack because they hadn't moved.",
+      "rule_ref": "4.2 Actions",
+      "severity": "high",
+      "confidence": 0.9,
+      "observed_effect": "Lost a free attack; table copied the reading for two rounds.",
+      "hypothesis": "\"After moving, you may attack\" read as a precondition, not a sequence.",
+      "evidence": { "quote": "Wait, can I attack if I stayed put?" },
+      "tags": ["timing-word", "sequence-vs-condition"]
+    },
+    {
+      "t": "T+00:31:05",
+      "turn": 7,
+      "round": 2,
+      "player_id": null,
+      "event_type": "state_error",
+      "summary": "Storm token expiry forgotten; storm stayed out a full extra round.",
+      "rule_ref": "6.1 Weather",
+      "severity": "medium",
+      "confidence": 0.8,
+      "observed_effect": "Two ships blocked from port for an extra round.",
+      "hypothesis": "Expiry isn't tracked on the board; nobody owns the upkeep step.",
+      "tags": ["hidden-state", "upkeep"]
+    },
+    {
+      "t": "T+00:48:20",
+      "turn": 12,
+      "round": 3,
+      "player_id": "A",
+      "event_type": "dominant_line_emerges",
+      "summary": "Expert player hoarded cargo and sold everything in round 3; lead never closed.",
+      "rule_ref": "5.3 Market",
+      "severity": "high",
+      "confidence": 0.6,
+      "observed_effect": "Other players stopped contesting the market by round 4.",
+      "hypothesis": "Market price doesn't drop when one player sells in bulk. No diminishing returns.",
+      "tags": ["snowball", "negative-feedback-missing"]
+    },
+    {
+      "t": "T+00:52:10",
+      "turn": 13,
+      "round": 4,
+      "player_id": "D",
+      "event_type": "emotion_spike",
+      "summary": "New player visibly deflated after realising they couldn't catch up.",
+      "severity": "medium",
+      "confidence": 0.7,
+      "evidence": { "quote": "So I'm just playing for second now?" },
+      "tags": ["agency-loss"]
+    }
+  ],
+  "notes": "Example only. Shows the shape, not real data."
+}

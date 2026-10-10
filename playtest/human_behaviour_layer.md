@@ -1,4 +1,4 @@
-## Human Behaviour Layer
+# Human Behaviour Layer
 
 This module tracks how real players actually behave, not how the rules claim they behave in the designer’s head.
 
@@ -10,7 +10,7 @@ Where does the game break when humans touch it?
 
 Not because people are stupid. Because people are people.
 
-What this layer is for
+## What this layer is for
 
 Rules analysis catches contradictions on paper. Useful. Necessary.
 
@@ -24,8 +24,8 @@ what the table lets them get away with
 
 The Human Behaviour Layer maps that gap. Then it gives you fixes you can actually ship.
 
-Focus areas
-1) Misreads and assumptions
+## Focus areas
+### 1) Misreads and assumptions
 
 Misreads aren’t random. They cluster around predictable patterns:
 
@@ -44,7 +44,7 @@ If your rules say “After moving, you may attack”, half the table will interp
 
 Log it. Not as “players confused”. As: what did they do, and what phrase made them do it?
 
-2) Attention drift
+### 2) Attention drift
 
 Attention isn’t a moral quality. It’s a resource. And your rules spend it.
 
@@ -63,7 +63,7 @@ If a player must remember that two ongoing effects expire at different times—a
 
 Either way, the game state becomes a negotiated story rather than a system.
 
-3) Emotional spikes
+### 3) Emotional spikes
 
 Emotions aren’t flavour. They’re telemetry.
 
@@ -84,7 +84,7 @@ The “emotion spike” isn’t just someone being salty. It’s a signal that t
 
 Log what triggered it, and what the player thought they were entitled to.
 
-4) Social pressure at the table
+### 4) Social pressure at the table
 
 This is the part designers often pretend doesn’t exist. It exists anyway.
 
@@ -105,16 +105,16 @@ A negotiation rule that technically allows any deal may, in practice, become: �
 
 The Human Behaviour Layer logs the actual incentives: who gets punished socially, not just mechanically.
 
-How to use this layer during playtests
-Step 1: Observe like a journalist, not a judge
+## How to use this layer during playtests
+### Step 1: Observe like a journalist, not a judge
 
 Write down what happened. The literal action. The phrase someone pointed at. The moment everyone stopped smiling.
 
-Step 2: Classify the event
+### Step 2: Classify the event
 
 Use one of the four buckets above. Don’t overthink it.
 
-Step 3: Capture the “why”, lightly
+### Step 3: Capture the “why”, lightly
 
 A short hypothesis is enough:
 
@@ -124,13 +124,13 @@ A short hypothesis is enough:
 
 “That crit felt like theft because it reversed 20 minutes of setup.”
 
-Step 4: Patch the artefact, not the player
+### Step 4: Patch the artefact, not the player
 
 Fix the sentence. Add a tracker. Move the reminder onto the component. Change the timing word.
 
 If your solution is “players should pay more attention”, your solution is imaginary.
 
-Output expectations for reviewers using this layer
+## Output expectations for reviewers using this layer
 
 When reporting, the reviewer should produce:
 

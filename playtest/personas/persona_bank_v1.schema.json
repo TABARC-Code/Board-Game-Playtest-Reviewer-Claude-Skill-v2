@@ -48,7 +48,15 @@
             "type": "string"
           },
           "experience_band": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "never played",
+              "new",
+              "casual",
+              "regular",
+              "expert"
+            ],
+            "description": "Rough hobby experience."
           },
           "likes": {
             "type": "array",
@@ -89,22 +97,87 @@
             ]
           },
           "conflict_style": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "avoidant",
+              "neutral",
+              "social",
+              "competitive",
+              "dominating",
+              "argumentative"
+            ],
+            "description": "How they handle direct interaction and disputes."
           },
           "analysis_style": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "naive",
+              "intuitive",
+              "mixed",
+              "narrative",
+              "tactical",
+              "systematic",
+              "procedural",
+              "analytical",
+              "probabilistic",
+              "adversarial",
+              "ux"
+            ],
+            "description": "How they reason about rules and choices."
           },
           "attention_profile": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "fragile",
+              "spiky",
+              "variable",
+              "steady",
+              "sticky",
+              "impatient"
+            ],
+            "description": "fragile: drifts easily; spiky: engaged in bursts; sticky: locks on and won't let go; impatient: wants the next thing now."
           },
           "feedback_style": {
-            "type": "string"
+            "type": "string",
+            "enum": [
+              "honest",
+              "vibes-first",
+              "practical",
+              "comparative",
+              "blunt",
+              "surgical",
+              "pedantic",
+              "legalistic"
+            ],
+            "description": "What their post-game feedback sounds like."
           },
           "red_flags_to_watch": {
             "type": "array",
             "items": {
               "type": "string"
             }
+          },
+          "breaks_on": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Rule structures or wording this persona reliably breaks. The main input for a persona pass."
+          },
+          "review_questions": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Questions a reviewer should answer when simulating this persona."
+          },
+          "sample_quote": {
+            "type": "string",
+            "description": "A line you'd hear from them at the table."
+          },
+          "use_when": {
+            "type": "string",
+            "description": "Which games or review passes this persona is worth including in."
           }
         }
       }

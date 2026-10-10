@@ -2,15 +2,18 @@
   "skill_name": "Board Game Playtest Reviewer",
   "provider": "Claude Skill",
   "maintainer": "Tabarc-Code",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "status": "work_in_progress",
   "entrypoint": "SKILL.md",
   "assets": {
     "writing_doctrine": "../docs/writing_model.md",
     "default_persona": "../skills/persona.md",
+    "default_persona_schema": "../skills/personas/jaded_systems_designer_v1.schema.json",
+    "human_behaviour_layer": "../playtest/human_behaviour_layer.md",
+    "negative_feedback": "../design/negative_feedback.md",
     "playtest_schemas": "../playtest/schemas/",
     "persona_bank": "../playtest/personas/persona_bank_v1.json",
-    "Personas": "../jaded_systems_designer_v1.schema.json",
+    "persona_bank_schema": "../playtest/personas/persona_bank_v1.schema.json",
     "branding": "../.branding/"
   }
 }

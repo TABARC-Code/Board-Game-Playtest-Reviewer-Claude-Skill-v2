@@ -2,7 +2,7 @@
   "schema_version": "v1",
   "count": 72,
   "maintainer": "Tabarc-Code",
-  "notes": "WIP persona bank. Keep adding personas that match your actual players, not your imaginary audience.",
+  "notes": "Playtester persona bank. Use breaks_on and review_questions when simulating a persona; keep adding personas that match your actual players, not your imaginary audience.",
   "personas": [
     {
       "persona_id": "P001",
@@ -36,7 +36,21 @@
         "drops core rules mid-game",
         "plays by vibe"
       ],
-      "red_flags_to_watch": []
+      "red_flags_to_watch": [
+        "first turn needs more than one decision",
+        "win condition not visible on the table"
+      ],
+      "breaks_on": [
+        "undefined jargon on first use",
+        "rules that only make sense after reading a later section",
+        "choices with no visible consequence"
+      ],
+      "review_questions": [
+        "Could they take their first turn from the player aid alone?",
+        "Do they know how to win by the end of the teach?"
+      ],
+      "sample_quote": "Sorry, what am I trying to do again?",
+      "use_when": "Always, for any game that claims to be teachable or family-weight."
     },
     {
       "persona_id": "P002",
@@ -66,8 +80,25 @@
       "analysis_style": "mixed",
       "attention_profile": "spiky",
       "feedback_style": "vibes-first",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "likely_failure_modes": [
+        "skips upkeep steps",
+        "misses card effects printed below the fold"
+      ],
+      "red_flags_to_watch": [
+        "upkeep phase with more than three steps",
+        "effects that trigger off-turn"
+      ],
+      "breaks_on": [
+        "end-of-round upkeep lists",
+        "conditional text at the bottom of a card",
+        "off-turn triggers"
+      ],
+      "review_questions": [
+        "What happens if they forget the upkeep step entirely? Does anyone notice?",
+        "Is the important card text in the first line?"
+      ],
+      "sample_quote": "Oh, was I meant to do something at the end of the round?",
+      "use_when": "Light and mid-weight games aimed at the general hobby market."
     },
     {
       "persona_id": "P003",
@@ -97,8 +128,25 @@
       "analysis_style": "naive",
       "attention_profile": "spiky",
       "feedback_style": "honest",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "likely_failure_modes": [
+        "house-rules away anything slow",
+        "misses quiet scoring conditions"
+      ],
+      "red_flags_to_watch": [
+        "silent calculation phases",
+        "rules that must be read aloud mid-game"
+      ],
+      "breaks_on": [
+        "simultaneous secret planning with no timer",
+        "scoring that happens off-screen",
+        "long resolution chains"
+      ],
+      "review_questions": [
+        "Where does the table go silent for more than a minute?",
+        "Which rule will they drop first to keep the energy up?"
+      ],
+      "sample_quote": "Can we just say it does that and keep going?",
+      "use_when": "Party, social and light filler games, and any game pitched as 'fun with friends'."
     },
     {
       "persona_id": "P004",
@@ -128,8 +176,25 @@
       "analysis_style": "systematic",
       "attention_profile": "steady",
       "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "likely_failure_modes": [
+        "over-trusts examples that don't cover their case",
+        "paralysed by an unclear end trigger"
+      ],
+      "red_flags_to_watch": [
+        "end trigger not stated in one place",
+        "take-that effects with no counterplay"
+      ],
+      "breaks_on": [
+        "end-game triggers spread across sections",
+        "iconography that changes meaning by context",
+        "take-that cards in an otherwise peaceful engine game"
+      ],
+      "review_questions": [
+        "Can they say exactly when the game ends?",
+        "Does any icon mean two different things?"
+      ],
+      "sample_quote": "Is there a worked example of this? I want to make sure I'm doing it right.",
+      "use_when": "Mid-weight euros and engine builders aimed at players moving up from gateway games."
     },
     {
       "persona_id": "P005",
@@ -159,11 +224,25 @@
       "analysis_style": "analytical",
       "attention_profile": "sticky",
       "feedback_style": "surgical",
-      "likely_failure_modes": [],
+      "likely_failure_modes": [
+        "analysis paralysis slows the whole table",
+        "finds the optimal line and stops exploring"
+      ],
       "red_flags_to_watch": [
         "timing windows unclear",
         "action economy leaks"
-      ]
+      ],
+      "breaks_on": [
+        "actions whose value is unclear until later",
+        "ambiguous ordering inside a phase",
+        "free actions with no limit"
+      ],
+      "review_questions": [
+        "Is there a free or cheap action they can chain indefinitely?",
+        "How long is their worst turn, and is that the game's fault?"
+      ],
+      "sample_quote": "Hang on, let me count this out again.",
+      "use_when": "Heavy euros, worker placement, and anything with a tight action economy."
     },
     {
       "persona_id": "P006",
@@ -193,11 +272,25 @@
       "analysis_style": "analytical",
       "attention_profile": "steady",
       "feedback_style": "legalistic",
-      "likely_failure_modes": [],
+      "likely_failure_modes": [
+        "exploits soft money rules",
+        "dominates auctions against weaker players"
+      ],
       "red_flags_to_watch": [
         "ambiguous payout timing",
         "unclear share limits"
-      ]
+      ],
+      "breaks_on": [
+        "payouts without a stated order",
+        "bank-breaking or end-of-money edge cases",
+        "auctions without tie-break rules"
+      ],
+      "review_questions": [
+        "What happens when the bank runs out mid-payout?",
+        "Who wins a tied bid?"
+      ],
+      "sample_quote": "Does the dividend pay before or after the price moves? It matters.",
+      "use_when": "Economic, stock, auction and route-building games."
     },
     {
       "persona_id": "P007",
@@ -227,8 +320,25 @@
       "analysis_style": "systematic",
       "attention_profile": "steady",
       "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "likely_failure_modes": [
+        "stalls on an unclear private company or special power",
+        "assumes examples are exhaustive"
+      ],
+      "red_flags_to_watch": [
+        "special powers explained only on the component",
+        "bank timing unclear"
+      ],
+      "breaks_on": [
+        "special-case components with no rulebook entry",
+        "examples that skip a step",
+        "silent defaults"
+      ],
+      "review_questions": [
+        "Is every special power explained somewhere they can look it up?",
+        "Does each example show every step?"
+      ],
+      "sample_quote": "I think I've got it, but can you check my maths?",
+      "use_when": "Deep economic games with a learning curve; checks whether the teach scales."
     },
     {
       "persona_id": "P008",
@@ -258,10 +368,25 @@
       "analysis_style": "narrative",
       "attention_profile": "variable",
       "feedback_style": "comparative",
-      "likely_failure_modes": [],
+      "likely_failure_modes": [
+        "turns the game into a negotiation sim the rules don't support",
+        "unenforceable deals cause rows"
+      ],
       "red_flags_to_watch": [
-        "unbounded table talk advantage"
-      ]
+        "unbounded table talk advantage",
+        "no rule on whether deals are binding"
+      ],
+      "breaks_on": [
+        "silence on binding vs non-binding deals",
+        "trading rules with no limits",
+        "hidden information that can be 'shown' to an ally"
+      ],
+      "review_questions": [
+        "Are deals binding? Does the rulebook say so?",
+        "Can they show their hand to an ally?"
+      ],
+      "sample_quote": "Let's make a deal: I leave your border alone for two turns.",
+      "use_when": "Multiplayer conflict, area control, 4X and any game with open trading."
     },
     {
       "persona_id": "P009",
@@ -276,7 +401,7 @@
       "hates_or_struggles": [
         "random events",
         "unclear upkeep",
-	"unclear phrasing",
+        "unclear phrasing",
         "loose tech timing"
       ],
       "table_behaviours": [
@@ -292,11 +417,25 @@
       "analysis_style": "analytical",
       "attention_profile": "steady",
       "feedback_style": "surgical",
-      "likely_failure_modes": [],
+      "likely_failure_modes": [
+        "snowballs past the table",
+        "spends five minutes on upkeep maths"
+      ],
       "red_flags_to_watch": [
         "runaway leader loops",
         "unbounded compounding"
-      ]
+      ],
+      "breaks_on": [
+        "uncapped compounding income",
+        "upkeep that scales with empire size",
+        "tech timing without a fixed window"
+      ],
+      "review_questions": [
+        "Does their round-3 lead ever close?",
+        "How much bookkeeping does their position need by the last round?"
+      ],
+      "sample_quote": "If I take this now, I'm two engines ahead by turn six.",
+      "use_when": "4X, civ and long-arc economic games; snowball checks."
     },
     {
       "persona_id": "P010",
@@ -326,11 +465,25 @@
       "analysis_style": "probabilistic",
       "attention_profile": "steady",
       "feedback_style": "surgical",
-      "likely_failure_modes": [],
+      "likely_failure_modes": [
+        "finds an infinite loop",
+        "argues priority with players who don't know the term"
+      ],
       "red_flags_to_watch": [
         "priority windows unclear",
         "loop escape clause missing"
-      ]
+      ],
+      "breaks_on": [
+        "\"when\" vs \"after\" vs \"instead\" timing",
+        "triggered abilities with no stack or order",
+        "effects that copy or repeat effects"
+      ],
+      "review_questions": [
+        "Can two cards trigger each other forever?",
+        "Who resolves first when both players trigger at once?"
+      ],
+      "sample_quote": "In response to that, I play this. Does it fizzle?",
+      "use_when": "Card-driven, CCG/LCG-style, and anything with reactions or interrupts."
     },
     {
       "persona_id": "P011",
@@ -349,7 +502,7 @@
       ],
       "table_behaviours": [
         "argues line-of-sight",
-	"rules lawyer",
+        "rules lawyer",
         "quotes precedent",
         "tests corner cases"
       ],
@@ -358,11 +511,28 @@
       ],
       "rules_tolerance": "high",
       "conflict_style": "argumentative",
-      "analysis_style": "systems",
+      "analysis_style": "systematic",
       "attention_profile": "steady",
-      "feedback_style": "precise",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "surgical",
+      "likely_failure_modes": [
+        "stops the game to argue measurement",
+        "plays the simulation, not the rules"
+      ],
+      "red_flags_to_watch": [
+        "line of sight undefined at edges",
+        "measurement conventions missing"
+      ],
+      "breaks_on": [
+        "line-of-sight with no corner or edge rule",
+        "terrain without defined effect",
+        "abstractions that contradict history"
+      ],
+      "review_questions": [
+        "Is line of sight defined for the corner cases?",
+        "Does any rule produce a historically absurd result?"
+      ],
+      "sample_quote": "Base to base or centre to centre? The rules don't say.",
+      "use_when": "Historical and simulation wargames."
     },
     {
       "persona_id": "P012",
@@ -392,11 +562,25 @@
       "analysis_style": "adversarial",
       "attention_profile": "impatient",
       "feedback_style": "blunt",
-      "likely_failure_modes": [],
+      "likely_failure_modes": [
+        "finds and plays the dominant list",
+        "wins on a rule others didn't know"
+      ],
       "red_flags_to_watch": [
         "first-turn advantage",
         "dominant list paths"
-      ]
+      ],
+      "breaks_on": [
+        "\"spirit of the rules\" clauses",
+        "anything a judge would have to interpret",
+        "scenarios with an unanswered first-player question"
+      ],
+      "review_questions": [
+        "What does the win rate look like for whoever goes first?",
+        "Is there one list or build that beats everything?"
+      ],
+      "sample_quote": "If it's not written down, it's legal.",
+      "use_when": "Competitive and tournament play, organised play kits, and balance passes."
     },
     {
       "persona_id": "P013",
@@ -426,10 +610,24 @@
       "analysis_style": "analytical",
       "attention_profile": "steady",
       "feedback_style": "blunt",
-      "likely_failure_modes": [],
+      "likely_failure_modes": [
+        "disengages when luck decides",
+        "treats catch-up rules as charity"
+      ],
       "red_flags_to_watch": [
         "variance masquerading as depth"
-      ]
+      ],
+      "breaks_on": [
+        "dice deciding high-stakes outcomes",
+        "hidden information with no deduction path",
+        "catch-up mechanics that ignore skill"
+      ],
+      "review_questions": [
+        "Can a better player reliably win?",
+        "Where does randomness override a decision?"
+      ],
+      "sample_quote": "So I played better and still lost on a roll?",
+      "use_when": "Two-player and abstract-adjacent games; any game claiming to be skill-based."
     },
     {
       "persona_id": "P014",
@@ -459,11 +657,25 @@
       "analysis_style": "naive",
       "attention_profile": "fragile",
       "feedback_style": "honest",
-      "likely_failure_modes": [],
+      "likely_failure_modes": [
+        "plays a guessed version of the rules",
+        "never learns the exception that matters"
+      ],
       "red_flags_to_watch": [
         "rulebook dependency",
         "no quick reference"
-      ]
+      ],
+      "breaks_on": [
+        "rules that exist only in the rulebook, not on components",
+        "exceptions with no reminder",
+        "player aids that skip steps"
+      ],
+      "review_questions": [
+        "Could the game be played correctly from the components and player aid alone?",
+        "Which rule will they never learn?"
+      ],
+      "sample_quote": "Just tell me what I can do this turn.",
+      "use_when": "Always. Most tables have one."
     },
     {
       "persona_id": "P015",
@@ -493,11 +705,25 @@
       "analysis_style": "ux",
       "attention_profile": "steady",
       "feedback_style": "practical",
-      "likely_failure_modes": [],
+      "likely_failure_modes": [
+        "can't distinguish components under poor light",
+        "stalls on dense reference text"
+      ],
       "red_flags_to_watch": [
         "colour dependency",
         "hidden state in art"
-      ]
+      ],
+      "breaks_on": [
+        "colour-only distinctions",
+        "small print on cards",
+        "icons with no text fallback"
+      ],
+      "review_questions": [
+        "Does every colour-coded element have a second cue (shape, icon, text)?",
+        "Is any game state shown only in artwork?"
+      ],
+      "sample_quote": "Is that red or orange? And what does that little icon mean?",
+      "use_when": "Every game. Pair with P048, P050 and P072 for a full accessibility pass."
     },
     {
       "persona_id": "P016",
@@ -526,335 +752,509 @@
       "conflict_style": "dominating",
       "analysis_style": "procedural",
       "attention_profile": "sticky",
-      "feedback_style": "confident",
-      "likely_failure_modes": [],
+      "feedback_style": "blunt",
+      "likely_failure_modes": [
+        "plays everyone else's turn",
+        "makes the co-op a solo game"
+      ],
       "red_flags_to_watch": [
         "quarterbacking incentives"
-      ]
+      ],
+      "breaks_on": [
+        "fully open information in co-ops",
+        "no limit on table talk",
+        "no per-player hidden responsibility"
+      ],
+      "review_questions": [
+        "Can one player make every decision?",
+        "What does each player know that others don't?"
+      ],
+      "sample_quote": "Okay, here's what everyone should do this round.",
+      "use_when": "Co-operative and team games."
     },
     {
       "persona_id": "P017",
-      "label": "AP Maximalist P017",
-      "archetype": "board gamer (economic)",
+      "label": "Analysis Paralysis Maximalist",
+      "archetype": "board gamer (heavy euro)",
       "experience_band": "expert",
       "likes": [
-        "economic planning",
-        "low downtime",
-        "clean teaches"
+        "perfect-information optimisation",
+        "big decision spaces",
+        "long-term planning"
       ],
       "hates_or_struggles": [
-        "alpha strikes",
-        "fiddly upkeep",
-        "mathy upkeep"
+        "being rushed",
+        "hidden information that makes planning pointless",
+        "turn timers"
       ],
       "table_behaviours": [
-        "helpfully sabotages without noticing",
-        "forgets triggers",
-        "tunnels on one plan"
+        "recalculates every option before acting",
+        "asks others to wait 'just a second'",
+        "undoes moves mentally"
       ],
       "play_goals": [
-        "wants speed",
-        "wants fairness"
+        "wants to find the best move every turn"
       ],
-      "rules_tolerance": "medium",
-      "conflict_style": "argumentative",
-      "analysis_style": "probabilistic",
-      "attention_profile": "steady",
-      "feedback_style": "vibes-first",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "analytical",
+      "attention_profile": "sticky",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [
+        "single turns longer than the rest of the table's combined",
+        "other players disengage during their turn"
+      ],
+      "red_flags_to_watch": [
+        "decision space grows each round",
+        "no way to plan during others' turns"
+      ],
+      "breaks_on": [
+        "menus with ten or more equally viable actions",
+        "decisions that can't be planned until your turn starts",
+        "late-game turns that open more options than early ones"
+      ],
+      "review_questions": [
+        "What's the longest turn they'll take, and when in the game is it?",
+        "Can they plan during other players' turns, or does the board change too much?"
+      ],
+      "sample_quote": "Sorry, nearly there. Just checking one more option.",
+      "use_when": "Any game with open action menus or long final rounds; downtime checks."
     },
     {
       "persona_id": "P018",
-      "label": "Abstract Purist P018",
-      "archetype": "board gamer (heavy euro)",
+      "label": "Abstract Purist",
+      "archetype": "board gamer (abstract / strategy)",
       "experience_band": "expert",
       "likes": [
-        "fair missions",
-        "economic planning",
-        "meaningful choices"
+        "minimal rules",
+        "emergent depth",
+        "symmetrical starts"
       ],
       "hates_or_struggles": [
-        "alpha strikes",
-        "keyword soup",
-        "fiddly upkeep"
+        "theme that adds rules",
+        "special cases",
+        "luck"
       ],
       "table_behaviours": [
-        "talks a lot at the table",
-        "doesn't like being targeted",
-        "checks rules mid-turn"
+        "strips games to their core",
+        "questions every exception",
+        "plays the same opening until it's solved"
       ],
       "play_goals": [
-        "wants depth",
-        "wants big moments"
+        "wants depth from few rules"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "dominating",
-      "analysis_style": "adversarial",
-      "attention_profile": "spiky",
-      "feedback_style": "vibes-first",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "medium",
+      "conflict_style": "competitive",
+      "analysis_style": "analytical",
+      "attention_profile": "steady",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [
+        "dismisses thematic rules as noise and ignores them",
+        "solves the opening and gets bored"
+      ],
+      "red_flags_to_watch": [
+        "exceptions that exist only for theme",
+        "a solved or dominant opening"
+      ],
+      "breaks_on": [
+        "rules justified only by flavour",
+        "asymmetry with no compensating mechanism",
+        "exceptions that could be generalised"
+      ],
+      "review_questions": [
+        "Which rules could be cut without losing a decision?",
+        "Is there a forced or dominant opening?"
+      ],
+      "sample_quote": "Why does this need an exception? Make it a general rule.",
+      "use_when": "Any game claiming elegance or depth; rule-count audits."
     },
     {
       "persona_id": "P019",
-      "label": "Meta-Chaser P019",
-      "archetype": "board gamer (4X-focused)",
+      "label": "Meta-Chaser",
+      "archetype": "board gamer (competitive / card-driven)",
       "experience_band": "expert",
       "likes": [
-        "clear icons",
-        "clean teaches",
-        "player aids"
+        "tier lists",
+        "build-defining combos",
+        "patch notes"
       ],
       "hates_or_struggles": [
-        "alpha strikes",
-        "gotcha rules",
-        "unclear victory"
+        "balance that only exists on paper",
+        "unclear errata",
+        "slow formats"
       ],
       "table_behaviours": [
-        "checks rules mid-turn",
-        "keeps score secretly",
-        "doesn't like being targeted"
+        "reads strategy forums before playing",
+        "brings a pre-solved build",
+        "copies the current best strategy"
       ],
       "play_goals": [
-        "wants depth",
-        "wants fairness"
+        "wants to win with the strongest known line"
       ],
-      "rules_tolerance": "medium",
-      "conflict_style": "social",
-      "analysis_style": "narrative",
-      "attention_profile": "impatient",
-      "feedback_style": "honest",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "probabilistic",
+      "attention_profile": "steady",
+      "feedback_style": "comparative",
+      "likely_failure_modes": [
+        "finds and repeats a dominant strategy until the game feels solved",
+        "drags the group's play towards one line"
+      ],
+      "red_flags_to_watch": [
+        "one faction or build dominates",
+        "no counterplay to a known line"
+      ],
+      "breaks_on": [
+        "static balance with no response options",
+        "power spikes on specific cards",
+        "errata scattered across forums"
+      ],
+      "review_questions": [
+        "What's the strongest build or faction, and what beats it?",
+        "Does the game stay interesting once everyone knows the best line?"
+      ],
+      "sample_quote": "Everyone's running this faction now. It's just better.",
+      "use_when": "Games with factions, decks, builds or expansions; replay-value checks."
     },
     {
       "persona_id": "P020",
-      "label": "Speedrunner P020",
-      "archetype": "board gamer (4X-focused)",
-      "experience_band": "expert",
+      "label": "Speedrunner",
+      "archetype": "board gamer (fast play)",
+      "experience_band": "regular",
       "likes": [
-        "combo lines",
-        "fair missions",
-        "meaningful choices"
+        "snappy turns",
+        "simple bookkeeping",
+        "short games"
       ],
       "hates_or_struggles": [
-        "mathy upkeep",
-        "soft exceptions",
-        "keyword soup"
+        "fiddly upkeep",
+        "long resolution steps",
+        "waiting for slow players"
       ],
       "table_behaviours": [
-        "talks a lot at the table",
-        "pushes tempo",
-        "helpfully sabotages without noticing"
+        "takes turns instantly",
+        "skips optional steps",
+        "nudges others to hurry"
       ],
       "play_goals": [
-        "wants clarity",
-        "wants speed"
+        "wants the game to keep moving"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "competitive",
-      "analysis_style": "adversarial",
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "tactical",
       "attention_profile": "impatient",
-      "feedback_style": "honest",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "skips mandatory upkeep to save time",
+        "makes moves before others finish theirs"
+      ],
+      "red_flags_to_watch": [
+        "optional steps that are secretly important",
+        "rules that need a pause to resolve"
+      ],
+      "breaks_on": [
+        "mandatory steps that feel optional",
+        "resolution that needs everyone to stop",
+        "upkeep with no physical prompt"
+      ],
+      "review_questions": [
+        "Which mandatory step will they skip for speed?",
+        "Does play order matter enough that doing things simultaneously breaks it?"
+      ],
+      "sample_quote": "Done. Next. Whose go is it?",
+      "use_when": "Fillers and mid-weight games where pace matters; upkeep checks."
     },
     {
       "persona_id": "P021",
-      "label": "Salty Loser P021",
-      "archetype": "board gamer (18xx-focused)",
+      "label": "Salty Loser",
+      "archetype": "board gamer (competitive)",
       "experience_band": "regular",
       "likes": [
-        "deep tactics",
-        "fair missions",
-        "clean teaches"
+        "close games",
+        "visible progress",
+        "comeback chances"
       ],
       "hates_or_struggles": [
-        "soft exceptions",
-        "unclear victory",
-        "mathy upkeep"
+        "being eliminated",
+        "losing to luck",
+        "being targeted"
       ],
       "table_behaviours": [
-        "tests edge cases",
-        "forgets triggers",
-        "tunnels on one plan"
+        "blames dice or rules after losing",
+        "goes quiet when behind",
+        "rules-lawyers only when losing"
       ],
       "play_goals": [
-        "wants speed",
-        "wants a good story"
+        "wants losses to feel fair"
       ],
       "rules_tolerance": "medium",
-      "conflict_style": "avoidant",
-      "analysis_style": "probabilistic",
-      "attention_profile": "variable",
-      "feedback_style": "honest",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "conflict_style": "argumentative",
+      "analysis_style": "mixed",
+      "attention_profile": "spiky",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [
+        "disengages once behind",
+        "relitigates rulings after the fact"
+      ],
+      "red_flags_to_watch": [
+        "no path back from an early mistake",
+        "losses decided by a single roll"
+      ],
+      "breaks_on": [
+        "player elimination",
+        "early mistakes that can't be recovered",
+        "rules that let the table pile on the loser"
+      ],
+      "review_questions": [
+        "When does a trailing player realise they can't win, and what do they do next?",
+        "Which loss here will feel unfair rather than earned?"
+      ],
+      "sample_quote": "That's ridiculous. I never stood a chance.",
+      "use_when": "Competitive games with snowballs or elimination; pair with design/negative_feedback.md."
     },
     {
       "persona_id": "P022",
-      "label": "Euro Collector P022",
-      "archetype": "wargamer (skirmish)",
-      "experience_band": "expert",
+      "label": "Deluxe Component Collector",
+      "archetype": "board gamer (crowdfunding backer)",
+      "experience_band": "regular",
       "likes": [
-        "spectacle",
-        "interaction with consent",
-        "economic planning"
+        "premium components",
+        "miniatures",
+        "inserts and storage"
       ],
       "hates_or_struggles": [
-        "gotcha rules",
-        "component clutter",
-        "unclear victory"
+        "cheap cardboard",
+        "components that don't match the rules",
+        "setup with no tray"
       ],
       "table_behaviours": [
-        "helpfully sabotages without noticing",
-        "leans into diplomacy",
-        "asks for clarifications"
+        "sleeves and sorts everything",
+        "owns every expansion",
+        "notices component errors fast"
       ],
       "play_goals": [
-        "wants a good story",
-        "wants clarity"
+        "wants the game to look and feel finished"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "competitive",
+      "rules_tolerance": "medium",
+      "conflict_style": "avoidant",
       "analysis_style": "ux",
-      "attention_profile": "sticky",
-      "feedback_style": "blunt",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "attention_profile": "variable",
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "plays with mixed-edition components that conflict",
+        "spends the evening on setup"
+      ],
+      "red_flags_to_watch": [
+        "component counts that don't match the rules",
+        "deluxe parts with different text from retail"
+      ],
+      "breaks_on": [
+        "component limits not stated (\"are tokens limited?\")",
+        "upgraded parts that change rules",
+        "setup with no storage plan"
+      ],
+      "review_questions": [
+        "Are component limits stated, or will people assume they're infinite?",
+        "Does setup take longer than the first round?"
+      ],
+      "sample_quote": "Hold on, the deluxe version of this card says something different.",
+      "use_when": "Any game with lots of components or multiple editions; setup and component-limit checks."
     },
     {
       "persona_id": "P023",
-      "label": "Narrative Campaign GM P023",
-      "archetype": "board gamer (deckbuilder)",
+      "label": "Campaign Game Master",
+      "archetype": "board gamer (campaign / legacy)",
       "experience_band": "regular",
       "likes": [
-        "meaningful choices",
-        "deep tactics",
-        "strong theme"
+        "story arcs",
+        "persistent changes",
+        "scenario variety"
       ],
       "hates_or_struggles": [
-        "gotcha rules",
-        "soft exceptions",
-        "tiny print"
+        "save-state bookkeeping",
+        "unclear between-session rules",
+        "campaign-breaking choices"
       ],
       "table_behaviours": [
-        "tunnels on one plan",
-        "checks rules mid-turn",
-        "doesn't like being targeted"
+        "runs the campaign for the group",
+        "tracks state in a notebook",
+        "fudges rules to keep the story going"
       ],
       "play_goals": [
-        "wants clarity",
-        "wants depth"
+        "wants the campaign to hold together over months"
       ],
-      "rules_tolerance": "medium",
-      "conflict_style": "neutral",
-      "analysis_style": "ux",
-      "attention_profile": "variable",
-      "feedback_style": "pedantic",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "high",
+      "conflict_style": "social",
+      "analysis_style": "narrative",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "loses campaign state between sessions",
+        "fudges a rule and creates a precedent"
+      ],
+      "red_flags_to_watch": [
+        "no defined save state",
+        "choices that can brick the campaign"
+      ],
+      "breaks_on": [
+        "setup and teardown between sessions",
+        "rules that change mid-campaign without a record",
+        "branching scenarios that dead-end"
+      ],
+      "review_questions": [
+        "Can the game be packed up and resumed three weeks later without arguments?",
+        "Can a bad early choice make the campaign unwinnable?"
+      ],
+      "sample_quote": "Right, where did we leave off? Who had the relic?",
+      "use_when": "Campaign, legacy and scenario-based games."
     },
     {
       "persona_id": "P024",
-      "label": "Salty Loser P024",
-      "archetype": "board gamer (family/gateway)",
-      "experience_band": "new",
+      "label": "Family Game Parent",
+      "archetype": "board gamer (family)",
+      "experience_band": "casual",
       "likes": [
-        "player aids",
-        "meaningful choices",
-        "interaction with consent"
+        "games kids can play",
+        "short teaches",
+        "cooperative moments"
       ],
       "hates_or_struggles": [
-        "component clutter",
-        "soft exceptions",
-        "gotcha rules"
+        "reading-heavy cards",
+        "take-that that upsets children",
+        "long games"
       ],
       "table_behaviours": [
-        "asks for clarifications",
-        "leans into diplomacy",
-        "doesn't like being targeted"
+        "reads rules aloud to kids",
+        "bends rules so the youngest can play",
+        "stops for snacks and tantrums"
       ],
       "play_goals": [
-        "wants depth",
-        "wants speed"
+        "wants everyone to enjoy it and nobody to cry"
       ],
-      "rules_tolerance": "high",
+      "rules_tolerance": "low",
       "conflict_style": "avoidant",
-      "analysis_style": "naive",
-      "attention_profile": "impatient",
-      "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "analysis_style": "intuitive",
+      "attention_profile": "fragile",
+      "feedback_style": "honest",
+      "likely_failure_modes": [
+        "simplifies rules in ways that break balance",
+        "lets a child win and the game loses its point"
+      ],
+      "red_flags_to_watch": [
+        "reading required to play",
+        "direct attacks between players"
+      ],
+      "breaks_on": [
+        "text-heavy cards for young players",
+        "rules that need adult arbitration",
+        "games that can't be paused"
+      ],
+      "review_questions": [
+        "Can a parent teach this to an eight-year-old in five minutes?",
+        "What happens to the game if the youngest player gets help?"
+      ],
+      "sample_quote": "Okay, we'll say you can do that because you're new.",
+      "use_when": "Family and kid-friendly games; anything labelled 8+ or 10+."
     },
     {
       "persona_id": "P025",
-      "label": "Narrative Campaign GM P025",
-      "archetype": "board gamer (4X-focused)",
-      "experience_band": "regular",
+      "label": "Child Player, Age 8–10",
+      "archetype": "board gamer (child)",
+      "experience_band": "new",
       "likes": [
-        "strong theme",
-        "player aids",
-        "low downtime"
+        "bright components",
+        "rolling dice",
+        "big moments"
       ],
       "hates_or_struggles": [
-        "component clutter",
-        "unclear victory",
-        "mathy upkeep"
+        "waiting",
+        "reading",
+        "being knocked out early"
       ],
       "table_behaviours": [
-        "counts resources",
-        "tunnels on one plan",
-        "talks a lot at the table"
+        "fidgets during other turns",
+        "chooses by colour or picture",
+        "wants to move pieces even when it's not their turn"
       ],
       "play_goals": [
-        "wants a good story",
-        "wants big moments"
+        "wants to have fun and feel clever"
       ],
-      "rules_tolerance": "medium",
-      "conflict_style": "dominating",
-      "analysis_style": "narrative",
-      "attention_profile": "sticky",
+      "rules_tolerance": "low",
+      "conflict_style": "social",
+      "analysis_style": "naive",
+      "attention_profile": "fragile",
       "feedback_style": "honest",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "likely_failure_modes": [
+        "loses track of their own goal",
+        "takes moves that look exciting over moves that help"
+      ],
+      "red_flags_to_watch": [
+        "any downtime over a minute",
+        "rules that need reading during play"
+      ],
+      "breaks_on": [
+        "text-based decisions",
+        "abstract scoring",
+        "long waits between turns"
+      ],
+      "review_questions": [
+        "Does anything happen for them during other players' turns?",
+        "Can they play from pictures alone?"
+      ],
+      "sample_quote": "Is it my turn yet? Can I roll?",
+      "use_when": "Any game marketed to families or children."
     },
     {
       "persona_id": "P026",
-      "label": "Euro Collector P026",
-      "archetype": "board gamer (modern euro)",
-      "experience_band": "regular",
+      "label": "Competitive Teen",
+      "archetype": "board gamer (casual / video-game trained)",
+      "experience_band": "casual",
       "likes": [
-        "interaction with consent",
-        "fair missions",
-        "strong theme"
+        "fast feedback",
+        "clear power growth",
+        "winning"
       ],
       "hates_or_struggles": [
-        "keyword soup",
-        "unclear victory",
-        "fiddly upkeep"
+        "slow pacing",
+        "games that feel like homework",
+        "luck that undoes skill"
       ],
       "table_behaviours": [
-        "talks a lot at the table",
-        "plays fast and loose",
-        "tests edge cases"
+        "plays aggressively",
+        "looks for exploits like a video game glitch",
+        "argues with siblings or friends over rules"
       ],
       "play_goals": [
-        "wants a good story",
-        "wants depth"
+        "wants to beat everyone"
       ],
-      "rules_tolerance": "high",
-      "conflict_style": "neutral",
-      "analysis_style": "analytical",
-      "attention_profile": "steady",
-      "feedback_style": "honest",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "medium",
+      "conflict_style": "competitive",
+      "analysis_style": "tactical",
+      "attention_profile": "spiky",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [
+        "abuses loopholes as 'speedrun tech'",
+        "targets the weakest player"
+      ],
+      "red_flags_to_watch": [
+        "exploitable rule gaps",
+        "no protection for weaker players"
+      ],
+      "breaks_on": [
+        "loopholes in movement or action limits",
+        "rules that assume good sportsmanship",
+        "slow first rounds"
+      ],
+      "review_questions": [
+        "What loophole would they find and use every turn?",
+        "Do they have fun before the game gets going?"
+      ],
+      "sample_quote": "Wait, so if I do this, it's infinite? Sick.",
+      "use_when": "Light-to-mid competitive games aimed at younger audiences; exploit hunts."
     },
     {
       "persona_id": "P027",
-      "label": "Euro Collector P027",
+      "label": "Club Night Historical Wargamer",
       "archetype": "wargamer (historical)",
       "experience_band": "regular",
       "likes": [
@@ -866,7 +1266,7 @@
         "hidden scoring",
         "component clutter",
         "downtime",
-	"Rules densty causing delays between rounds", 
+        "rules density causing delays between rounds"
       ],
       "table_behaviours": [
         "checks rules mid-turn",
@@ -875,1455 +1275,2193 @@
       ],
       "play_goals": [
         "wants speed",
-        "wants clarity"
+        "wants clarity",
+        "wants to finish within one club evening"
       ],
       "rules_tolerance": "medium",
-      "conflict_style": "social",
-      "analysis_style": "ux",
-      "attention_profile": "variable",
-      "feedback_style": "pedantic",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "conflict_style": "avoidant",
+      "analysis_style": "systematic",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "game unfinished by closing time",
+        "end-of-round rule lookups eat the evening"
+      ],
+      "red_flags_to_watch": [
+        "end-of-round phases that need the rulebook",
+        "scenario length longer than a club slot"
+      ],
+      "breaks_on": [
+        "dense end-of-round procedures",
+        "tables that need cross-referencing",
+        "scenarios with no time estimate"
+      ],
+      "review_questions": [
+        "Can a scenario finish in a three-hour club slot, including setup?",
+        "How many rulebook lookups happen between rounds?"
+      ],
+      "sample_quote": "We've got forty minutes left. Can we finish this round?",
+      "use_when": "Wargames played at clubs or in time-boxed sessions."
     },
     {
       "persona_id": "P028",
-      "label": "Meta-Chaser P028",
-      "archetype": "board gamer (family/gateway)",
+      "label": "Overconfident Newbie",
+      "archetype": "board gamer (new to the hobby)",
       "experience_band": "new",
       "likes": [
-        "player aids",
-        "interaction with consent",
-        "strong theme"
+        "learning by doing",
+        "bold plays",
+        "feeling smart"
       ],
       "hates_or_struggles": [
-        "ambiguous timing",
-        "component clutter",
-        "downtime"
+        "being corrected",
+        "long explanations",
+        "admitting confusion"
       ],
       "table_behaviours": [
-        "counts resources",
-        "plays fast and loose",
-        "tests edge cases"
+        "says 'got it' before the teach ends",
+        "plays fast and wrong",
+        "argues a rule they invented"
       ],
       "play_goals": [
-        "wants a good story",
-        "wants fairness"
+        "wants to look like they know what they're doing"
       ],
       "rules_tolerance": "low",
       "conflict_style": "argumentative",
-      "analysis_style": "analytical",
-      "attention_profile": "variable",
+      "analysis_style": "naive",
+      "attention_profile": "spiky",
       "feedback_style": "vibes-first",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "likely_failure_modes": [
+        "plays an invented rule with total confidence",
+        "doesn't ask, so mistakes go unnoticed"
+      ],
+      "red_flags_to_watch": [
+        "rules where the intuitive reading is wrong",
+        "no visible check that a move was legal"
+      ],
+      "breaks_on": [
+        "counter-intuitive rules",
+        "terms that sound like their everyday meaning but aren't",
+        "legality that can't be checked at a glance"
+      ],
+      "review_questions": [
+        "Where does the intuitive reading differ from the actual rule?",
+        "Will an illegal move be obvious to the rest of the table?"
+      ],
+      "sample_quote": "Nah, I've got it. It's basically like Monopoly.",
+      "use_when": "Any game teaching new players; intuition-trap checks."
     },
     {
       "persona_id": "P029",
-      "label": "Solo Rules Auditor P029",
-      "archetype": "board gamer (social deduction)",
+      "label": "Solo Rules Auditor",
+      "archetype": "board gamer (solo)",
       "experience_band": "regular",
       "likes": [
-        "tight pacing",
-        "interaction with consent",
-        "clean teaches"
+        "solo modes",
+        "full rulebook reading",
+        "clean bot rules"
       ],
       "hates_or_struggles": [
-        "soft exceptions",
-        "downtime",
-        "unclear victory"
+        "solo modes bolted on as an afterthought",
+        "bot decisions that need human judgement",
+        "missing solo setup"
       ],
       "table_behaviours": [
-        "pushes tempo",
-        "forgets triggers",
-        "leans into diplomacy"
+        "reads the whole rulebook twice",
+        "plays every rule exactly",
+        "posts rules questions online"
       ],
       "play_goals": [
-        "wants depth",
-        "wants to win"
+        "wants to play correctly with nobody to ask"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "dominating",
-      "analysis_style": "systematic",
-      "attention_profile": "sticky",
-      "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "procedural",
+      "attention_profile": "steady",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [
+        "stalls with no one to ask",
+        "plays the bot wrong and gets a skewed result"
+      ],
+      "red_flags_to_watch": [
+        "bot decisions with ties",
+        "solo rules that refer to multiplayer rules ambiguously"
+      ],
+      "breaks_on": [
+        "automated opponent rules with unresolved ties",
+        "\"choose the best option\" for a bot",
+        "solo setup buried in the multiplayer rules"
+      ],
+      "review_questions": [
+        "Can the bot's every decision be made without judgement?",
+        "Could they play correctly with nobody to ask?"
+      ],
+      "sample_quote": "The bot can go left or right. The rules don't say which.",
+      "use_when": "Any game with a solo mode or automated opponent."
     },
     {
       "persona_id": "P030",
-      "label": "Theme-First Immersion P030",
-      "archetype": "board gamer (strategy/abstract)",
+      "label": "Theme-First Immersion Player",
+      "archetype": "board gamer (thematic)",
       "experience_band": "regular",
       "likes": [
-        "interaction with consent",
-        "strong theme",
-        "tight pacing"
+        "story",
+        "flavour text",
+        "mechanics that match the theme"
       ],
       "hates_or_struggles": [
-        "alpha strikes",
-        "tiny print",
-        "unclear victory"
+        "abstract scoring",
+        "rules that break the fiction",
+        "meta-gaming"
       ],
       "table_behaviours": [
-        "helpfully sabotages without noticing",
-        "forgets triggers",
-        "leans into diplomacy"
+        "narrates their turns",
+        "makes 'in character' choices",
+        "reads flavour text aloud"
       ],
       "play_goals": [
-        "wants big moments",
-        "wants depth"
+        "wants to feel the story"
       ],
       "rules_tolerance": "medium",
-      "conflict_style": "competitive",
+      "conflict_style": "social",
       "analysis_style": "narrative",
-      "attention_profile": "sticky",
-      "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "attention_profile": "variable",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [
+        "plays what makes sense in the story, not what the rules say",
+        "makes weak moves for flavour"
+      ],
+      "red_flags_to_watch": [
+        "theme implies a rule that doesn't exist",
+        "mechanics contradict the story"
+      ],
+      "breaks_on": [
+        "flavour text that sounds like rules text",
+        "mechanics that contradict the theme",
+        "rules justified only by balance"
+      ],
+      "review_questions": [
+        "Does the theme suggest a rule that isn't there?",
+        "Can flavour text be confused with rules text?"
+      ],
+      "sample_quote": "Surely my knight can climb the wall, he's a knight.",
+      "use_when": "Thematic, adventure and narrative games; flavour/rules separation checks."
     },
     {
       "persona_id": "P031",
-      "label": "Streamer Brain P031",
-      "archetype": "board gamer (family/gateway)",
-      "experience_band": "new",
+      "label": "Streamer Brain",
+      "archetype": "board gamer (content creator)",
+      "experience_band": "regular",
       "likes": [
-        "economic planning",
-        "spectacle",
-        "visible state"
+        "dramatic moments",
+        "watchable turns",
+        "big reveals"
       ],
       "hates_or_struggles": [
-        "alpha strikes",
-        "ambiguous timing",
-        "hidden scoring"
+        "long silent turns",
+        "fiddly bookkeeping on camera",
+        "anticlimactic endings"
       ],
       "table_behaviours": [
-        "counts resources",
-        "helpfully sabotages without noticing",
-        "checks rules mid-turn"
+        "plays for the audience",
+        "explains moves aloud",
+        "takes risky lines for content"
       ],
       "play_goals": [
-        "wants clarity",
-        "wants to win"
+        "wants moments worth clipping"
       ],
-      "rules_tolerance": "high",
-      "conflict_style": "avoidant",
+      "rules_tolerance": "medium",
+      "conflict_style": "social",
       "analysis_style": "narrative",
       "attention_profile": "spiky",
-      "feedback_style": "blunt",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "comparative",
+      "likely_failure_modes": [
+        "prioritises spectacle over winning, skewing playtest data",
+        "hides confusion to look competent"
+      ],
+      "red_flags_to_watch": [
+        "anticlimactic endgames",
+        "turns that can't be followed by a viewer"
+      ],
+      "breaks_on": [
+        "hidden information that's invisible to an audience",
+        "silent bookkeeping phases",
+        "endings that fizzle"
+      ],
+      "review_questions": [
+        "Can someone watching follow what just happened?",
+        "Does the game end on a high or a whimper?"
+      ],
+      "sample_quote": "Chat, watch this. This is either genius or a disaster.",
+      "use_when": "Games with marketing or streaming ambitions; pacing and climax checks."
     },
     {
       "persona_id": "P032",
-      "label": "Negotiation Monster P032",
-      "archetype": "wargamer (skirmish)",
+      "label": "Negotiation Monster",
+      "archetype": "board gamer (negotiation / political)",
       "experience_band": "expert",
       "likes": [
-        "strong theme",
-        "economic planning",
-        "clean teaches"
+        "binding deals",
+        "table talk",
+        "betrayal"
       ],
       "hates_or_struggles": [
-        "ambiguous timing",
-        "keyword soup",
-        "alpha strikes"
+        "games where talk doesn't matter",
+        "rules that ban deals",
+        "multiplayer solitaire"
       ],
       "table_behaviours": [
-        "doesn't like being targeted",
-        "pushes tempo",
-        "forgets triggers"
+        "negotiates every turn",
+        "forms coalitions against the leader",
+        "exploits unclear deal rules"
       ],
       "play_goals": [
-        "wants fairness",
-        "wants to win"
+        "wants to win through people"
       ],
       "rules_tolerance": "high",
-      "conflict_style": "competitive",
-      "analysis_style": "analytical",
+      "conflict_style": "dominating",
+      "analysis_style": "adversarial",
       "attention_profile": "steady",
-      "feedback_style": "comparative",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "surgical",
+      "likely_failure_modes": [
+        "out-talks quieter players",
+        "breaks a deal the rules didn't define as binding"
+      ],
+      "red_flags_to_watch": [
+        "no rule on deal enforcement",
+        "quiet players shut out of decisions"
+      ],
+      "breaks_on": [
+        "undefined trading or deal mechanics",
+        "rules that allow promises of future actions",
+        "no limit on table talk"
+      ],
+      "review_questions": [
+        "What can they promise, and is any of it enforceable?",
+        "Can a quiet player still compete with them?"
+      ],
+      "sample_quote": "Give me that and I'll owe you one. Trust me.",
+      "use_when": "Negotiation, trading, political and multiplayer conflict games."
     },
     {
       "persona_id": "P033",
-      "label": "Speedrunner P033",
-      "archetype": "board gamer (economic)",
+      "label": "Turn-Timer Advocate",
+      "archetype": "board gamer (casual-to-regular)",
       "experience_band": "regular",
       "likes": [
-        "combo lines",
-        "spectacle",
-        "visible state"
+        "predictable game length",
+        "brisk turns",
+        "clear end conditions"
       ],
       "hates_or_struggles": [
-        "downtime",
-        "mathy upkeep",
-        "ambiguous timing"
+        "games that overrun",
+        "analysis paralysis in others",
+        "variable game length"
       ],
       "table_behaviours": [
-        "leans into diplomacy",
-        "keeps score secretly",
-        "checks rules mid-turn"
+        "checks the clock",
+        "suggests sand timers",
+        "plans their turn early and gets restless"
       ],
       "play_goals": [
-        "wants depth",
-        "wants to win"
+        "wants the game to fit the evening"
       ],
-      "rules_tolerance": "high",
-      "conflict_style": "competitive",
-      "analysis_style": "narrative",
-      "attention_profile": "variable",
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "tactical",
+      "attention_profile": "impatient",
       "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "likely_failure_modes": [
+        "pushes others into hasty moves",
+        "abandons the game when it overruns"
+      ],
+      "red_flags_to_watch": [
+        "game length varies by more than 50%",
+        "no hard end condition"
+      ],
+      "breaks_on": [
+        "end conditions that depend on player choice",
+        "rules allowing stalling",
+        "long final rounds"
+      ],
+      "review_questions": [
+        "What's the realistic range of game length?",
+        "Can a player stall the end?"
+      ],
+      "sample_quote": "Box says 60 minutes. We're at two hours.",
+      "use_when": "Any game with a stated play time; length-variance checks."
     },
     {
       "persona_id": "P034",
-      "label": "Rulebook Skimmer P034",
-      "archetype": "wargamer (competitive)",
+      "label": "Rulebook Skimmer",
+      "archetype": "board gamer (experienced)",
       "experience_band": "expert",
       "likes": [
-        "spectacle",
-        "economic planning",
-        "interaction with consent"
+        "fast learning",
+        "familiar mechanisms",
+        "short rulebooks"
       ],
       "hates_or_struggles": [
-        "unclear victory",
-        "component clutter",
-        "alpha strikes"
+        "long rulebooks",
+        "mechanisms that look standard but aren't",
+        "dense paragraphs"
       ],
       "table_behaviours": [
-        "asks for clarifications",
-        "tunnels on one plan",
-        "plays fast and loose"
+        "reads headings and diagrams only",
+        "assumes a mechanism works like another game",
+        "teaches from memory"
       ],
       "play_goals": [
-        "wants big moments",
-        "wants a good story"
+        "wants to be playing in five minutes"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "competitive",
-      "analysis_style": "systematic",
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "tactical",
       "attention_profile": "impatient",
-      "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "blunt",
+      "likely_failure_modes": [
+        "applies another game's rules to a familiar-looking mechanism",
+        "misses the one twist that makes the game different"
+      ],
+      "red_flags_to_watch": [
+        "familiar mechanism with a non-standard twist",
+        "key rule buried mid-paragraph"
+      ],
+      "breaks_on": [
+        "important rules buried in paragraphs",
+        "standard mechanisms with non-standard details",
+        "rules missing from headings and diagrams"
+      ],
+      "review_questions": [
+        "What do they get wrong if they assume it plays like the closest well-known game?",
+        "Is every critical rule visible in a heading, diagram or bold text?"
+      ],
+      "sample_quote": "It's basically like that other game, right?",
+      "use_when": "Any game using familiar mechanisms; experienced-player teach checks."
     },
     {
       "persona_id": "P035",
-      "label": "Rulebook Skimmer P035",
-      "archetype": "board gamer (economic)",
-      "experience_band": "expert",
+      "label": "Second-Language Reader",
+      "archetype": "board gamer (English not first language)",
+      "experience_band": "regular",
       "likes": [
-        "low downtime",
-        "fair missions",
-        "economic planning"
+        "plain wording",
+        "icons",
+        "consistent terms"
       ],
       "hates_or_struggles": [
-        "alpha strikes",
-        "mathy upkeep",
-        "hidden scoring"
+        "idioms",
+        "synonyms used interchangeably",
+        "long sentences"
       ],
       "table_behaviours": [
-        "doesn't like being targeted",
-        "pushes tempo",
-        "forgets triggers"
+        "reads rules slowly and literally",
+        "uses a translation app",
+        "asks what a word means"
       ],
       "play_goals": [
-        "wants speed",
-        "wants a good story"
+        "wants to understand the rules exactly"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "competitive",
-      "analysis_style": "tactical",
-      "attention_profile": "variable",
-      "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "medium",
+      "conflict_style": "avoidant",
+      "analysis_style": "systematic",
+      "attention_profile": "steady",
+      "feedback_style": "honest",
+      "likely_failure_modes": [
+        "takes idioms literally",
+        "treats synonyms as different rules"
+      ],
+      "red_flags_to_watch": [
+        "inconsistent terminology",
+        "idioms and slang in rules text"
+      ],
+      "breaks_on": [
+        "\"discard\" vs \"remove\" vs \"return\" used loosely",
+        "idioms and phrasal verbs (\"take out\", \"knock back\")",
+        "sentences with multiple clauses"
+      ],
+      "review_questions": [
+        "Does each game term mean exactly one thing everywhere?",
+        "Would a translation app get this sentence right?"
+      ],
+      "sample_quote": "Is 'spend' and 'pay' the same thing here?",
+      "use_when": "Any game shipping internationally or likely to be translated."
     },
     {
       "persona_id": "P036",
-      "label": "TTRPG Convert P036",
-      "archetype": "board gamer (card-driven / CCG-trained)",
+      "label": "TTRPG Convert",
+      "archetype": "board gamer (roleplaying background)",
       "experience_band": "regular",
       "likes": [
-        "meaningful choices",
-        "spectacle",
-        "player aids"
+        "creative solutions",
+        "story",
+        "flexible rules"
       ],
       "hates_or_struggles": [
-        "soft exceptions",
-        "tiny print",
-        "unclear victory"
+        "rigid rules",
+        "closed action lists",
+        "no room for improvisation"
       ],
       "table_behaviours": [
-        "leans into diplomacy",
-        "plays fast and loose",
-        "checks rules mid-turn"
+        "asks 'can I try...?'",
+        "expects a GM to rule on edge cases",
+        "invents actions"
       ],
       "play_goals": [
-        "wants a good story",
-        "wants to win"
+        "wants freedom of action"
       ],
-      "rules_tolerance": "high",
-      "conflict_style": "dominating",
-      "analysis_style": "systematic",
-      "attention_profile": "impatient",
-      "feedback_style": "blunt",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "medium",
+      "conflict_style": "social",
+      "analysis_style": "narrative",
+      "attention_profile": "variable",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [
+        "tries actions the rules don't allow",
+        "expects rulings instead of rules"
+      ],
+      "red_flags_to_watch": [
+        "no closed list of legal actions",
+        "rules that need a GM to interpret"
+      ],
+      "breaks_on": [
+        "open-ended action descriptions",
+        "edge cases left to \"common sense\"",
+        "no explicit list of what you can do"
+      ],
+      "review_questions": [
+        "Is the list of legal actions closed and explicit?",
+        "Which edge case would they expect a GM to rule on?"
+      ],
+      "sample_quote": "Can I try to sneak past instead?",
+      "use_when": "Adventure, dungeon-crawl and narrative games."
     },
     {
       "persona_id": "P037",
-      "label": "Solo Rules Auditor P037",
+      "label": "Deckbuilder Optimiser",
       "archetype": "board gamer (deckbuilder)",
-      "experience_band": "regular",
+      "experience_band": "expert",
       "likes": [
-        "tight pacing",
-        "low downtime",
-        "deep tactics"
+        "deck thinning",
+        "combo engines",
+        "card efficiency"
       ],
       "hates_or_struggles": [
-        "tiny print",
-        "alpha strikes",
-        "mathy upkeep"
+        "dead cards",
+        "unclear shuffle timing",
+        "market with no refresh"
       ],
       "table_behaviours": [
-        "tests edge cases",
-        "pushes tempo",
-        "checks rules mid-turn"
+        "trashes aggressively",
+        "counts card ratios",
+        "builds a single combo"
       ],
       "play_goals": [
-        "wants a good story",
-        "wants fairness"
+        "wants an efficient engine"
       ],
-      "rules_tolerance": "medium",
-      "conflict_style": "avoidant",
-      "analysis_style": "ux",
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "probabilistic",
       "attention_profile": "steady",
-      "feedback_style": "blunt",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "surgical",
+      "likely_failure_modes": [
+        "builds a combo that ends the game early",
+        "exploits unclear reshuffle timing"
+      ],
+      "red_flags_to_watch": [
+        "thinned decks that go infinite",
+        "market that stalls"
+      ],
+      "breaks_on": [
+        "unclear reshuffle and draw-when-empty rules",
+        "cards that draw or replay cards",
+        "market refresh timing"
+      ],
+      "review_questions": [
+        "What happens when the draw pile runs out mid-effect?",
+        "Can a thin deck combo forever?"
+      ],
+      "sample_quote": "Five cards in my deck, and they all chain.",
+      "use_when": "Deckbuilders, bag-builders and engine games."
     },
     {
       "persona_id": "P038",
-      "label": "TTRPG Convert P038",
-      "archetype": "board gamer (family/gateway)",
+      "label": "Lapsed Gamer, Returning",
+      "archetype": "board gamer (returning after years away)",
       "experience_band": "casual",
       "likes": [
-        "spectacle",
-        "visible state",
-        "meaningful choices"
+        "nostalgia",
+        "straightforward rules",
+        "relaxed pace"
       ],
       "hates_or_struggles": [
-        "component clutter",
-        "keyword soup",
-        "tiny print"
+        "modern jargon",
+        "assumed knowledge",
+        "icon-only components"
       ],
       "table_behaviours": [
-        "helpfully sabotages without noticing",
-        "talks a lot at the table",
-        "asks for clarifications"
+        "asks what terms like 'worker placement' mean",
+        "compares to games from decades ago",
+        "prefers reading over icons"
       ],
       "play_goals": [
-        "wants depth",
-        "wants to win"
+        "wants to get back into the hobby without feeling left behind"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "social",
-      "analysis_style": "tactical",
-      "attention_profile": "spiky",
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "mixed",
+      "attention_profile": "steady",
       "feedback_style": "honest",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "likely_failure_modes": [
+        "misses meanings carried by hobby jargon",
+        "plays older-game conventions"
+      ],
+      "red_flags_to_watch": [
+        "hobby jargon left undefined",
+        "icons with no text explanation"
+      ],
+      "breaks_on": [
+        "undefined hobby terms",
+        "icon languages with no legend",
+        "assumed conventions (\"standard draft\")"
+      ],
+      "review_questions": [
+        "Which terms assume hobby knowledge?",
+        "Is there a glossary or legend for every icon?"
+      ],
+      "sample_quote": "In my day you just rolled and moved.",
+      "use_when": "Gateway and mass-market games; jargon checks."
     },
     {
       "persona_id": "P039",
-      "label": "Old Hand, Low Patience P039",
-      "archetype": "board gamer (18xx-focused)",
+      "label": "Old Hand, Low Patience",
+      "archetype": "board gamer (veteran)",
       "experience_band": "expert",
       "likes": [
-        "interaction with consent",
-        "strong theme",
-        "meaningful choices"
+        "elegant design",
+        "fast teaches",
+        "games that respect their time"
       ],
       "hates_or_struggles": [
-        "tiny print",
-        "downtime",
-        "unclear victory"
+        "reinvented mechanisms",
+        "bloated rulebooks",
+        "overproduction"
       ],
       "table_behaviours": [
-        "checks rules mid-turn",
-        "keeps score secretly",
-        "pushes tempo"
+        "interrupts the teach to skip ahead",
+        "dismisses games early",
+        "compares everything to the classics"
       ],
       "play_goals": [
-        "wants big moments",
-        "wants depth"
+        "wants something new and well-made"
       ],
-      "rules_tolerance": "high",
+      "rules_tolerance": "medium",
       "conflict_style": "argumentative",
-      "analysis_style": "narrative",
-      "attention_profile": "steady",
-      "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "analysis_style": "systematic",
+      "attention_profile": "impatient",
+      "feedback_style": "blunt",
+      "likely_failure_modes": [
+        "checks out after a slow first round",
+        "misses new rules by assuming old ones"
+      ],
+      "red_flags_to_watch": [
+        "slow first round",
+        "complexity that adds nothing"
+      ],
+      "breaks_on": [
+        "rules that add complexity without decisions",
+        "slow openings",
+        "derivative mechanisms with extra fiddliness"
+      ],
+      "review_questions": [
+        "What does this game do that a classic doesn't?",
+        "Is the first round interesting?"
+      ],
+      "sample_quote": "We've seen this before, and it was better without the extra step.",
+      "use_when": "Any game pitched at hobby veterans; elegance checks."
     },
     {
       "persona_id": "P040",
-      "label": "Speedrunner P040",
-      "archetype": "board gamer (18xx-focused)",
-      "experience_band": "expert",
+      "label": "Convention Demo Drop-In",
+      "archetype": "board gamer (convention)",
+      "experience_band": "casual",
       "likes": [
-        "clean teaches",
-        "player aids",
-        "interaction with consent"
+        "quick demos",
+        "immediate action",
+        "visual clarity"
       ],
       "hates_or_struggles": [
-        "tiny print",
-        "unclear victory",
-        "hidden scoring"
+        "long setup",
+        "teaches over five minutes",
+        "complex scoring"
       ],
       "table_behaviours": [
-        "plays fast and loose",
-        "forgets triggers",
-        "tunnels on one plan"
+        "learns while playing",
+        "leaves before the end",
+        "forms an opinion in ten minutes"
       ],
       "play_goals": [
-        "wants clarity",
-        "wants a good story"
+        "wants to know if they'd buy it"
       ],
-      "rules_tolerance": "medium",
-      "conflict_style": "argumentative",
-      "analysis_style": "probabilistic",
-      "attention_profile": "sticky",
-      "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "low",
+      "conflict_style": "neutral",
+      "analysis_style": "intuitive",
+      "attention_profile": "spiky",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [
+        "judges the game on a half-understood first turn",
+        "leaves before the payoff"
+      ],
+      "red_flags_to_watch": [
+        "game not fun in the first ten minutes",
+        "rules needed before the first turn"
+      ],
+      "breaks_on": [
+        "rules that must be learned before any action",
+        "payoff only in the late game",
+        "demos that can't be joined mid-game"
+      ],
+      "review_questions": [
+        "What's fun in the first ten minutes?",
+        "Can someone join a demo mid-game?"
+      ],
+      "sample_quote": "So what's the hook? What makes this one different?",
+      "use_when": "Games being demoed at shows or pitched to publishers."
     },
     {
       "persona_id": "P041",
-      "label": "Speedrunner P041",
-      "archetype": "board gamer (18xx-focused)",
-      "experience_band": "regular",
+      "label": "The Group's Teacher",
+      "archetype": "board gamer (explainer)",
+      "experience_band": "expert",
       "likes": [
-        "meaningful choices",
-        "deep tactics",
-        "interaction with consent"
+        "well-structured rulebooks",
+        "teach orders",
+        "player aids"
       ],
       "hates_or_struggles": [
-        "gotcha rules",
-        "tiny print",
-        "downtime"
+        "rulebooks with no teach order",
+        "rules scattered across sections",
+        "mid-game exceptions"
       ],
       "table_behaviours": [
-        "forgets triggers",
-        "plays fast and loose",
-        "talks a lot at the table"
+        "reads the rulebook before game night",
+        "teaches everyone else",
+        "answers every rules question"
       ],
       "play_goals": [
-        "wants fairness",
-        "wants depth"
+        "wants to teach the game in under fifteen minutes"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "dominating",
-      "analysis_style": "ux",
-      "attention_profile": "variable",
-      "feedback_style": "blunt",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "procedural",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "teaches their own misreading to the whole table",
+        "omits a rule that seemed minor"
+      ],
+      "red_flags_to_watch": [
+        "rules that only make sense out of order",
+        "no obvious teach structure"
+      ],
+      "breaks_on": [
+        "rulebooks organised by component instead of by turn",
+        "exceptions mentioned once",
+        "no summary of turn flow"
+      ],
+      "review_questions": [
+        "What order would they teach this in, and does the rulebook follow it?",
+        "Which rule will they forget to mention?"
+      ],
+      "sample_quote": "Right, I'll explain the turn first, then we'll come back to scoring.",
+      "use_when": "Every game; teach-order and rulebook-structure checks."
     },
     {
       "persona_id": "P042",
-      "label": "Component Confuser P042",
-      "archetype": "board gamer (deckbuilder)",
+      "label": "Component Confuser",
+      "archetype": "board gamer (casual)",
       "experience_band": "regular",
       "likes": [
-        "fair missions",
-        "combo lines",
-        "tight pacing"
+        "distinct components",
+        "obvious tokens",
+        "clear boards"
       ],
       "hates_or_struggles": [
-        "soft exceptions",
-        "tiny print",
-        "ambiguous timing"
+        "similar-looking tokens",
+        "ambiguous board spaces",
+        "cards that look alike"
       ],
       "table_behaviours": [
-        "pushes tempo",
-        "counts resources",
-        "doesn't like being targeted"
+        "grabs the wrong token",
+        "places pieces on the wrong track",
+        "mixes up card types"
       ],
       "play_goals": [
-        "wants big moments",
-        "wants to win"
+        "wants to do the right thing without second-guessing"
       ],
       "rules_tolerance": "medium",
-      "conflict_style": "social",
-      "analysis_style": "tactical",
-      "attention_profile": "sticky",
-      "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "conflict_style": "avoidant",
+      "analysis_style": "naive",
+      "attention_profile": "variable",
+      "feedback_style": "honest",
+      "likely_failure_modes": [
+        "mixes up similar components",
+        "puts tokens in the wrong supply"
+      ],
+      "red_flags_to_watch": [
+        "components that differ only by colour or small print",
+        "unlabelled board areas"
+      ],
+      "breaks_on": [
+        "two token types with similar shapes",
+        "card backs that look alike",
+        "unlabelled tracks"
+      ],
+      "review_questions": [
+        "Which two components could be confused, and what breaks if they are?",
+        "Is every board area labelled?"
+      ],
+      "sample_quote": "Is this the gold or the coin? They look the same.",
+      "use_when": "Games with many component types; production and graphic-design checks."
     },
     {
       "persona_id": "P043",
-      "label": "Dice Goblin P043",
-      "archetype": "wargamer (skirmish)",
-      "experience_band": "expert",
+      "label": "Dice Goblin",
+      "archetype": "board gamer (dice-heavy / skirmish)",
+      "experience_band": "regular",
       "likes": [
-        "economic planning",
-        "player aids",
-        "deep tactics"
+        "big dice pools",
+        "rerolls",
+        "dramatic rolls"
       ],
       "hates_or_struggles": [
-        "unclear victory",
-        "gotcha rules",
-        "component clutter"
+        "deterministic games",
+        "small dice pools",
+        "rolls that don't matter"
       ],
       "table_behaviours": [
-        "talks a lot at the table",
-        "doesn't like being targeted",
-        "leans into diplomacy"
+        "rolls with flair",
+        "takes long odds",
+        "celebrates luck loudly"
       ],
       "play_goals": [
-        "wants to win",
-        "wants a good story"
+        "wants big moments from dice"
       ],
       "rules_tolerance": "low",
       "conflict_style": "social",
-      "analysis_style": "ux",
-      "attention_profile": "steady",
-      "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "analysis_style": "intuitive",
+      "attention_profile": "spiky",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [
+        "takes reckless risks that swing the game",
+        "loses track of reroll limits"
+      ],
+      "red_flags_to_watch": [
+        "reroll stacking with no cap",
+        "one roll deciding the game"
+      ],
+      "breaks_on": [
+        "reroll rules without limits",
+        "modifiers that stack in unclear order",
+        "results tables with gaps"
+      ],
+      "review_questions": [
+        "What's the swingiest roll in the game, and when does it happen?",
+        "Can rerolls stack?"
+      ],
+      "sample_quote": "Six dice, need three successes. Let's go!",
+      "use_when": "Dice-driven games and skirmish combat; variance checks."
     },
     {
       "persona_id": "P044",
-      "label": "Narrative Campaign GM P044",
-      "archetype": "board gamer (4X-focused)",
+      "label": "Legacy Completionist",
+      "archetype": "board gamer (legacy)",
       "experience_band": "regular",
       "likes": [
-        "clean teaches",
-        "economic planning",
-        "visible state"
+        "unlocking content",
+        "permanent changes",
+        "finishing campaigns"
       ],
       "hates_or_struggles": [
-        "unclear victory",
-        "tiny print",
-        "component clutter"
+        "missed unlocks",
+        "irreversible mistakes",
+        "unclear sticker rules"
       ],
       "table_behaviours": [
-        "checks rules mid-turn",
-        "doesn't like being targeted",
-        "keeps score secretly"
+        "reads every sealed box carefully",
+        "tracks every unlock",
+        "won't move on until a rule is clear"
       ],
       "play_goals": [
-        "wants clarity",
-        "wants a good story"
+        "wants to see everything the game has"
       ],
-      "rules_tolerance": "medium",
+      "rules_tolerance": "high",
       "conflict_style": "neutral",
-      "analysis_style": "naive",
-      "attention_profile": "steady",
-      "feedback_style": "honest",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "analysis_style": "systematic",
+      "attention_profile": "sticky",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [
+        "makes an irreversible mistake from an unclear instruction",
+        "misses content through a misread unlock"
+      ],
+      "red_flags_to_watch": [
+        "irreversible actions with ambiguous instructions",
+        "unlocks with unclear triggers"
+      ],
+      "breaks_on": [
+        "permanent changes described vaguely",
+        "unlock triggers spread across components",
+        "no way to undo a mistake"
+      ],
+      "review_questions": [
+        "What irreversible action could be done wrong?",
+        "Is every unlock trigger stated precisely?"
+      ],
+      "sample_quote": "Before I put this sticker on: are we sure?",
+      "use_when": "Legacy and campaign games with permanent changes."
     },
     {
       "persona_id": "P045",
-      "label": "Scenario Designer P045",
-      "archetype": "board gamer (18xx-focused)",
-      "experience_band": "regular",
+      "label": "Scenario Designer",
+      "archetype": "board gamer (modder / scenario designer)",
+      "experience_band": "expert",
       "likes": [
-        "interaction with consent",
-        "spectacle",
-        "clean teaches"
+        "modular rules",
+        "clear design intent",
+        "balanced building blocks"
       ],
       "hates_or_struggles": [
-        "unclear victory",
-        "mathy upkeep",
-        "hidden scoring"
+        "hard-coded exceptions",
+        "undocumented design assumptions",
+        "scenarios that can't be adjusted"
       ],
       "table_behaviours": [
-        "forgets triggers",
-        "plays fast and loose",
-        "checks rules mid-turn"
+        "designs custom scenarios",
+        "tests edge cases deliberately",
+        "reads rules for the intent behind them"
       ],
       "play_goals": [
-        "wants big moments",
-        "wants a good story"
+        "wants rules robust enough to build on"
       ],
       "rules_tolerance": "high",
-      "conflict_style": "avoidant",
-      "analysis_style": "narrative",
-      "attention_profile": "spiky",
-      "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "conflict_style": "neutral",
+      "analysis_style": "systematic",
+      "attention_profile": "sticky",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [
+        "builds scenarios the rules don't support",
+        "exposes assumptions only the base game hides"
+      ],
+      "red_flags_to_watch": [
+        "rules that only work in base scenarios",
+        "hard-coded assumptions about map size or player count"
+      ],
+      "breaks_on": [
+        "rules that assume a specific setup",
+        "unstated design assumptions",
+        "player-count specific rules hidden in text"
+      ],
+      "review_questions": [
+        "Which rules break if the map or player count changes?",
+        "Are design assumptions written down?"
+      ],
+      "sample_quote": "This only works because the base map has no rivers.",
+      "use_when": "Games with scenarios, modular boards or expansion plans."
     },
     {
       "persona_id": "P046",
-      "label": "Spreadsheet Enjoyer P046",
-      "archetype": "board gamer (18xx-focused)",
+      "label": "Spreadsheet Enjoyer",
+      "archetype": "board gamer (stat tracker)",
       "experience_band": "expert",
       "likes": [
-        "player aids",
-        "visible state",
-        "spectacle"
+        "logging results",
+        "win-rate data",
+        "balance discussion"
       ],
       "hates_or_struggles": [
-        "hidden scoring",
-        "fiddly upkeep",
-        "gotcha rules"
+        "unbalanced factions",
+        "untracked randomness",
+        "unclear scoring"
       ],
       "table_behaviours": [
-        "checks rules mid-turn",
-        "pushes tempo",
-        "doesn't like being targeted"
+        "logs every game",
+        "calculates win rates",
+        "shares stats with the group"
       ],
       "play_goals": [
-        "wants big moments",
-        "wants depth"
+        "wants evidence the game is balanced"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "dominating",
-      "analysis_style": "naive",
-      "attention_profile": "fragile",
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "analytical",
+      "attention_profile": "steady",
       "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "likely_failure_modes": [
+        "draws conclusions from too few games",
+        "optimises towards their own metric"
+      ],
+      "red_flags_to_watch": [
+        "faction win rates diverging",
+        "scoring that can't be audited after the game"
+      ],
+      "breaks_on": [
+        "scoring that can't be recounted",
+        "hidden victory points",
+        "small sample balance claims"
+      ],
+      "review_questions": [
+        "Could the final score be recounted from the board state?",
+        "What would their win-rate spreadsheet show after twenty games?"
+      ],
+      "sample_quote": "Faction B has won seven of the last nine.",
+      "use_when": "Asymmetric and competitive games; balance and scoring audits."
     },
     {
       "persona_id": "P047",
-      "label": "Old Hand, Low Patience P047",
-      "archetype": "wargamer (competitive)",
+      "label": "Tournament Judge",
+      "archetype": "wargamer (organised play)",
       "experience_band": "expert",
       "likes": [
-        "fair missions",
-        "combo lines",
-        "interaction with consent"
+        "clear rulings",
+        "FAQ documents",
+        "consistent terminology"
       ],
       "hates_or_struggles": [
-        "keyword soup",
-        "fiddly upkeep",
-        "ambiguous timing"
+        "rules requiring intent",
+        "vague terrain definitions",
+        "rules lawyering without precedent"
       ],
       "table_behaviours": [
-        "asks for clarifications",
-        "leans into diplomacy",
-        "tunnels on one plan"
+        "makes rulings fast",
+        "keeps a rulings log",
+        "reads rules for precision"
       ],
       "play_goals": [
-        "wants speed",
-        "wants depth"
+        "wants rulings to be consistent across tables"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "social",
-      "analysis_style": "analytical",
-      "attention_profile": "impatient",
-      "feedback_style": "pedantic",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "procedural",
+      "attention_profile": "steady",
+      "feedback_style": "legalistic",
+      "likely_failure_modes": [
+        "has to rule on gaps the designer never considered",
+        "inconsistent rulings between events"
+      ],
+      "red_flags_to_watch": [
+        "rules depending on player intent",
+        "terms used inconsistently"
+      ],
+      "breaks_on": [
+        "\"reasonable\" or \"appropriate\" in rules text",
+        "intent-based rules",
+        "missing definitions for core terms"
+      ],
+      "review_questions": [
+        "Which rule would a judge have to interpret?",
+        "Could two judges rule differently on the same case?"
+      ],
+      "sample_quote": "I need a ruling I can apply at every table, not a vibe.",
+      "use_when": "Competitive and organised-play games; terminology audits."
     },
     {
       "persona_id": "P048",
-      "label": "Narrative Campaign GM P048",
-      "archetype": "board gamer (18xx-focused)",
+      "label": "Colour-Blind Player",
+      "archetype": "board gamer (colour vision deficiency)",
       "experience_band": "regular",
       "likes": [
-        "player aids",
-        "spectacle",
-        "clean teaches"
+        "shape and pattern coding",
+        "high contrast",
+        "text labels"
       ],
       "hates_or_struggles": [
-        "keyword soup",
-        "soft exceptions",
-        "component clutter"
+        "red/green distinctions",
+        "colour-only player identification",
+        "subtle colour shades"
       ],
       "table_behaviours": [
-        "counts resources",
-        "pushes tempo",
-        "asks for clarifications"
+        "asks which piece is whose",
+        "relies on position and shape",
+        "squints at tracks"
       ],
       "play_goals": [
-        "wants depth",
-        "wants speed"
+        "wants to play without asking for help"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "competitive",
-      "analysis_style": "tactical",
-      "attention_profile": "sticky",
-      "feedback_style": "vibes-first",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "medium",
+      "conflict_style": "avoidant",
+      "analysis_style": "ux",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "misidentifies player pieces or card types",
+        "makes moves on misread colour information"
+      ],
+      "red_flags_to_watch": [
+        "colour-only encoding",
+        "red/green distinctions"
+      ],
+      "breaks_on": [
+        "player colours with no symbol",
+        "colour-coded card types with no icon",
+        "subtle shade differences on tracks"
+      ],
+      "review_questions": [
+        "Is any information carried by colour alone?",
+        "Can they tell every player colour apart?"
+      ],
+      "sample_quote": "Which of these is mine? Red and green look the same to me.",
+      "use_when": "Every game. Roughly one in twelve men has some colour vision deficiency."
     },
     {
       "persona_id": "P049",
-      "label": "Edge-Case Hunter P049",
-      "archetype": "wargamer (competitive)",
+      "label": "Edge-Case Hunter",
+      "archetype": "board gamer (rules lawyer)",
       "experience_band": "expert",
       "likes": [
-        "clear icons",
-        "player aids",
-        "tight pacing"
+        "precise wording",
+        "corner cases",
+        "finding contradictions"
       ],
       "hates_or_struggles": [
-        "ambiguous timing",
-        "unclear victory",
-        "component clutter"
+        "sloppy wording",
+        "\"use common sense\"",
+        "undefined terms"
       ],
       "table_behaviours": [
-        "plays fast and loose",
-        "tunnels on one plan",
-        "asks for clarifications"
+        "reads rules looking for gaps",
+        "constructs weird situations deliberately",
+        "asks 'what if' constantly"
       ],
       "play_goals": [
-        "wants clarity",
-        "wants big moments"
+        "wants the rules to hold up under pressure"
       ],
       "rules_tolerance": "high",
       "conflict_style": "argumentative",
-      "analysis_style": "analytical",
-      "attention_profile": "variable",
-      "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "analysis_style": "adversarial",
+      "attention_profile": "sticky",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [
+        "derails play with hypotheticals",
+        "finds a contradiction that halts the game"
+      ],
+      "red_flags_to_watch": [
+        "contradictions between sections",
+        "undefined terms"
+      ],
+      "breaks_on": [
+        "rules that contradict each other in edge cases",
+        "undefined terms",
+        "simultaneous effects with no order"
+      ],
+      "review_questions": [
+        "What's the weirdest legal situation they could construct?",
+        "Which two rules contradict each other at the edges?"
+      ],
+      "sample_quote": "What if I'm adjacent to both and neither moves?",
+      "use_when": "Every game before release; adversarial rules audits."
     },
     {
       "persona_id": "P050",
-      "label": "Newbie With Confidence P050",
-      "archetype": "board gamer (strategy/abstract)",
+      "label": "Low-Vision Player",
+      "archetype": "board gamer (low vision)",
       "experience_band": "regular",
       "likes": [
-        "tight pacing",
-        "clear icons",
-        "economic planning"
+        "large print",
+        "high contrast",
+        "tactile components"
       ],
       "hates_or_struggles": [
-        "ambiguous timing",
-        "fiddly upkeep",
-        "hidden scoring"
+        "small text",
+        "dense boards",
+        "low-contrast icons"
       ],
       "table_behaviours": [
-        "plays fast and loose",
-        "checks rules mid-turn",
-        "pushes tempo"
+        "holds cards close",
+        "asks others to read",
+        "uses phone magnifier"
       ],
       "play_goals": [
-        "wants fairness",
-        "wants speed"
+        "wants independent access to game information"
       ],
-      "rules_tolerance": "high",
-      "conflict_style": "neutral",
-      "analysis_style": "tactical",
-      "attention_profile": "sticky",
-      "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "medium",
+      "conflict_style": "avoidant",
+      "analysis_style": "ux",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "can't read information other players can see",
+        "misses changes to shared board state"
+      ],
+      "red_flags_to_watch": [
+        "text below a readable size",
+        "important state shown only in small print"
+      ],
+      "breaks_on": [
+        "small card text",
+        "low-contrast icons",
+        "information spread across a large board"
+      ],
+      "review_questions": [
+        "What's the smallest text with gameplay meaning?",
+        "Can they track board state without help?"
+      ],
+      "sample_quote": "Could you read that card out for me?",
+      "use_when": "Every game; production and graphic-design checks."
     },
     {
       "persona_id": "P051",
-      "label": "Chaos Gremlin P051",
-      "archetype": "board gamer (4X-focused)",
-      "experience_band": "expert",
+      "label": "Chaos Gremlin",
+      "archetype": "board gamer (party / chaotic)",
+      "experience_band": "regular",
       "likes": [
-        "tight pacing",
-        "visible state",
-        "spectacle"
+        "unpredictable outcomes",
+        "upsetting the leader",
+        "wild plays"
       ],
       "hates_or_struggles": [
-        "unclear victory",
-        "component clutter",
-        "gotcha rules"
+        "solved games",
+        "safe plays",
+        "predictable endings"
       ],
       "table_behaviours": [
-        "tests edge cases",
-        "tunnels on one plan",
-        "plays fast and loose"
+        "makes strange moves to see what happens",
+        "targets the leader for fun",
+        "tests how far the rules stretch"
       ],
       "play_goals": [
-        "wants clarity",
-        "wants depth"
+        "wants to cause memorable chaos"
       ],
       "rules_tolerance": "medium",
-      "conflict_style": "neutral",
-      "analysis_style": "naive",
-      "attention_profile": "fragile",
-      "feedback_style": "pedantic",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "conflict_style": "dominating",
+      "analysis_style": "adversarial",
+      "attention_profile": "spiky",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [
+        "kingmakes deliberately",
+        "creates game states no one planned for"
+      ],
+      "red_flags_to_watch": [
+        "moves that wreck the game for others with no gain",
+        "unbounded chaos effects"
+      ],
+      "breaks_on": [
+        "effects with no limits",
+        "rules that assume rational play",
+        "states the designer never imagined"
+      ],
+      "review_questions": [
+        "What happens if someone plays to cause chaos, not to win?",
+        "Can one player ruin the game for everyone?"
+      ],
+      "sample_quote": "What if I just... do this?",
+      "use_when": "Multiplayer and party games; robustness against irrational play."
     },
     {
       "persona_id": "P052",
-      "label": "Edge-Case Hunter P052",
-      "archetype": "wargamer (competitive)",
-      "experience_band": "expert",
+      "label": "Digital Implementation Player",
+      "archetype": "board gamer (digital / online)",
+      "experience_band": "regular",
       "likes": [
-        "economic planning",
-        "tight pacing",
-        "player aids"
+        "automated rules",
+        "online play",
+        "fast games"
       ],
       "hates_or_struggles": [
-        "tiny print",
-        "hidden scoring",
-        "unclear victory"
+        "manual bookkeeping",
+        "rules the app enforces but the book doesn't explain",
+        "physical setup"
       ],
       "table_behaviours": [
-        "counts resources",
-        "helpfully sabotages without noticing",
-        "tests edge cases"
+        "learns the game from an app",
+        "never reads the rulebook",
+        "relies on the interface to stop illegal moves"
       ],
       "play_goals": [
-        "wants fairness",
-        "wants clarity"
+        "wants the game to handle the rules"
       ],
       "rules_tolerance": "low",
-      "conflict_style": "dominating",
-      "analysis_style": "naive",
-      "attention_profile": "steady",
-      "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "conflict_style": "neutral",
+      "analysis_style": "intuitive",
+      "attention_profile": "variable",
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "can't play the physical version without the app",
+        "doesn't know upkeep the app did silently"
+      ],
+      "red_flags_to_watch": [
+        "rules the digital version automates silently",
+        "differences between app and rulebook"
+      ],
+      "breaks_on": [
+        "upkeep steps automated in digital versions",
+        "physical-only edge cases",
+        "rules learned from interface behaviour"
+      ],
+      "review_questions": [
+        "What does the app do automatically that a physical table forgets?",
+        "Do the app and rulebook ever disagree?"
+      ],
+      "sample_quote": "Oh, I've only played this online. The app does all that.",
+      "use_when": "Games with digital versions or online play."
     },
     {
       "persona_id": "P053",
-      "label": "Quiet Optimiser P053",
-      "archetype": "board gamer (family/gateway)",
+      "label": "Quiet Optimiser",
+      "archetype": "board gamer (casual-to-regular)",
       "experience_band": "casual",
       "likes": [
-        "deep tactics",
-        "spectacle",
-        "player aids"
+        "low-key games",
+        "personal puzzles",
+        "steady progress"
       ],
       "hates_or_struggles": [
-        "keyword soup",
-        "alpha strikes",
-        "fiddly upkeep"
+        "direct confrontation",
+        "loud tables",
+        "being the centre of attention"
       ],
       "table_behaviours": [
-        "doesn't like being targeted",
-        "forgets triggers",
-        "pushes tempo"
+        "plays quietly and efficiently",
+        "doesn't ask questions",
+        "surprises everyone by winning"
       ],
       "play_goals": [
-        "wants depth",
-        "wants big moments"
+        "wants to enjoy solving their own puzzle"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "dominating",
-      "analysis_style": "naive",
-      "attention_profile": "spiky",
-      "feedback_style": "pedantic",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "medium",
+      "conflict_style": "avoidant",
+      "analysis_style": "analytical",
+      "attention_profile": "steady",
+      "feedback_style": "honest",
+      "likely_failure_modes": [
+        "silently misplays a rule and never asks",
+        "rarely gives feedback unless asked"
+      ],
+      "red_flags_to_watch": [
+        "confusion that doesn't surface at the table",
+        "dominance by loud players"
+      ],
+      "breaks_on": [
+        "rules where errors aren't visible",
+        "games where table talk decides outcomes",
+        "feedback processes that favour loud players"
+      ],
+      "review_questions": [
+        "Would they ask for help if they were confused?",
+        "Are there rules errors nobody would notice?"
+      ],
+      "sample_quote": "(Says nothing, wins by twelve points.)",
+      "use_when": "Any playtest; silent-error checks and feedback-collection design."
     },
     {
       "persona_id": "P054",
-      "label": "Euro Collector P054",
-      "archetype": "board gamer (strategy/abstract)",
-      "experience_band": "expert",
+      "label": "Conflict-Averse Peacemaker",
+      "archetype": "board gamer (social)",
+      "experience_band": "casual",
       "likes": [
-        "deep tactics",
-        "strong theme",
-        "fair missions"
+        "co-op play",
+        "friendly competition",
+        "shared goals"
       ],
       "hates_or_struggles": [
-        "keyword soup",
-        "component clutter",
-        "gotcha rules"
+        "take-that",
+        "direct attacks",
+        "elimination"
       ],
       "table_behaviours": [
-        "forgets triggers",
-        "leans into diplomacy",
-        "talks a lot at the table"
+        "avoids attacking anyone",
+        "makes suboptimal moves to keep the peace",
+        "apologises when forced to attack"
       ],
       "play_goals": [
-        "wants fairness",
-        "wants a good story"
+        "wants everyone to have a good time"
       ],
-      "rules_tolerance": "high",
-      "conflict_style": "argumentative",
-      "analysis_style": "adversarial",
+      "rules_tolerance": "low",
+      "conflict_style": "avoidant",
+      "analysis_style": "intuitive",
       "attention_profile": "variable",
-      "feedback_style": "comparative",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [
+        "refuses to use mechanics that harm others",
+        "leaves the leader unchallenged"
+      ],
+      "red_flags_to_watch": [
+        "mandatory attack or steal actions",
+        "games where peace lets the leader win"
+      ],
+      "breaks_on": [
+        "forced aggression",
+        "game balance that assumes players will attack the leader",
+        "take-that cards as the main catch-up tool"
+      ],
+      "review_questions": [
+        "Does the game stay balanced if nobody wants to attack?",
+        "Are any attacks mandatory?"
+      ],
+      "sample_quote": "Do I have to take it from someone? Can't I just take it from the bank?",
+      "use_when": "Any game relying on player-driven balance; negative feedback checks."
     },
     {
       "persona_id": "P055",
-      "label": "Speedrunner P055",
-      "archetype": "board gamer (strategy/abstract)",
-      "experience_band": "expert",
+      "label": "Hidden-Role Liar",
+      "archetype": "board gamer (social deduction)",
+      "experience_band": "regular",
       "likes": [
-        "visible state",
-        "spectacle",
-        "player aids"
+        "bluffing",
+        "secret roles",
+        "social reads"
       ],
       "hates_or_struggles": [
-        "unclear victory",
-        "gotcha rules",
-        "keyword soup"
+        "games where lying doesn't matter",
+        "deterministic deduction",
+        "information leaks"
       ],
       "table_behaviours": [
-        "forgets triggers",
-        "asks for clarifications",
-        "checks rules mid-turn"
+        "lies confidently",
+        "watches for tells",
+        "pushes the rules on what can be shown"
       ],
       "play_goals": [
-        "wants a good story",
-        "wants depth"
+        "wants to deceive and be believed"
       ],
-      "rules_tolerance": "high",
-      "conflict_style": "neutral",
+      "rules_tolerance": "medium",
+      "conflict_style": "social",
       "analysis_style": "adversarial",
-      "attention_profile": "sticky",
-      "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "attention_profile": "steady",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [
+        "exploits information leaks from components or handling",
+        "lies about rules as well as roles"
+      ],
+      "red_flags_to_watch": [
+        "components that reveal hidden information",
+        "no rule on lying about rules"
+      ],
+      "breaks_on": [
+        "hidden information with physical tells",
+        "silence on what can be revealed",
+        "voting with unclear ties"
+      ],
+      "review_questions": [
+        "Can hidden information leak through component handling?",
+        "Is lying about rules or public information allowed?"
+      ],
+      "sample_quote": "I'm definitely the good guy. Look at my face.",
+      "use_when": "Social deduction, hidden-role and bluffing games."
     },
     {
       "persona_id": "P056",
-      "label": "Boardgame Caf\u00e9 Staff P056",
-      "archetype": "board gamer (card-driven / CCG-trained)",
-      "experience_band": "regular",
+      "label": "Boardgame Café Staff",
+      "archetype": "board gamer (café teacher)",
+      "experience_band": "expert",
       "likes": [
-        "tight pacing",
-        "interaction with consent",
-        "deep tactics"
+        "fast teaches",
+        "robust components",
+        "games for strangers"
       ],
       "hates_or_struggles": [
-        "fiddly upkeep",
-        "ambiguous timing",
-        "soft exceptions"
+        "long setup",
+        "rules that need clarifying mid-game",
+        "missing components"
       ],
       "table_behaviours": [
-        "pushes tempo",
-        "doesn't like being targeted",
-        "tests edge cases"
+        "teaches games to strangers all day",
+        "abbreviates rules",
+        "returns to tables to answer questions"
       ],
       "play_goals": [
-        "wants speed",
-        "wants a good story"
+        "wants to teach in five minutes and leave the table playing correctly"
       ],
-      "rules_tolerance": "high",
-      "conflict_style": "competitive",
-      "analysis_style": "systematic",
+      "rules_tolerance": "medium",
+      "conflict_style": "social",
+      "analysis_style": "procedural",
       "attention_profile": "variable",
-      "feedback_style": "comparative",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "leaves the table with a shortened teach that misses a rule",
+        "teaches the café version, not the real one"
+      ],
+      "red_flags_to_watch": [
+        "setup over ten minutes",
+        "rules that need mid-game clarification"
+      ],
+      "breaks_on": [
+        "rules learned only after the first round",
+        "exceptions that come up late",
+        "games that can't recover from missing pieces"
+      ],
+      "review_questions": [
+        "Can the table keep playing correctly after the teacher walks away?",
+        "Which rule will the shortened teach miss?"
+      ],
+      "sample_quote": "Okay, you've got the basics. I'll check back in twenty minutes.",
+      "use_when": "Mass-market and café-friendly games; teach-and-leave checks."
     },
     {
       "persona_id": "P057",
-      "label": "Euro Collector P057",
-      "archetype": "wargamer (skirmish)",
+      "label": "Miniatures Painter-Hobbyist",
+      "archetype": "wargamer (skirmish / hobby)",
       "experience_band": "regular",
       "likes": [
-        "clear icons",
-        "fair missions",
-        "strong theme"
+        "painting",
+        "terrain",
+        "cinematic games"
       ],
       "hates_or_struggles": [
-        "downtime",
-        "ambiguous timing",
-        "tiny print"
+        "rules that need lots of tokens on the table",
+        "unclear modelling rules",
+        "bases that affect play"
       ],
       "table_behaviours": [
-        "tunnels on one plan",
-        "checks rules mid-turn",
-        "talks a lot at the table"
+        "chooses units for looks",
+        "builds custom terrain",
+        "plays slowly to enjoy the table"
       ],
       "play_goals": [
-        "wants depth",
-        "wants to win"
+        "wants the table to look great"
       ],
-      "rules_tolerance": "high",
-      "conflict_style": "neutral",
-      "analysis_style": "analytical",
-      "attention_profile": "spiky",
-      "feedback_style": "blunt",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "medium",
+      "conflict_style": "social",
+      "analysis_style": "narrative",
+      "attention_profile": "variable",
+      "feedback_style": "comparative",
+      "likely_failure_modes": [
+        "uses custom models or terrain that change measurements",
+        "fields units that look good but play badly"
+      ],
+      "red_flags_to_watch": [
+        "custom bases or models affecting rules",
+        "terrain without defined rules"
+      ],
+      "breaks_on": [
+        "base size and model height affecting line of sight",
+        "terrain categories that depend on appearance",
+        "token clutter on models"
+      ],
+      "review_questions": [
+        "What breaks if they use custom models or terrain?",
+        "How much token clutter ends up on the table?"
+      ],
+      "sample_quote": "I converted this one myself. Does the spear count for reach?",
+      "use_when": "Miniatures and skirmish wargames."
     },
     {
       "persona_id": "P058",
-      "label": "Component Confuser P058",
-      "archetype": "board gamer (strategy/abstract)",
-      "experience_band": "regular",
+      "label": "Tired After Work",
+      "archetype": "board gamer (weeknight player)",
+      "experience_band": "casual",
       "likes": [
-        "visible state",
-        "player aids",
-        "combo lines"
+        "relaxed games",
+        "familiar rules",
+        "low setup"
       ],
       "hates_or_struggles": [
-        "downtime",
-        "gotcha rules",
-        "keyword soup"
+        "new rules late at night",
+        "long teaches",
+        "heavy decisions"
       ],
       "table_behaviours": [
-        "forgets triggers",
-        "talks a lot at the table",
-        "helpfully sabotages without noticing"
+        "forgets rules quickly",
+        "makes easy moves",
+        "drifts in long games"
       ],
       "play_goals": [
-        "wants fairness",
-        "wants a good story"
+        "wants to unwind"
       ],
       "rules_tolerance": "low",
-      "conflict_style": "avoidant",
-      "analysis_style": "narrative",
-      "attention_profile": "sticky",
-      "feedback_style": "pedantic",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "conflict_style": "neutral",
+      "analysis_style": "intuitive",
+      "attention_profile": "fragile",
+      "feedback_style": "honest",
+      "likely_failure_modes": [
+        "forgets rules more as the evening goes on",
+        "misses late-game triggers"
+      ],
+      "red_flags_to_watch": [
+        "important rules that only come up late",
+        "heavy decisions at the end of the game"
+      ],
+      "breaks_on": [
+        "late-game exceptions",
+        "decisions needing precise maths when tired",
+        "rules that are only used once"
+      ],
+      "review_questions": [
+        "Which late-game rule will a tired table forget?",
+        "Does the game still work if players play on autopilot?"
+      ],
+      "sample_quote": "Sorry, my brain's gone. What does this do again?",
+      "use_when": "Any game played on weeknights; late-game attention checks."
     },
     {
       "persona_id": "P059",
-      "label": "Kingmaker By Accident P059",
-      "archetype": "board gamer (economic)",
-      "experience_band": "expert",
+      "label": "Kingmaker By Accident",
+      "archetype": "board gamer (multiplayer)",
+      "experience_band": "regular",
       "likes": [
-        "clean teaches",
-        "deep tactics",
-        "combo lines"
+        "multiplayer games",
+        "staying in the game",
+        "feeling involved"
       ],
       "hates_or_struggles": [
-        "gotcha rules",
-        "soft exceptions",
-        "component clutter"
+        "being out of contention",
+        "games where the end feels decided",
+        "no reason to keep playing"
       ],
       "table_behaviours": [
-        "asks for clarifications",
-        "talks a lot at the table",
-        "tests edge cases"
+        "makes moves that decide who wins",
+        "doesn't realise their impact",
+        "plays for second place"
       ],
       "play_goals": [
-        "wants fairness",
-        "wants clarity"
+        "wants to still matter when behind"
       ],
       "rules_tolerance": "medium",
-      "conflict_style": "social",
-      "analysis_style": "narrative",
-      "attention_profile": "sticky",
-      "feedback_style": "comparative",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "conflict_style": "neutral",
+      "analysis_style": "mixed",
+      "attention_profile": "variable",
+      "feedback_style": "honest",
+      "likely_failure_modes": [
+        "hands the win to someone else",
+        "plays aimlessly once out of contention"
+      ],
+      "red_flags_to_watch": [
+        "trailing players decide the winner",
+        "nothing to play for when behind"
+      ],
+      "breaks_on": [
+        "endgames where trailing players choose the winner",
+        "no incentive for second place",
+        "scoring that rewards targeting the leader"
+      ],
+      "review_questions": [
+        "Who decides the winner when one player can't win?",
+        "What does a trailing player play for?"
+      ],
+      "sample_quote": "I didn't mean to give you the game. I just took the best move I had.",
+      "use_when": "Multiplayer games with three or more players; endgame checks."
     },
     {
       "persona_id": "P060",
-      "label": "Edge-Case Hunter P060",
-      "archetype": "wargamer (historical)",
+      "label": "Solo Wargamer vs Bot",
+      "archetype": "wargamer (solo)",
       "experience_band": "regular",
       "likes": [
-        "player aids",
-        "low downtime",
-        "meaningful choices"
+        "AI flowcharts",
+        "historical scenarios",
+        "solo campaigns"
       ],
       "hates_or_struggles": [
-        "soft exceptions",
-        "mathy upkeep",
-        "unclear victory"
+        "bot decisions that need judgement",
+        "unclear priority tables",
+        "bots that cheat or stall"
       ],
       "table_behaviours": [
-        "helpfully sabotages without noticing",
-        "forgets triggers",
-        "leans into diplomacy"
+        "follows flowcharts exactly",
+        "plays both sides",
+        "keeps a session log"
       ],
       "play_goals": [
-        "wants fairness",
-        "wants depth"
+        "wants a credible opponent without another person"
       ],
-      "rules_tolerance": "low",
+      "rules_tolerance": "high",
       "conflict_style": "neutral",
-      "analysis_style": "analytical",
-      "attention_profile": "variable",
-      "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "analysis_style": "procedural",
+      "attention_profile": "steady",
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [
+        "bot gets stuck in a loop",
+        "plays both sides with information the bot shouldn't have"
+      ],
+      "red_flags_to_watch": [
+        "flowchart dead-ends",
+        "priority ties in bot rules"
+      ],
+      "breaks_on": [
+        "flowcharts with missing branches",
+        "bot priorities with ties",
+        "\"the bot chooses the best move\""
+      ],
+      "review_questions": [
+        "Does every flowchart branch end in a legal action?",
+        "Can the bot get stuck?"
+      ],
+      "sample_quote": "The flowchart says attack the nearest unit. Two are equally near.",
+      "use_when": "Solo wargames and any game with a bot or automa."
     },
     {
       "persona_id": "P061",
-      "label": "Spreadsheet Enjoyer P061",
-      "archetype": "board gamer (4X-focused)",
-      "experience_band": "regular",
+      "label": "Engine-Builder Snowballer",
+      "archetype": "board gamer (engine builder)",
+      "experience_band": "expert",
       "likes": [
-        "fair missions",
-        "clear icons",
-        "low downtime"
+        "compounding engines",
+        "big final turns",
+        "efficiency"
       ],
       "hates_or_struggles": [
-        "fiddly upkeep",
-        "alpha strikes",
-        "keyword soup"
+        "interaction that disrupts engines",
+        "early game ending",
+        "caps on growth"
       ],
       "table_behaviours": [
-        "asks for clarifications",
-        "tunnels on one plan",
-        "talks a lot at the table"
+        "builds a runaway engine",
+        "ignores other players",
+        "takes huge final turns"
       ],
       "play_goals": [
-        "wants clarity",
-        "wants to win"
+        "wants their engine to explode in the late game"
       ],
-      "rules_tolerance": "medium",
-      "conflict_style": "neutral",
-      "analysis_style": "systematic",
-      "attention_profile": "fragile",
-      "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "rules_tolerance": "high",
+      "conflict_style": "competitive",
+      "analysis_style": "analytical",
+      "attention_profile": "sticky",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [
+        "runs away with the game with no counterplay",
+        "takes final turns that last ten minutes"
+      ],
+      "red_flags_to_watch": [
+        "uncapped engines",
+        "no interaction to slow leaders"
+      ],
+      "breaks_on": [
+        "uncapped resource conversion",
+        "multiplying effects",
+        "late-game turns with dozens of actions"
+      ],
+      "review_questions": [
+        "What's the biggest possible final turn?",
+        "Can anyone slow a runaway engine?"
+      ],
+      "sample_quote": "Watch this, it's all going to chain.",
+      "use_when": "Engine builders and tableau games; snowball and downtime checks."
     },
     {
       "persona_id": "P062",
-      "label": "Old Hand, Low Patience P062",
-      "archetype": "board gamer (18xx-focused)",
+      "label": "Grumpy Rules Editor",
+      "archetype": "board gamer (professional editor)",
       "experience_band": "expert",
       "likes": [
-        "visible state",
-        "combo lines",
-        "low downtime"
+        "consistent terminology",
+        "clean layout",
+        "proper indexing"
       ],
       "hates_or_struggles": [
-        "alpha strikes",
-        "mathy upkeep",
-        "ambiguous timing"
+        "inconsistent capitalisation",
+        "terms defined twice",
+        "no index"
       ],
       "table_behaviours": [
-        "tunnels on one plan",
-        "pushes tempo",
-        "plays fast and loose"
+        "highlights every inconsistency",
+        "checks cross-references",
+        "reads the rulebook with a pen"
       ],
       "play_goals": [
-        "wants big moments",
-        "wants speed"
+        "wants the rulebook to be correct and usable"
       ],
       "rules_tolerance": "high",
-      "conflict_style": "avoidant",
-      "analysis_style": "naive",
+      "conflict_style": "argumentative",
+      "analysis_style": "systematic",
       "attention_profile": "sticky",
-      "feedback_style": "comparative",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "pedantic",
+      "likely_failure_modes": [
+        "focuses on style over gameplay issues",
+        "finds inconsistencies others miss"
+      ],
+      "red_flags_to_watch": [
+        "terms with multiple definitions",
+        "broken cross-references"
+      ],
+      "breaks_on": [
+        "inconsistent capitalisation of game terms",
+        "broken or missing page references",
+        "rules defined in two places differently"
+      ],
+      "review_questions": [
+        "Is every game term defined exactly once?",
+        "Does every cross-reference point to the right place?"
+      ],
+      "sample_quote": "You call it 'Action' on page 3 and 'action' on page 7. Same thing?",
+      "use_when": "Every rulebook before print; editorial audits."
     },
     {
       "persona_id": "P063",
-      "label": "Dice Goblin P063",
-      "archetype": "board gamer (family/gateway)",
+      "label": "Luck-Loving Casual",
+      "archetype": "board gamer (family / casual)",
       "experience_band": "casual",
       "likes": [
-        "visible state",
-        "clean teaches",
-        "economic planning"
+        "dice",
+        "surprises",
+        "everyone having a chance"
       ],
       "hates_or_struggles": [
-        "component clutter",
-        "unclear victory",
-        "soft exceptions"
+        "games experts always win",
+        "long planning",
+        "heavy decisions"
       ],
       "table_behaviours": [
-        "pushes tempo",
-        "keeps score secretly",
-        "plays fast and loose"
+        "takes chances happily",
+        "doesn't plan far ahead",
+        "enjoys swings"
       ],
       "play_goals": [
-        "wants speed",
-        "wants to win"
+        "wants a fair chance to win regardless of skill"
       ],
       "rules_tolerance": "low",
       "conflict_style": "social",
-      "analysis_style": "narrative",
-      "attention_profile": "steady",
-      "feedback_style": "comparative",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "analysis_style": "intuitive",
+      "attention_profile": "variable",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [
+        "takes reckless risks",
+        "disengages from heavy decisions"
+      ],
+      "red_flags_to_watch": [
+        "skill gaps too wide for luck to bridge",
+        "planning phases with no luck element"
+      ],
+      "breaks_on": [
+        "long planning phases",
+        "luck-free scoring",
+        "decisions with no visible effect"
+      ],
+      "review_questions": [
+        "Can a newer player still win sometimes?",
+        "Is there enough uncertainty to keep it fun?"
+      ],
+      "sample_quote": "Ooh, let's see what happens!",
+      "use_when": "Family and light games; skill-gap checks."
     },
     {
       "persona_id": "P064",
-      "label": "Meta-Chaser P064",
-      "archetype": "board gamer (card-driven / CCG-trained)",
+      "label": "Forum Rules Checker",
+      "archetype": "board gamer (online community)",
       "experience_band": "regular",
       "likes": [
-        "interaction with consent",
-        "deep tactics",
-        "clean teaches"
+        "official FAQs",
+        "designer rulings",
+        "community clarifications"
       ],
       "hates_or_struggles": [
-        "hidden scoring",
-        "soft exceptions",
-        "ambiguous timing"
+        "rules that need an FAQ",
+        "conflicting online rulings",
+        "errata not in the box"
       ],
       "table_behaviours": [
-        "tests edge cases",
-        "asks for clarifications",
-        "leans into diplomacy"
+        "checks forums during play",
+        "quotes designer answers",
+        "brings printed FAQs"
       ],
       "play_goals": [
-        "wants clarity",
-        "wants speed"
+        "wants the official answer"
       ],
-      "rules_tolerance": "low",
-      "conflict_style": "social",
-      "analysis_style": "analytical",
+      "rules_tolerance": "high",
+      "conflict_style": "argumentative",
+      "analysis_style": "procedural",
       "attention_profile": "steady",
-      "feedback_style": "blunt",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "legalistic",
+      "likely_failure_modes": [
+        "brings conflicting unofficial rulings",
+        "halts play to look things up"
+      ],
+      "red_flags_to_watch": [
+        "frequently asked questions not in the rulebook",
+        "unofficial rulings in circulation"
+      ],
+      "breaks_on": [
+        "rules that generate FAQs",
+        "errata not in the box",
+        "ambiguities that need the designer's intent"
+      ],
+      "review_questions": [
+        "Which rule will generate the most forum questions?",
+        "Is the answer to every likely question in the rulebook?"
+      ],
+      "sample_quote": "There's a designer ruling on this, hang on.",
+      "use_when": "Any game pre-release; FAQ-prevention checks."
     },
     {
       "persona_id": "P065",
-      "label": "AP Maximalist P065",
-      "archetype": "board gamer (heavy euro)",
-      "experience_band": "expert",
+      "label": "Distracted Phone Checker",
+      "archetype": "board gamer (casual)",
+      "experience_band": "casual",
       "likes": [
-        "strong theme",
-        "economic planning",
-        "visible state"
+        "short turns",
+        "games that don't need constant attention",
+        "social time"
       ],
       "hates_or_struggles": [
-        "hidden scoring",
-        "ambiguous timing",
-        "soft exceptions"
+        "long downtime",
+        "games needing constant tracking",
+        "complex board states"
       ],
       "table_behaviours": [
-        "pushes tempo",
-        "keeps score secretly",
-        "plays fast and loose"
+        "checks their phone between turns",
+        "misses other players' actions",
+        "asks 'what happened?'"
       ],
       "play_goals": [
-        "wants speed",
-        "wants big moments"
-      ],
-      "rules_tolerance": "low",
-      "conflict_style": "avoidant",
-      "analysis_style": "analytical",
-      "attention_profile": "sticky",
-      "feedback_style": "honest",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
-    },
-    {
-      "persona_id": "P066",
-      "label": "Narrative Campaign GM P066",
-      "archetype": "wargamer (competitive)",
-      "experience_band": "expert",
-      "likes": [
-        "clean teaches",
-        "player aids",
-        "spectacle"
-      ],
-      "hates_or_struggles": [
-        "unclear victory",
-        "keyword soup",
-        "gotcha rules"
-      ],
-      "table_behaviours": [
-        "keeps score secretly",
-        "helpfully sabotages without noticing",
-        "doesn't like being targeted"
-      ],
-      "play_goals": [
-        "wants big moments",
-        "wants speed"
-      ],
-      "rules_tolerance": "medium",
-      "conflict_style": "neutral",
-      "analysis_style": "probabilistic",
-      "attention_profile": "impatient",
-      "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
-    },
-    {
-      "persona_id": "P067",
-      "label": "Rulebook Skimmer P067",
-      "archetype": "board gamer (4X-focused)",
-      "experience_band": "expert",
-      "likes": [
-        "meaningful choices",
-        "interaction with consent",
-        "fair missions"
-      ],
-      "hates_or_struggles": [
-        "unclear victory",
-        "component clutter",
-        "tiny print"
-      ],
-      "table_behaviours": [
-        "talks a lot at the table",
-        "forgets triggers",
-        "helpfully sabotages without noticing"
-      ],
-      "play_goals": [
-        "wants speed",
-        "wants depth"
-      ],
-      "rules_tolerance": "high",
-      "conflict_style": "dominating",
-      "analysis_style": "adversarial",
-      "attention_profile": "variable",
-      "feedback_style": "vibes-first",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
-    },
-    {
-      "persona_id": "P068",
-      "label": "Component Confuser P068",
-      "archetype": "board gamer (18xx-focused)",
-      "experience_band": "regular",
-      "likes": [
-        "strong theme",
-        "fair missions",
-        "clear icons"
-      ],
-      "hates_or_struggles": [
-        "unclear victory",
-        "tiny print",
-        "downtime"
-      ],
-      "table_behaviours": [
-        "forgets triggers",
-        "tests edge cases",
-        "counts resources"
-      ],
-      "play_goals": [
-        "wants a good story",
-        "wants depth"
-      ],
-      "rules_tolerance": "high",
-      "conflict_style": "avoidant",
-      "analysis_style": "naive",
-      "attention_profile": "fragile",
-      "feedback_style": "practical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
-    },
-    {
-      "persona_id": "P069",
-      "label": "Rulebook Skimmer P069",
-      "archetype": "board gamer (4X-focused)",
-      "experience_band": "expert",
-      "likes": [
-        "strong theme",
-        "tight pacing",
-        "player aids"
-      ],
-      "hates_or_struggles": [
-        "hidden scoring",
-        "soft exceptions",
-        "component clutter"
-      ],
-      "table_behaviours": [
-        "pushes tempo",
-        "forgets triggers",
-        "doesn't like being targeted"
-      ],
-      "play_goals": [
-        "wants to win",
-        "wants clarity"
-      ],
-      "rules_tolerance": "low",
-      "conflict_style": "avoidant",
-      "analysis_style": "probabilistic",
-      "attention_profile": "variable",
-      "feedback_style": "pedantic",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
-    },
-    {
-      "persona_id": "P070",
-      "label": "Rulebook Skimmer P070",
-      "archetype": "board gamer (deckbuilder)",
-      "experience_band": "regular",
-      "likes": [
-        "visible state",
-        "fair missions",
-        "tight pacing"
-      ],
-      "hates_or_struggles": [
-        "keyword soup",
-        "hidden scoring",
-        "mathy upkeep"
-      ],
-      "table_behaviours": [
-        "checks rules mid-turn",
-        "pushes tempo",
-        "tunnels on one plan"
-      ],
-      "play_goals": [
-        "wants speed",
-        "wants depth"
+        "wants to socialise and play at the same time"
       ],
       "rules_tolerance": "low",
       "conflict_style": "social",
-      "analysis_style": "ux",
-      "attention_profile": "variable",
-      "feedback_style": "surgical",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "analysis_style": "intuitive",
+      "attention_profile": "fragile",
+      "feedback_style": "vibes-first",
+      "likely_failure_modes": [
+        "misses changes to board state",
+        "takes turns based on outdated information"
+      ],
+      "red_flags_to_watch": [
+        "state changes during other players' turns",
+        "important info only announced, not shown"
+      ],
+      "breaks_on": [
+        "state changes that aren't visible on the board",
+        "off-turn effects",
+        "information only announced verbally"
+      ],
+      "review_questions": [
+        "If they look away for a turn, can they catch up from the board?",
+        "What happens during other players' turns that affects them?"
+      ],
+      "sample_quote": "Sorry, what did I miss?",
+      "use_when": "Every game; board-state legibility and downtime checks."
     },
     {
-      "persona_id": "P071",
-      "label": "Solo Rules Auditor P071",
-      "archetype": "wargamer (historical)",
-      "experience_band": "regular",
+      "persona_id": "P066",
+      "label": "Wargame Umpire",
+      "archetype": "wargamer (refereed / umpired)",
+      "experience_band": "expert",
       "likes": [
-        "low downtime",
-        "player aids",
-        "meaningful choices"
+        "fog of war",
+        "umpire discretion",
+        "narrative scenarios"
       ],
       "hates_or_struggles": [
-        "soft exceptions",
-        "tiny print",
-        "unclear victory"
+        "rules that leave nothing for the umpire",
+        "players seeing hidden information",
+        "rigid procedures"
       ],
       "table_behaviours": [
-        "leans into diplomacy",
-        "counts resources",
-        "tests edge cases"
+        "runs refereed games",
+        "adjudicates edge cases",
+        "controls hidden information"
       ],
       "play_goals": [
-        "wants depth",
-        "wants a good story"
+        "wants credible outcomes with hidden information"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "systematic",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "makes rulings that players dispute",
+        "workload grows with player count"
+      ],
+      "red_flags_to_watch": [
+        "umpire workload scaling badly",
+        "unclear umpire authority"
+      ],
+      "breaks_on": [
+        "undefined umpire authority",
+        "rules needing umpire judgement without guidance",
+        "hidden information procedures"
+      ],
+      "review_questions": [
+        "What does the umpire need to decide, and is there guidance?",
+        "How does umpire workload scale with players?"
+      ],
+      "sample_quote": "As umpire, I'll rule that. But the rules should have said.",
+      "use_when": "Refereed wargames, hidden-movement and fog-of-war games."
+    },
+    {
+      "persona_id": "P067",
+      "label": "Rules-as-Written Literalist",
+      "archetype": "board gamer (literal reader)",
+      "experience_band": "expert",
+      "likes": [
+        "exact wording",
+        "precise definitions",
+        "consistent grammar"
+      ],
+      "hates_or_struggles": [
+        "intent-based rules",
+        "loose phrasing",
+        "\"you know what we mean\""
+      ],
+      "table_behaviours": [
+        "reads every word literally",
+        "rejects intent arguments",
+        "applies rules mechanically"
+      ],
+      "play_goals": [
+        "wants the rules to say exactly what they mean"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "argumentative",
+      "analysis_style": "systematic",
+      "attention_profile": "sticky",
+      "feedback_style": "legalistic",
+      "likely_failure_modes": [
+        "applies literal readings that break the game",
+        "won't accept intent-based rulings"
+      ],
+      "red_flags_to_watch": [
+        "rules whose literal reading differs from intent",
+        "grammar that changes meaning"
+      ],
+      "breaks_on": [
+        "\"may\" vs \"must\"",
+        "\"and\" vs \"or\" in conditions",
+        "pronouns with unclear referents"
+      ],
+      "review_questions": [
+        "What does the literal reading say, and does it match the intent?",
+        "Is every \"it\" or \"they\" unambiguous?"
+      ],
+      "sample_quote": "It says 'a unit', not 'each unit'. So only one.",
+      "use_when": "Every game; wording audits."
+    },
+    {
+      "persona_id": "P068",
+      "label": "Iconography Reader",
+      "archetype": "board gamer (visual learner)",
+      "experience_band": "regular",
+      "likes": [
+        "icon languages",
+        "visual summaries",
+        "symbol-based cards"
+      ],
+      "hates_or_struggles": [
+        "text-only rules",
+        "icons without a legend",
+        "inconsistent symbols"
+      ],
+      "table_behaviours": [
+        "plays from icons",
+        "ignores card text",
+        "builds a mental symbol dictionary"
+      ],
+      "play_goals": [
+        "wants to read the game at a glance"
+      ],
+      "rules_tolerance": "medium",
+      "conflict_style": "neutral",
+      "analysis_style": "ux",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "misreads an icon that changes meaning",
+        "ignores text that modifies the icon"
+      ],
+      "red_flags_to_watch": [
+        "icons with multiple meanings",
+        "text that contradicts the icon"
+      ],
+      "breaks_on": [
+        "icons that mean different things in different places",
+        "text exceptions to icon rules",
+        "missing icon legends"
+      ],
+      "review_questions": [
+        "Does every icon mean one thing everywhere?",
+        "Does any card text contradict its icons?"
+      ],
+      "sample_quote": "The arrow icon means move, right? Even here?",
+      "use_when": "Icon-heavy games; graphic-design checks."
+    },
+    {
+      "persona_id": "P069",
+      "label": "Player-Aid Dependent",
+      "archetype": "board gamer (reference-card user)",
+      "experience_band": "casual",
+      "likes": [
+        "good player aids",
+        "turn summaries",
+        "quick references"
+      ],
+      "hates_or_struggles": [
+        "player aids missing steps",
+        "rules not on the aid",
+        "aids that contradict the rulebook"
+      ],
+      "table_behaviours": [
+        "plays entirely from the reference card",
+        "never checks the rulebook",
+        "trusts the aid over memory"
+      ],
+      "play_goals": [
+        "wants everything they need on one card"
       ],
       "rules_tolerance": "low",
       "conflict_style": "neutral",
-      "analysis_style": "naive",
-      "attention_profile": "fragile",
-      "feedback_style": "blunt",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "analysis_style": "procedural",
+      "attention_profile": "steady",
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "follows an incomplete aid",
+        "misses rules that aren't on the aid"
+      ],
+      "red_flags_to_watch": [
+        "player aid differs from rulebook",
+        "key rules missing from the aid"
+      ],
+      "breaks_on": [
+        "player aids that skip steps",
+        "abbreviations on aids",
+        "rules only in the rulebook"
+      ],
+      "review_questions": [
+        "Does the player aid match the rulebook exactly?",
+        "What will they miss if they only use the aid?"
+      ],
+      "sample_quote": "It's not on the card, so I didn't do it.",
+      "use_when": "Any game with a player aid or reference card."
+    },
+    {
+      "persona_id": "P070",
+      "label": "Late Arrival",
+      "archetype": "board gamer (joins mid-game)",
+      "experience_band": "casual",
+      "likes": [
+        "quick catch-up",
+        "simple state",
+        "joining friends"
+      ],
+      "hates_or_struggles": [
+        "complex board states",
+        "rules explained in passing",
+        "missing setup context"
+      ],
+      "table_behaviours": [
+        "joins after setup",
+        "learns while others play",
+        "asks for a quick summary"
+      ],
+      "play_goals": [
+        "wants to join in without slowing everyone down"
+      ],
+      "rules_tolerance": "low",
+      "conflict_style": "social",
+      "analysis_style": "intuitive",
+      "attention_profile": "variable",
+      "feedback_style": "honest",
+      "likely_failure_modes": [
+        "misses setup-dependent rules",
+        "plays catch-up with an incomplete teach"
+      ],
+      "red_flags_to_watch": [
+        "rules taught only during setup",
+        "no path for joining late"
+      ],
+      "breaks_on": [
+        "setup choices that affect play",
+        "rules taught only at the start",
+        "board state that needs history to read"
+      ],
+      "review_questions": [
+        "Could someone join after round one?",
+        "Which rules only get mentioned during setup?"
+      ],
+      "sample_quote": "Sorry I'm late! What did I miss?",
+      "use_when": "Social and casual games; mid-game legibility checks."
+    },
+    {
+      "persona_id": "P071",
+      "label": "Print-and-Play Prototyper",
+      "archetype": "board gamer (prototype tester)",
+      "experience_band": "regular",
+      "likes": [
+        "early prototypes",
+        "giving feedback",
+        "seeing design in progress"
+      ],
+      "hates_or_struggles": [
+        "unclear prototype components",
+        "rules changing without notice",
+        "missing version numbers"
+      ],
+      "table_behaviours": [
+        "prints and assembles prototypes",
+        "playtests unfinished rules",
+        "writes detailed feedback"
+      ],
+      "play_goals": [
+        "wants to help shape the design"
+      ],
+      "rules_tolerance": "high",
+      "conflict_style": "neutral",
+      "analysis_style": "systematic",
+      "attention_profile": "steady",
+      "feedback_style": "surgical",
+      "likely_failure_modes": [
+        "plays an outdated rules version",
+        "mistakes prototype placeholders for final components"
+      ],
+      "red_flags_to_watch": [
+        "no rules versioning",
+        "placeholder components with unclear meaning"
+      ],
+      "breaks_on": [
+        "rules with no version number",
+        "placeholder art carrying gameplay meaning",
+        "changelogs missing"
+      ],
+      "review_questions": [
+        "Is there a version number and changelog?",
+        "Do placeholder components carry any gameplay meaning?"
+      ],
+      "sample_quote": "Which version of the rules is this? The card says something different.",
+      "use_when": "Prototype playtests; version control and feedback-loop checks."
     },
     {
       "persona_id": "P072",
-      "label": "Narrative Campaign GM P072",
-      "archetype": "board gamer (4X-focused)",
+      "label": "Dyslexic Player",
+      "archetype": "board gamer (dyslexia)",
       "experience_band": "regular",
       "likes": [
-        "clear icons",
-        "low downtime",
-        "deep tactics"
+        "icons",
+        "short text",
+        "verbal teaches"
       ],
       "hates_or_struggles": [
-        "tiny print",
-        "ambiguous timing",
-        "hidden scoring"
+        "dense text",
+        "similar-looking words",
+        "small serif fonts"
       ],
       "table_behaviours": [
-        "talks a lot at the table",
-        "asks for clarifications",
-        "forgets triggers"
+        "asks others to read cards",
+        "relies on icons and pictures",
+        "takes longer on text-heavy turns"
       ],
       "play_goals": [
-        "wants a good story",
-        "wants depth"
+        "wants to play without reading barriers"
       ],
-      "rules_tolerance": "high",
-      "conflict_style": "dominating",
-      "analysis_style": "naive",
+      "rules_tolerance": "medium",
+      "conflict_style": "avoidant",
+      "analysis_style": "ux",
       "attention_profile": "steady",
-      "feedback_style": "honest",
-      "likely_failure_modes": [],
-      "red_flags_to_watch": []
+      "feedback_style": "practical",
+      "likely_failure_modes": [
+        "misreads similar-looking words (\"gain\" vs \"game\", \"draw\" vs \"draft\")",
+        "slows down on text-heavy turns"
+      ],
+      "red_flags_to_watch": [
+        "dense card text",
+        "key information only in text"
+      ],
+      "breaks_on": [
+        "dense paragraphs on cards",
+        "similar-looking game terms",
+        "small or decorative fonts"
+      ],
+      "review_questions": [
+        "How much reading does a turn need?",
+        "Are any game terms easily confused visually?"
+      ],
+      "sample_quote": "Could you read that one? The font's a bit much.",
+      "use_when": "Every game; text-load and typography checks."
     }
   ]
 }

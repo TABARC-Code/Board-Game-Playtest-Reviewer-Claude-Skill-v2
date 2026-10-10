@@ -1,0 +1,46 @@
+{
+  "schema_version": "v1",
+  "session_id": "harbour-2026-10-04-a",
+  "game_name": "Harbour Lights (example game)",
+  "rules_version": "0.3",
+  "headline_findings": [
+    "\"After moving, you may attack\" is read as a precondition. Whole table played it wrong for two rounds.",
+    "Bulk selling has no price penalty, so the leader converts an early lead into a locked win by round 3.",
+    "Storm expiry is untracked hidden state and gets forgotten."
+  ],
+  "systems_health": {
+    "pacing": "swingy",
+    "clarity": "medium",
+    "snowball_risk": "high",
+    "downtime": "low"
+  },
+  "human_factors": {
+    "common_misreads": ["4.2: attack treated as conditional on moving"],
+    "social_dynamics": ["Table copied the first player's misread rather than checking the book"],
+    "emotional_arc": ["Engaged through round 2; new player disengaged in round 4 once the lead looked unbeatable"],
+    "attention_breakpoints": ["Weather upkeep at end of round; nobody owns it"]
+  },
+  "recommended_changes": [
+    {
+      "change": "4.2: \"On your turn you may move, then you may attack. You can attack without moving.\"",
+      "reason": "Removes the precondition reading.",
+      "risk": "low",
+      "blast_radius_guess": "Cards that say \"instead of moving\".",
+      "priority": "p0"
+    },
+    {
+      "change": "5.3: each cargo sold beyond the second in one action drops the price by 1.",
+      "reason": "Diminishing returns on bulk selling; gives trailing players a window.",
+      "risk": "medium",
+      "blast_radius_guess": "Market track, end-game scoring totals, any card that sets price.",
+      "priority": "p1"
+    },
+    {
+      "change": "6.1: storm token goes on the round track at the round it expires.",
+      "reason": "Moves hidden state onto the board.",
+      "risk": "low",
+      "priority": "p2"
+    }
+  ],
+  "appendix": "Example only. Pairs with example_event_log.json."
+}

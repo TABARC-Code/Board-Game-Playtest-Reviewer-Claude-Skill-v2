@@ -1,0 +1,26 @@
+{
+  "schema_version": "v1",
+  "entries": [
+    {
+      "rule_ref": "4.2 Actions",
+      "misread": "You can only attack if you moved this turn.",
+      "actual_rule": "Move and attack are both optional; attack comes after move if you do both.",
+      "trigger_words": ["after", "may"],
+      "frequency": 3,
+      "impact": "major",
+      "fix_suggestions": [
+        "\"On your turn you may move, then you may attack. You can attack without moving.\"",
+        "Add a turn-order strip to the player aid: MOVE (optional) → ATTACK (optional)."
+      ]
+    },
+    {
+      "rule_ref": "6.1 Weather",
+      "misread": "Storms last until someone remembers to remove them.",
+      "actual_rule": "Storms expire at the end of the round after they were placed.",
+      "trigger_words": ["until", "end of the following round"],
+      "frequency": 2,
+      "impact": "moderate",
+      "fix_suggestions": ["Place the storm token on the round track at its expiry round."]
+    }
+  ]
+}
